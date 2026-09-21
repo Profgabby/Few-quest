@@ -1,0 +1,1 @@
+export const schoolRoles=["school_admin","teacher","competitor_manager"] as const;export const platformRoles=["moderator","content_reviewer","language_reviewer","finance_admin","platform_admin"] as const;export type SchoolRole=(typeof schoolRoles)[number];export type PlatformRole=(typeof platformRoles)[number];
