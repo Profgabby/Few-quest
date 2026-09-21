@@ -1,0 +1,1 @@
+"use client";import {useRouter} from "next/navigation";import {createClient} from "@/lib/supabase/browser";export function LogoutButton({locale}:{locale:string}){const router=useRouter();async function logout(){await createClient().auth.signOut();router.replace(`/${locale}/login`);router.refresh()}return <button className="btn" onClick={logout}>Sign out</button>}
