@@ -54,7 +54,16 @@ export async function POST(req: Request) {
       );
     }
     const adminMembership: any = admins[0];
-    const a = createAdminClient();
+    let a: ReturnType<typeof createAdminClient>;
+    try {
+      a = createAdminClient();
+    } catch (error: any) {
+      console.error("FEW Quest team admin client unavailable", { message: String(error?.message || "") });
+      return NextResponse.json({
+        error: "SERVER_CONFIGURATION",
+        message: "Team-member creation is not configured on the production server. Add SUPABASE_SERVICE_ROLE_KEY to the FEW Quest Vercel Production environment and redeploy."
+      }, { status: 503 });
+    }
 
     // Avoid listing the entire Auth directory. createUser gives a deterministic duplicate-user error.
     let target: any = null;
@@ -187,7 +196,7 @@ export async function POST(req: Request) {
     const timedOut = message.endsWith("_TIMEOUT");
     console.error("FEW Quest team member creation failed", { timedOut, message });
     return NextResponse.json(
-      { error: timedOut ? "REQUEST_TIMEOUT" : "SERVER_ERROR", message: timedOut ? "A server step took too long. No endless wait: please try again." : "Could not add the team member. Please try again." },
+      { error: timedOut ? "REQUEST_TIMEOUT" : "SERVER_ERROR", message: timedOut ? "A server step took too long. No endless wait: please try again." : (message || "Could not add the team member. Please try again.") },
       { status: timedOut ? 504 : 500 }
     );
   }
