@@ -22,6 +22,8 @@ export function TeamInviteForm({ locale }: { locale: string }) {
     try {
       const response = await fetch("/api/school/team/invite", {
         method: "POST",
+        credentials: "same-origin",
+        cache: "no-store",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({
           fullName: fd.get("fullName"),
@@ -53,7 +55,7 @@ export function TeamInviteForm({ locale }: { locale: string }) {
       setState(
         error?.name === "AbortError"
           ? "The request took too long and was stopped. Please try again."
-          : "Could not add team member. Please try again."
+          : "Could not reach the team-member service. Please refresh the page and try once more."
       );
     } finally {
       window.clearTimeout(timeout);
