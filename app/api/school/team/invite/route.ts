@@ -87,10 +87,33 @@ export async function POST(req: Request) {
         return NextResponse.json({ error: "ACCOUNT_CREATE_FAILED", message: made.error?.message || "Could not create staff account." }, { status: 400 });
       }
 
-      return NextResponse.json(
-        { error: "ACCOUNT_EXISTS", message: "An account already uses this email. If this person is already on this school team, manage their access from the team list. Otherwise use a different email." },
-        { status: 409 }
-      );
+      // The Auth account may already exist from an earlier add attempt even when
+      // no school membership was completed. Recover that exact account and
+      // continue with profile + membership creation instead of rejecting it.
+      let page = 1;
+      const perPage = 200;
+      while (!target && page <= 10) {
+        const listed = await withTimeout(
+          a.auth.admin.listUsers({ page, perPage }),
+          "ACCOUNT_LOOKUP"
+        );
+        if (listed.error) {
+          return NextResponse.json(
+            { error: "ACCOUNT_LOOKUP_FAILED", message: listed.error.message || "Could not inspect the existing staff account." },
+            { status: 500 }
+          );
+        }
+        target = listed.data.users.find((candidate: any) => candidate.email?.toLowerCase() === email) || null;
+        if (target || listed.data.users.length < perPage) break;
+        page += 1;
+      }
+
+      if (!target) {
+        return NextResponse.json(
+          { error: "ACCOUNT_EXISTS", message: "An account already uses this email, but FEW Quest could not safely resolve it. Please contact the platform administrator." },
+          { status: 409 }
+        );
+      }
     }
 
     const rollbackNewUser = async () => {
