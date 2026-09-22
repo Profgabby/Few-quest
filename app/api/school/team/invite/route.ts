@@ -78,18 +78,6 @@ export async function POST(req: Request) {
         return NextResponse.json({ error: "ACCOUNT_CREATE_FAILED", message: made.error?.message || "Could not create staff account." }, { status: 400 });
       }
 
-      // Existing users are resolved from FEW Quest profiles, never by scanning all Auth users.
-      const existingProfile = await withTimeout(
-        a.from("fewq_profiles").select("id").eq("id", (
-          await withTimeout(
-            a.from("fewq_school_memberships").select("user_id").eq("school_id", adminMembership.school_id),
-            "EXISTING_MEMBER_LOOKUP"
-          )
-        ).data?.find(() => false)?.user_id || "00000000-0000-0000-0000-000000000000").maybeSingle(),
-        "PROFILE_LOOKUP"
-      );
-      void existingProfile;
-
       return NextResponse.json(
         { error: "ACCOUNT_EXISTS", message: "An account already uses this email. If this person is already on this school team, manage their access from the team list. Otherwise use a different email." },
         { status: 409 }
