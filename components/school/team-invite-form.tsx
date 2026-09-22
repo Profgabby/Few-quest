@@ -3,7 +3,6 @@ import { useState } from "react";
 
 export function TeamInviteForm({ locale }: { locale: string }) {
   const [state, setState] = useState("");
-  const [setupLink, setSetupLink] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
 
   async function submit(e: React.FormEvent<HTMLFormElement>) {
@@ -17,7 +16,6 @@ export function TeamInviteForm({ locale }: { locale: string }) {
 
     setBusy(true);
     setState("Creating team member…");
-    setSetupLink(null);
 
     try {
       const response = await fetch("/api/school/team/invite", {
@@ -45,12 +43,9 @@ export function TeamInviteForm({ locale }: { locale: string }) {
         return;
       }
 
-      setState(result.warning
-        ? "Team member added. " + result.warning
-        : "Team member added successfully. The staff member can now set their password.");
-      setSetupLink(result.setupLink || null);
+      setState(result.warning ? "Team member added. " + result.warning : "Team member added successfully.");
       form.reset();
-      window.setTimeout(() => window.location.reload(), 3000);
+      window.setTimeout(() => window.location.reload(), 1200);
     } catch (error: any) {
       setState(
         error?.name === "AbortError"
@@ -71,6 +66,5 @@ export function TeamInviteForm({ locale }: { locale: string }) {
     <label>Preferred language<select name="preferredLanguage" defaultValue="en" disabled={busy}><option value="en">English</option><option value="ha">Hausa</option><option value="yo">Yorùbá</option><option value="ig">Igbo</option><option value="fr">Français</option><option value="ar">العربية</option></select></label>
     <button className="btn" type="submit" disabled={busy}>{busy ? "Creating member…" : "Add team member"}</button>
     {state && <p role="status" aria-live="polite">{state}</p>}
-    {setupLink && <p><a href={setupLink} target="_blank" rel="noreferrer">Open secure password setup link</a></p>}
   </form>;
 }
