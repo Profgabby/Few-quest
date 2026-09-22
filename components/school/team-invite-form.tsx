@@ -31,7 +31,6 @@ export function TeamInviteForm({ locale }: { locale: string }) {
           phone: fd.get("phone"),
           role: fd.get("role"),
           preferredLanguage: fd.get("preferredLanguage"),
-          temporaryPassword: fd.get("temporaryPassword"),
           locale,
         }),
         signal: controller.signal,
@@ -69,7 +68,7 @@ export function TeamInviteForm({ locale }: { locale: string }) {
     <label>Email<input name="email" type="email" required disabled={busy} /></label>
     <label>Phone <span>(optional)</span><input name="phone" type="tel" disabled={busy} /></label>
     <label>Role<select name="role" defaultValue="teacher" disabled={busy}><option value="teacher">Teacher</option><option value="competitor_manager">Competitor manager</option></select></label>
-    <label>Preferred language<select name="preferredLanguage" defaultValue="en" disabled={busy}><option value="en">English</option><option value="ha">Hausa</option><option value="yo">Yorùbá</option><option value="ig">Igbo</option><option value="fr">Français</option><option value="ar">العربية</option></select></label>\n    <label>Temporary password<input name="temporaryPassword" type="password" required minLength={8} autoComplete="new-password" disabled={busy} /><span>At least 8 characters. Give this directly to the staff member.</span></label>
+    <label>Preferred language<select name="preferredLanguage" defaultValue="en" disabled={busy}><option value="en">English</option><option value="ha">Hausa</option><option value="yo">Yorùbá</option><option value="ig">Igbo</option><option value="fr">Français</option><option value="ar">العربية</option></select></label>
     <button className="btn" type="submit" disabled={busy}>{busy ? "Creating member…" : "Add team member"}</button>
     {state && <p role="status" aria-live="polite">{state}</p>}
     {setupLink && <p><a href={setupLink} target="_blank" rel="noreferrer">Open secure password setup link</a></p>}
