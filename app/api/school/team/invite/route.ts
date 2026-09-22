@@ -29,9 +29,10 @@ export async function POST(req: Request) {
     const phone = String(body.phone || "").trim();
     const role = String(body.role || "");
     const preferredLanguage = String(body.preferredLanguage || "en");
+    const temporaryPassword = String(body.temporaryPassword || "");
     const locale = languages.includes(String(body.locale || "en") as any) ? String(body.locale || "en") : "en";
 
-    if (!email || !fullName || !roles.includes(role as any) || !languages.includes(preferredLanguage as any)) {
+    if (!email || !fullName || temporaryPassword.length < 8 || !roles.includes(role as any) || !languages.includes(preferredLanguage as any)) {
       return NextResponse.json({ error: "INVALID_INPUT", message: "Please complete the required team member fields." }, { status: 400 });
     }
 
@@ -71,6 +72,7 @@ export async function POST(req: Request) {
     const made = await withTimeout(
       a.auth.admin.createUser({
         email,
+        password: temporaryPassword,
         email_confirm: true,
         user_metadata: { full_name: fullName, phone, preferred_language: preferredLanguage },
       }),
@@ -145,24 +147,6 @@ export async function POST(req: Request) {
     }
     if (membershipError) { await rollbackNewUser(); throw membershipError; }
 
-    // Membership creation is the critical operation. Link generation must not make it look like creation failed.
-    let setupLink: string | null = null;
-    let setupWarning: string | null = null;
-    try {
-      const link = await withTimeout(
-        a.auth.admin.generateLink({
-          type: "recovery",
-          email,
-          options: { redirectTo: origin + "/auth/callback?next=/" + locale + "/login" },
-        }),
-        "SETUP_LINK"
-      );
-      if (link.error) setupWarning = link.error.message;
-      else setupLink = link.data.properties?.action_link || null;
-    } catch {
-      setupWarning = "The member was created, but the password setup link could not be generated yet.";
-    }
-
     // Audit failure is reported as a warning, not an endless request.
     let auditWarning: string | null = null;
     try {
@@ -187,9 +171,8 @@ export async function POST(req: Request) {
       ok: true,
       email,
       role,
-      setupRequired: true,
-      setupLink,
-      warning: [setupWarning, auditWarning].filter(Boolean).join(" "),
+      setupRequired: false,
+      warning: auditWarning,
     });
   } catch (error: any) {
     const message = String(error?.message || "");
