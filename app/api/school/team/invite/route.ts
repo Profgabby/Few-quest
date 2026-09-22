@@ -6,7 +6,7 @@ const roles = ["teacher", "competitor_manager"] as const;
 const languages = ["en", "ha", "yo", "ig", "fr", "ar"] as const;
 const STEP_TIMEOUT_MS = 8000;
 
-async function withTimeout<T>(promise: Promise<T>, label: string): Promise<T> {
+async function withTimeout<T>(promise: PromiseLike<T>, label: string): Promise<T> {
   let timer: ReturnType<typeof setTimeout> | undefined;
   try {
     return await Promise.race([
