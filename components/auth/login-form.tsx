@@ -1,1 +1,54 @@
-"use client";import {FormEvent,useState} from "react";import {useRouter} from "next/navigation";import {createClient} from "@/lib/supabase/browser";import {getMessages} from "@/messages";import type {Locale} from "@/lib/i18n";export function LoginForm({locale}:{locale:Locale}){const t=getMessages(locale);const router=useRouter();const [error,setError]=useState("");const [busy,setBusy]=useState(false);async function submit(e:FormEvent<HTMLFormElement>){e.preventDefault();setBusy(true);setError("");const f=new FormData(e.currentTarget);const {error}=await createClient().auth.signInWithPassword({email:String(f.get("email")||"").trim(),password:String(f.get("password")||"")});if(error){setError(error.message);setBusy(false);return}const {error:claimError}=await createClient().rpc("fewq_claim_platform_admin");if(!claimError){router.replace(`/${locale}/admin`);router.refresh();return}const pending=localStorage.getItem("fewq_pending_school");if(pending){try{const p=JSON.parse(pending);const {error:registrationError}=await createClient().rpc("fewq_register_school",{p_name:p.schoolName,p_school_type:p.schoolType,p_state:p.state,p_lga:p.lga,p_address:p.address,p_email:p.email,p_phone:p.phone,p_language:p.preferredLanguage});if(registrationError&&!registrationError.message.includes("ACTIVE_SCHOOL_MEMBERSHIP_EXISTS")){setError(registrationError.message);setBusy(false);return}localStorage.removeItem("fewq_pending_school")}catch{localStorage.removeItem("fewq_pending_school")}}router.replace(`/${locale}/dashboard`);router.refresh()}return <form className="form-card" onSubmit={submit}><label>{t.officialEmail}<input name="email" type="email" required autoComplete="email"/></label><label>{t.password}<input name="password" type="password" required autoComplete="current-password"/></label>{error&&<p className="form-error">{error}</p>}<button className="btn primary" disabled={busy}>{busy?t.signingIn:t.signIn}</button></form>}
+"use client";
+import {FormEvent,useState} from "react";
+import {useRouter} from "next/navigation";
+import {createClient} from "@/lib/supabase/browser";
+import {getMessages} from "@/messages";
+import type {Locale} from "@/lib/i18n";
+
+const TIMEOUT_MS=15000;
+async function withTimeout<T>(promise:Promise<T>):Promise<T>{
+  return await Promise.race([
+    promise,
+    new Promise<T>((_,reject)=>setTimeout(()=>reject(new Error("REQUEST_TIMEOUT")),TIMEOUT_MS)),
+  ]);
+}
+
+export function LoginForm({locale}:{locale:Locale}){
+  const t=getMessages(locale);
+  const router=useRouter();
+  const [error,setError]=useState("");
+  const [busy,setBusy]=useState(false);
+
+  async function submit(e:FormEvent<HTMLFormElement>){
+    e.preventDefault();
+    if(busy)return;
+    setBusy(true);
+    setError("");
+    try{
+      const f=new FormData(e.currentTarget);
+      const supabase=createClient();
+      const email=String(f.get("email")||"").trim();
+      const password=String(f.get("password")||"");
+      const result=await withTimeout(supabase.auth.signInWithPassword({email,password}));
+      if(result.error)throw result.error;
+
+      // Authentication succeeded. Dashboard performs authoritative role routing.
+      // Admin claiming and pending school registration must never block sign-in.
+      router.replace(`/${locale}/dashboard`);
+      router.refresh();
+    }catch(err){
+      const message=err instanceof Error?err.message:"";
+      setError(message==="REQUEST_TIMEOUT"
+        ?"Sign-in took too long. Please try again."
+        :(message||"Could not sign in. Please try again."));
+      setBusy(false);
+    }
+  }
+
+  return <form className="form-card" onSubmit={submit}>
+    <label>{t.officialEmail}<input name="email" type="email" required autoComplete="email"/></label>
+    <label>{t.password}<input name="password" type="password" required autoComplete="current-password"/></label>
+    {error&&<p className="form-error">{error}</p>}
+    <button className="btn primary" disabled={busy}>{busy?t.signingIn:t.signIn}</button>
+  </form>
+}
