@@ -29,10 +29,9 @@ export async function POST(req: Request) {
     const phone = String(body.phone || "").trim();
     const role = String(body.role || "");
     const preferredLanguage = String(body.preferredLanguage || "en");
-    const temporaryPassword = String(body.temporaryPassword || "");
     const locale = languages.includes(String(body.locale || "en") as any) ? String(body.locale || "en") : "en";
 
-    if (!email || !fullName || temporaryPassword.length < 8 || !roles.includes(role as any) || !languages.includes(preferredLanguage as any)) {
+    if (!email || !fullName || !roles.includes(role as any) || !languages.includes(preferredLanguage as any)) {
       return NextResponse.json({ error: "INVALID_INPUT", message: "Please complete the required team member fields." }, { status: 400 });
     }
 
@@ -72,7 +71,6 @@ export async function POST(req: Request) {
     const made = await withTimeout(
       a.auth.admin.createUser({
         email,
-        password: temporaryPassword,
         email_confirm: true,
         user_metadata: { full_name: fullName, phone, preferred_language: preferredLanguage },
       }),
