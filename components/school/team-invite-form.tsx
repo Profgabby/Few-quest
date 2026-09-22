@@ -43,9 +43,11 @@ export function TeamInviteForm({ locale }: { locale: string }) {
         return;
       }
 
-      setState(result.warning ? "Team member added. " + result.warning : "Team member added successfully.");
       form.reset();
-      window.setTimeout(() => window.location.reload(), 1200);
+      setState(result.warning ? "Team member added. " + result.warning : "Team member added successfully. Updating the team list…");
+      // A full navigation guarantees a fresh Server Component render and avoids
+      // showing a stale cached roster after a successful membership write.
+      window.location.assign("/" + locale + "/school/team?updated=" + Date.now());
     } catch (error: any) {
       setState(
         error?.name === "AbortError"
