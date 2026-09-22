@@ -7,6 +7,9 @@ import {LogoutButton} from "@/components/auth/logout-button";
 import {TeamInviteForm} from "@/components/school/team-invite-form";
 import {TeamAccessButton} from "@/components/school/team-access-button";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default async function Team({params}:{params:Promise<{locale:string}>}){
   const {locale}=await params;
   if(!isLocale(locale))notFound();
@@ -25,17 +28,32 @@ export default async function Team({params}:{params:Promise<{locale:string}>}){
   if(admins.length!==1)redirect("/"+locale+"/school");
 
   const me=admins[0];
-
-  // The signed-in administrator is authorized above. Use the server-only
-  // service client for the staff roster so profile RLS does not hide the
-  // names of other users in the same school.
   const admin=createAdminClient();
-  const {data:team,error:teamError}=await admin
+
+  // Fetch memberships first, then profiles separately. This avoids relying on
+  // PostgREST's embedded relationship inference for the user_id -> profile FK.
+  const {data:memberships,error:membershipError}=await admin
     .from("fewq_school_memberships")
-    .select("id,user_id,role,active,created_at,fewq_profiles(full_name,preferred_language)")
+    .select("id,user_id,role,active,created_at")
     .eq("school_id",me.school_id)
     .in("role",["teacher","competitor_manager"])
-    .order("created_at");
+    .order("created_at",{ascending:true});
+
+  const userIds=(memberships||[]).map((m:any)=>m.user_id);
+  let profiles:any[]=[];
+  let profileError:any=null;
+  if(userIds.length){
+    const profileResult=await admin
+      .from("fewq_profiles")
+      .select("id,full_name,preferred_language")
+      .in("id",userIds);
+    profiles=profileResult.data||[];
+    profileError=profileResult.error;
+  }
+
+  const profileById=new Map(profiles.map((p:any)=>[p.id,p]));
+  const team=(memberships||[]).map((m:any)=>({...m,profile:profileById.get(m.user_id)||null}));
+  const teamError=membershipError||profileError;
 
   return <main className="dashboard-shell">
     <nav className="nav"><a className="brand" href={"/"+locale+"/school"}>LIFEWS • FEW QUEST</a><div className="nav-tools"><LanguageSwitcher locale={locale}/><LogoutButton locale={locale}/></div></nav>
@@ -43,10 +61,11 @@ export default async function Team({params}:{params:Promise<{locale:string}>}){
     <section className="dashboard-section team-layout">
       <div className="control-panel"><h2>Add team member</h2><p>Add a teacher or competitor manager directly. No school invitation acceptance is required.</p><TeamInviteForm locale={locale}/></div>
       <div className="control-panel">
-        <div className="control-panel-head"><div><div className="eyebrow">Current team</div><h2>{team?.length||0} {team?.length===1?"member":"members"}</h2></div></div>
+        <div className="control-panel-head"><div><div className="eyebrow">Current team</div><h2>{team.length} {team.length===1?"member":"members"}</h2></div></div>
         {teamError?<p role="alert">The team list could not be loaded. Please refresh the page.</p>:
-        <div className="team-list">{(team||[]).map((m:any)=><article className="team-row" key={m.id}>
-          <div><strong>{m.fewq_profiles?.full_name||"Team member"}</strong><span>{m.role.replaceAll("_"," ")} • {m.fewq_profiles?.preferred_language||"en"}</span></div>
+        team.length===0?<p>No teachers or competitor managers have been added yet.</p>:
+        <div className="team-list">{team.map((m:any)=><article className="team-row" key={m.id}>
+          <div><strong>{m.profile?.full_name||"Team member"}</strong><span>{String(m.role).replaceAll("_"," ")} • {m.profile?.preferred_language||"en"}</span></div>
           <div className="team-row-actions"><span className="status-pill">{m.active?"Active":"Inactive"}</span><TeamAccessButton membershipId={m.id} active={m.active}/></div>
         </article>)}</div>}
       </div>
