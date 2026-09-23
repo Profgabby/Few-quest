@@ -1,0 +1,31 @@
+competition_category,class_level,garden_code,garden_domain,question_text,option_a,option_b,option_c,option_d,correct_option,explanation,difficulty,source_reference
+GM-NUR,Nursery 1,N01,Alphabet Garden,Which letter begins the word apple?,A,B,C,D,A,Apple begins with A.,foundation,GM-NUR-B001
+GM-NUR,Nursery 1,N02,Number Garden,How many plants are in a group of three?,1,2,3,4,C,A group of three has 3 plants.,foundation,GM-NUR-B001
+GM-NUR,Nursery 1,N03,Geometry Garden,Which shape is round like a circle bed?,Circle,Square,Triangle,Rectangle,A,A circle is round.,foundation,GM-NUR-B001
+GM-NUR,Nursery 1,N04,Leaf Garden,Which part of a plant is usually green and flat?,Leaf,Root,Stone,Pot,A,Leaves are commonly green and flat.,foundation,GM-NUR-B001
+GM-NUR,Nursery 1,N05,Butterfly Garden,Which animal may visit flowers in the garden?,Butterfly,Fish,Goat,Lizard,A,Butterflies visit flowers for nectar.,foundation,GM-NUR-B001
+GM-NUR,Nursery 1,N06,ReBottle Garden,What can we reuse to grow a small plant?,Clean bottle,Dirty tissue,Broken glass,Metal nail,A,A clean suitable bottle can be reused as a planter.,foundation,GM-NUR-B001
+GM-NUR,Nursery 1,N07,MicroGrow Garden,Which word means a very young plant?,Seedling,Rock,Spoon,Chair,A,A seedling is a young plant.,foundation,GM-NUR-B001
+GM-NUR,Nursery 1,N08,Mini Table Garden,Where do plants in a table garden grow?,In soil or growing mix,On a book,Inside a shoe,On a wall clock,A,Table gardens hold soil or another safe growing medium.,foundation,GM-NUR-B001
+GM-NUR,Nursery 1,N09,Sack Garden,What holds the soil in a sack garden?,Sack,Pencil,Cupboard,Plate,A,A sack holds the growing soil.,foundation,GM-NUR-B001
+GM-NUR,Nursery 1,N10,Discovery Garden,What should we do when we notice a new leaf?,Observe it,Break it,Hide it,Throw soil at it,A,Observation helps learners notice plant growth.,foundation,GM-NUR-B001
+GM-NUR,Nursery 2,N01,Alphabet Garden,Which letter begins the word seed?,S,A,M,P,A,Seed begins with S.,foundation,GM-NUR-B001
+GM-NUR,Nursery 2,N02,Number Garden,If you see two plants and one more plant how many are there?,1,2,3,4,C,Two plus one equals three.,foundation,GM-NUR-B001
+GM-NUR,Nursery 2,N03,Geometry Garden,Which shape has three sides?,Triangle,Circle,Square,Oval,A,A triangle has three sides.,foundation,GM-NUR-B001
+GM-NUR,Nursery 2,N04,Leaf Garden,What can we compare when looking at two leaves?,Size and shape,Telephone number,Shoe size,Clock time,A,Leaves can be compared by visible features such as size and shape.,foundation,GM-NUR-B001
+GM-NUR,Nursery 2,N05,Butterfly Garden,What do flowering plants provide for butterflies?,Nectar,Plastic,Sandals,Chalk,A,Many flowers provide nectar for butterflies.,foundation,GM-NUR-B001
+GM-NUR,Nursery 2,N06,ReBottle Garden,Why should a reused bottle planter have drainage holes?,To let extra water out,To make noise,To hold pencils,To make it heavier,A,Drainage holes allow excess water to leave the planter.,standard,GM-NUR-B001
+GM-NUR,Nursery 2,N07,MicroGrow Garden,What helps a seed begin to grow?,Water,Plastic toy,Paint,Paper clip,A,Water is needed for germination.,foundation,GM-NUR-B001
+GM-NUR,Nursery 2,N08,Mini Table Garden,What should we check before watering a table garden?,Whether the soil needs water,The classroom clock only,The colour of a chair,The number of books,A,Checking the growing medium helps avoid unnecessary watering.,standard,GM-NUR-B001
+GM-NUR,Nursery 2,N09,Sack Garden,Where should water be directed when watering a sack garden?,Toward the growing soil,At another learner,Onto a book,Into a school bag,A,Water should reach the plant growing medium.,foundation,GM-NUR-B001
+GM-NUR,Nursery 2,N10,Discovery Garden,Which tool helps us record what we see in the garden?,Observation sheet,Football,Plate,Pillow,A,An observation sheet can record garden changes.,foundation,GM-NUR-B001
+GM-NUR,Nursery 3,N01,Alphabet Garden,Which word begins with the same first letter as garden?,Grow,Plant,Seed,Water,A,Garden and grow both begin with G.,standard,GM-NUR-B001
+GM-NUR,Nursery 3,N02,Number Garden,There are four seedlings and one is removed. How many remain?,1,2,3,4,C,Four minus one leaves three.,standard,GM-NUR-B001
+GM-NUR,Nursery 3,N03,Geometry Garden,Which bed shape has four equal sides?,Square,Triangle,Circle,Oval,A,A square has four equal sides.,standard,GM-NUR-B001
+GM-NUR,Nursery 3,N04,Leaf Garden,Which observation best shows that a leaf has changed?,It became larger,The table moved,A bell rang,A pencil broke,A,An increase in leaf size is a plant-growth observation.,standard,GM-NUR-B001
+GM-NUR,Nursery 3,N05,Butterfly Garden,Why should we avoid damaging flowers in a butterfly garden?,Flowers support visiting pollinators,Flowers are toys,Flowers are stones,Flowers stop all insects,A,Healthy flowers can provide food resources for pollinators.,standard,GM-NUR-B001
+GM-NUR,Nursery 3,N06,ReBottle Garden,Which reused container is safest for a school planter?,Clean smooth plastic bottle,Broken glass bottle,Rusty sharp can,Container with chemicals,A,A clean smooth plastic container avoids sharp and chemical hazards.,standard,GM-NUR-B001
+GM-NUR,Nursery 3,N07,MicroGrow Garden,What happens after a seed germinates successfully?,A young shoot begins to grow,It becomes a stone,It turns into plastic,It disappears,A,Germination produces early root and shoot growth.,standard,GM-NUR-B001
+GM-NUR,Nursery 3,N08,Mini Table Garden,Why is a small table garden useful for observation?,Plants are easy to reach and inspect,It hides every plant,It needs no care,It stops plants growing,A,Accessible plants are easier for young learners to observe.,standard,GM-NUR-B001
+GM-NUR,Nursery 3,N09,Sack Garden,Why can plants grow at different openings in a sack garden?,The sack can hold soil around several planting points,The sack has electricity,The sack is a book,The sack makes sunlight,A,A filled sack can support several planting positions.,standard,GM-NUR-B001
+GM-NUR,Nursery 3,N10,Discovery Garden,What is the best way to find out whether a plant grew this week?,Compare observations from two times,Guess without looking,Pull out the plant,Ignore the garden,A,Comparing observations over time shows change.,standard,GM-NUR-B001
