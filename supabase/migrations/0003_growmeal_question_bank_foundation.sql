@@ -18,9 +18,9 @@ create table if not exists public.question_bank (
   competition_approved boolean not null default false,
   version integer not null default 1 check (version > 0),
   source_reference text,
-  created_by uuid references public.profiles(id),
-  reviewed_by uuid references public.profiles(id),
-  approved_by uuid references public.profiles(id),
+  created_by uuid references public.fewq_profiles(id),
+  reviewed_by uuid references public.fewq_profiles(id),
+  approved_by uuid references public.fewq_profiles(id),
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   approved_at timestamptz
