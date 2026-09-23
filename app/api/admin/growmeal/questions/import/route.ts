@@ -20,7 +20,7 @@ async function guard() {
   return data ? user : null;
 }
 function clean(v: unknown) { return String(v ?? "").trim(); }
-function normalizedQuestion(v: string) { return v.trim().replace(/\\s+/g, " ").toLowerCase(); }
+function normalizedQuestion(v: string) { return v.trim().replace(/\s+/g, " ").toLowerCase(); }
 function validate(r: Row, line: number) {
   const errors: string[] = [];
   const cat = growMealCompetitionCategories.find(c => c.code === r.competition_category);
