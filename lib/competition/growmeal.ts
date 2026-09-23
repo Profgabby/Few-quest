@@ -63,3 +63,17 @@ export function getGrowMealCategory(schoolLevel?: string | null, classLevel?: st
 export function isValidGrowMealClass(schoolLevel: string, classLevel: string) {
   return getGrowMealCategory(schoolLevel, classLevel) !== null;
 }
+
+
+export const growMealGardenDomains: Readonly<Record<string,string>> = {
+  N01:"Alphabet Garden",N02:"Number Garden",N03:"Geometry Garden",N04:"Leaf Garden",N05:"Butterfly Garden",
+  N06:"ReBottle Garden",N07:"MicroGrow Garden",N08:"Mini Table Garden",N09:"Sack Garden",N10:"Discovery Garden",
+  P11:"Alphabet Food Garden",P12:"Number Food Garden",P13:"Geometry Garden",P14:"Leaf Garden",P15:"Pollinator Garden",
+  P16:"Raised Food Garden",P17:"ReBottle Wall Garden",P18:"Sack GrowBag Garden",P19:"Ground Production Garden",P20:"Discovery Production Garden",
+  P21:"Raised Food Garden",P22:"Geometry Garden",P23:"Grid Experiment Garden",P24:"Keyhole Garden",P25:"Compost Garden",
+  P26:"Gravity Drip Garden",P27:"Vertical Garden",P28:"Crop Rotation Garden",P29:"Water-Smart Garden",P30:"Intro Soilless Garden",
+  J31:"Production Garden",J32:"Raised Systems Garden",J33:"Grid Experiment Garden",J34:"Crop Rotation Garden",J35:"Intercropping Garden",
+  J36:"Water-Smart Garden",J37:"Compost & Soil Garden",J38:"Soilless Learning Garden",J39:"Sensor-Ready Garden",J40:"Applied Systems Garden",
+  S41:"Advanced Production Garden",S42:"Crop Trial Garden",S43:"Controlled Experiment Garden",S44:"Irrigation Engineering Garden",S45:"Water Productivity Garden",
+  S46:"Advanced Soilless Garden",S47:"Sensor & Monitoring Garden",S48:"Smart Irrigation Demonstrator",S49:"Research & Design Garden",S50:"Integrated Food Systems Laboratory",
+} as const;
