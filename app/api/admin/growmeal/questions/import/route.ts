@@ -64,6 +64,7 @@ export async function POST(req: Request) {
   if (!user) return NextResponse.json({error:"Access denied"},{status:403});
   try {
     const form = await req.formData();
+    const validateOnly = String(form.get("validateOnly") || "") === "true";
     const file = form.get("file");
     if (!(file instanceof File)) return NextResponse.json({error:"Choose a CSV or Excel file."},{status:400});
     if (file.size > MAX_BYTES) return NextResponse.json({error:"File is larger than 5 MB."},{status:413});
@@ -86,6 +87,13 @@ export async function POST(req: Request) {
     const existingKeys = new Set((existingRows || []).map((q:any)=>[q.competition_category,q.class_level||"",q.garden_code||"",normalizedQuestion(q.question_text||"")].join("|")));
     const databaseDuplicates = rows.flatMap((r,i)=> existingKeys.has([r.competition_category,r.class_level,r.garden_code,normalizedQuestion(r.question_text)].join("|")) ? [`Row ${i+2}: question already exists in the GrowMeal bank`] : []);
     if (databaseDuplicates.length) return NextResponse.json({error:"Import contains questions already in the bank.",errors:databaseDuplicates.slice(0,100),errorCount:databaseDuplicates.length},{status:409});
+    if (validateOnly) {
+      const byCategory = rows.reduce<Record<string, number>>((acc, row) => {
+        acc[row.competition_category] = (acc[row.competition_category] || 0) + 1;
+        return acc;
+      }, {});
+      return NextResponse.json({ok:true,valid:true,rows:rows.length,byCategory,message:"Validation passed. Nothing was imported."});
+    }
     const payloads = [];
     for (const r of rows) {
       const {data:code,error} = await admin.rpc("fewq_next_growmeal_question_code");
