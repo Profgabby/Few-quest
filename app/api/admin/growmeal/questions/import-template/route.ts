@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import ExcelJS from "exceljs";
 import { createClient } from "@/lib/supabase/server";
-import { growMealCompetitionCategories } from "@/lib/competition/growmeal";
+import { growMealCompetitionCategories, growMealGardenDomains } from "@/lib/competition/growmeal";
 
 export const runtime = "nodejs";
 
@@ -25,6 +25,9 @@ export async function GET() {
   ref.addRow(["Difficulty","foundation | standard | advanced"]);
   ref.addRow(["Correct option","A | B | C | D"]);
   ref.addRow(["Import status","Every imported question enters as draft"]);
+  ref.addRow([]);
+  ref.addRow(["Garden code","Canonical garden domain"]);
+  Object.entries(growMealGardenDomains).forEach(([code,name]) => ref.addRow([code,name]));
 
   ws.getRow(1).font = { bold: true };
   ref.getRow(1).font = { bold: true };
