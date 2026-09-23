@@ -3,7 +3,7 @@ import ExcelJS from "exceljs";
 import { Readable } from "node:stream";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { growMealCompetitionCategories } from "@/lib/competition/growmeal";
+import { growMealCompetitionCategories, growMealGardenDomains } from "@/lib/competition/growmeal";
 
 export const runtime = "nodejs";
 const MAX_BYTES = 5 * 1024 * 1024;
@@ -30,6 +30,7 @@ function validate(r: Row, line: number) {
   if (!r.question_text) errors.push("question_text is required");
   if (r.question_text.length > MAX_CELL_CHARS) errors.push("question_text is too long");
   if (!r.garden_domain) errors.push("garden_domain is required");
+  if (r.garden_code && growMealGardenDomains[r.garden_code] && r.garden_domain !== growMealGardenDomains[r.garden_code]) errors.push(`garden_domain must be "${growMealGardenDomains[r.garden_code]}" for ${r.garden_code}`);
   for (const k of ["option_a","option_b","option_c","option_d"] as const) if (!r[k]) errors.push(k+" is required");
   if (!["A","B","C","D"].includes(r.correct_option.toUpperCase())) errors.push("correct_option must be A, B, C or D");
   if (r.difficulty && !["foundation","standard","advanced"].includes(r.difficulty.toLowerCase())) errors.push("invalid difficulty");
