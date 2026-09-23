@@ -7,6 +7,7 @@ import { growMealCompetitionCategories } from "@/lib/competition/growmeal";
 export const runtime = "nodejs";
 const MAX_BYTES = 5 * 1024 * 1024;
 const MAX_ROWS = 2000;
+const MAX_CELL_CHARS = 4000;
 const headers = ["competition_category","class_level","garden_code","garden_domain","question_text","option_a","option_b","option_c","option_d","correct_option","explanation","difficulty","source_reference"] as const;
 type Row = Record<(typeof headers)[number], string>;
 
@@ -18,6 +19,7 @@ async function guard() {
   return data ? user : null;
 }
 function clean(v: unknown) { return String(v ?? "").trim(); }
+function normalizedQuestion(v: string) { return v.trim().replace(/\\s+/g, " ").toLowerCase(); }
 function validate(r: Row, line: number) {
   const errors: string[] = [];
   const cat = growMealCompetitionCategories.find(c => c.code === r.competition_category);
@@ -25,6 +27,8 @@ function validate(r: Row, line: number) {
   if (cat && !cat.classes.includes(r.class_level)) errors.push("class_level does not belong to category");
   if (cat && !cat.gardenCodes.includes(r.garden_code)) errors.push("garden_code does not belong to category");
   if (!r.question_text) errors.push("question_text is required");
+  if (r.question_text.length > MAX_CELL_CHARS) errors.push("question_text is too long");
+  if (!r.garden_domain) errors.push("garden_domain is required");
   for (const k of ["option_a","option_b","option_c","option_d"] as const) if (!r[k]) errors.push(k+" is required");
   if (!["A","B","C","D"].includes(r.correct_option.toUpperCase())) errors.push("correct_option must be A, B, C or D");
   if (r.difficulty && !["foundation","standard","advanced"].includes(r.difficulty.toLowerCase())) errors.push("invalid difficulty");
@@ -66,9 +70,21 @@ export async function POST(req: Request) {
     if (!rows.length) return NextResponse.json({error:"No question rows were found."},{status:400});
     if (rows.length > MAX_ROWS) return NextResponse.json({error:`Import is limited to ${MAX_ROWS} questions per file.`},{status:400});
     const errors = rows.flatMap((r,i)=>validate(r,i+2));
+    const seen = new Map<string, number>();
+    rows.forEach((r,i)=>{
+      const key = [r.competition_category,r.class_level,r.garden_code,normalizedQuestion(r.question_text)].join("|");
+      const prior = seen.get(key);
+      if (prior) errors.push(`Row ${i+2}: duplicate question in file (matches row ${prior})`);
+      else seen.set(key,i+2);
+    });
     if (errors.length) return NextResponse.json({error:"Import validation failed.",errors:errors.slice(0,100),errorCount:errors.length},{status:400});
 
     const admin = createAdminClient();
+    const { data: existingRows, error: existingError } = await admin.from("question_bank").select("competition_category,class_level,garden_code,question_text").eq("quest_family","GrowMeal");
+    if (existingError) throw new Error(existingError.message);
+    const existingKeys = new Set((existingRows || []).map((q:any)=>[q.competition_category,q.class_level||"",q.garden_code||"",normalizedQuestion(q.question_text||"")].join("|")));
+    const databaseDuplicates = rows.flatMap((r,i)=> existingKeys.has([r.competition_category,r.class_level,r.garden_code,normalizedQuestion(r.question_text)].join("|")) ? [`Row ${i+2}: question already exists in the GrowMeal bank`] : []);
+    if (databaseDuplicates.length) return NextResponse.json({error:"Import contains questions already in the bank.",errors:databaseDuplicates.slice(0,100),errorCount:databaseDuplicates.length},{status:409});
     const payloads = [];
     for (const r of rows) {
       const {data:code,error} = await admin.rpc("fewq_next_growmeal_question_code");
