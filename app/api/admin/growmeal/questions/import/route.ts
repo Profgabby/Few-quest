@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import ExcelJS from "exceljs";
+import { Readable } from "node:stream";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { growMealCompetitionCategories } from "@/lib/competition/growmeal";
@@ -38,7 +39,7 @@ async function rowsFromFile(file: File): Promise<Row[]> {
   const ext = file.name.toLowerCase();
   const wb = new ExcelJS.Workbook();
   const buf = Buffer.from(await file.arrayBuffer());
-  if (ext.endsWith(".csv")) await wb.csv.read(buf as any);
+  if (ext.endsWith(".csv")) await wb.csv.read(Readable.from([buf]));
   else if (ext.endsWith(".xlsx")) await wb.xlsx.load(buf as any);
   else throw new Error("Use a .csv or .xlsx file.");
   const ws = wb.worksheets[0];
@@ -100,7 +101,11 @@ export async function POST(req: Request) {
     }
     const {error} = await admin.from("question_bank").insert(payloads);
     if (error) throw new Error(error.message);
-    return NextResponse.json({ok:true,imported:payloads.length});
+    const byCategory = payloads.reduce<Record<string, number>>((acc, q) => {
+      acc[q.competition_category] = (acc[q.competition_category] || 0) + 1;
+      return acc;
+    }, {});
+    return NextResponse.json({ok:true,imported:payloads.length,byCategory});
   } catch (e) {
     const message = e instanceof Error ? e.message : "Import failed.";
     console.error("GrowMeal bulk question import failed:", message);
