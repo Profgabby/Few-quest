@@ -1,34 +1,5 @@
 competition_category,class_level,garden_code,garden_domain,question_text,option_a,option_b,option_c,option_d,correct_option,explanation,difficulty,source_reference
 GM-NUR,Nursery 1,N01,Alphabet Garden,Which letter begins the word apple?,A,B,C,D,A,Apple begins with A.,foundation,GM-NUR-B001
-GM-NUR,Nursery 1,N02,Number Garden,How many plants are in a group of three?,1,2,3,4,C,A group of three has 3 plants.,foundation,GM-NUR-B001
-GM-NUR,Nursery 1,N03,Geometry Garden,Which shape is round like a circle bed?,Circle,Square,Triangle,Rectangle,A,A circle is round.,foundation,GM-NUR-B001
-GM-NUR,Nursery 1,N04,Leaf Garden,Which part of a plant is usually green and flat?,Leaf,Root,Stone,Pot,A,Leaves are commonly green and flat.,foundation,GM-NUR-B001
-GM-NUR,Nursery 1,N05,Butterfly Garden,Which animal may visit flowers in the garden?,Butterfly,Fish,Goat,Lizard,A,Butterflies visit flowers for nectar.,foundation,GM-NUR-B001
-GM-NUR,Nursery 1,N06,ReBottle Garden,What can we reuse to grow a small plant?,Clean bottle,Dirty tissue,Broken glass,Metal nail,A,A clean suitable bottle can be reused as a planter.,foundation,GM-NUR-B001
-GM-NUR,Nursery 1,N07,MicroGrow Garden,Which word means a very young plant?,Seedling,Rock,Spoon,Chair,A,A seedling is a young plant.,foundation,GM-NUR-B001
-GM-NUR,Nursery 1,N08,Mini Table Garden,Where do plants in a table garden grow?,In soil or growing mix,On a book,Inside a shoe,On a wall clock,A,Table gardens hold soil or another safe growing medium.,foundation,GM-NUR-B001
-GM-NUR,Nursery 1,N09,Sack Garden,What holds the soil in a sack garden?,Sack,Pencil,Cupboard,Plate,A,A sack holds the growing soil.,foundation,GM-NUR-B001
-GM-NUR,Nursery 1,N10,Discovery Garden,What should we do when we notice a new leaf?,Observe it,Break it,Hide it,Throw soil at it,A,Observation helps learners notice plant growth.,foundation,GM-NUR-B001
-GM-NUR,Nursery 2,N01,Alphabet Garden,Which letter begins the word seed?,S,A,M,P,A,Seed begins with S.,foundation,GM-NUR-B001
-GM-NUR,Nursery 2,N02,Number Garden,If you see two plants and one more plant how many are there?,1,2,3,4,C,Two plus one equals three.,foundation,GM-NUR-B001
-GM-NUR,Nursery 2,N03,Geometry Garden,Which shape has three sides?,Triangle,Circle,Square,Oval,A,A triangle has three sides.,foundation,GM-NUR-B001
-GM-NUR,Nursery 2,N04,Leaf Garden,What can we compare when looking at two leaves?,Size and shape,Telephone number,Shoe size,Clock time,A,Leaves can be compared by visible features such as size and shape.,foundation,GM-NUR-B001
-GM-NUR,Nursery 2,N05,Butterfly Garden,What do flowering plants provide for butterflies?,Nectar,Plastic,Sandals,Chalk,A,Many flowers provide nectar for butterflies.,foundation,GM-NUR-B001
-GM-NUR,Nursery 2,N06,ReBottle Garden,Why should a reused bottle planter have drainage holes?,To let extra water out,To make noise,To hold pencils,To make it heavier,A,Drainage holes allow excess water to leave the planter.,standard,GM-NUR-B001
-GM-NUR,Nursery 2,N07,MicroGrow Garden,What helps a seed begin to grow?,Water,Plastic toy,Paint,Paper clip,A,Water is needed for germination.,foundation,GM-NUR-B001
-GM-NUR,Nursery 2,N08,Mini Table Garden,What should we check before watering a table garden?,Whether the soil needs water,The classroom clock only,The colour of a chair,The number of books,A,Checking the growing medium helps avoid unnecessary watering.,standard,GM-NUR-B001
-GM-NUR,Nursery 2,N09,Sack Garden,Where should water be directed when watering a sack garden?,Toward the growing soil,At another learner,Onto a book,Into a school bag,A,Water should reach the plant growing medium.,foundation,GM-NUR-B001
-GM-NUR,Nursery 2,N10,Discovery Garden,Which tool helps us record what we see in the garden?,Observation sheet,Football,Plate,Pillow,A,An observation sheet can record garden changes.,foundation,GM-NUR-B001
-GM-NUR,Nursery 3,N01,Alphabet Garden,Which word begins with the same first letter as garden?,Grow,Plant,Seed,Water,A,Garden and grow both begin with G.,standard,GM-NUR-B001
-GM-NUR,Nursery 3,N02,Number Garden,There are four seedlings and one is removed. How many remain?,1,2,3,4,C,Four minus one leaves three.,standard,GM-NUR-B001
-GM-NUR,Nursery 3,N03,Geometry Garden,Which bed shape has four equal sides?,Square,Triangle,Circle,Oval,A,A square has four equal sides.,standard,GM-NUR-B001
-GM-NUR,Nursery 3,N04,Leaf Garden,Which observation best shows that a leaf has changed?,It became larger,The table moved,A bell rang,A pencil broke,A,An increase in leaf size is a plant-growth observation.,standard,GM-NUR-B001
-GM-NUR,Nursery 3,N05,Butterfly Garden,Why should we avoid damaging flowers in a butterfly garden?,Flowers support visiting pollinators,Flowers are toys,Flowers are stones,Flowers stop all insects,A,Healthy flowers can provide food resources for pollinators.,standard,GM-NUR-B001
-GM-NUR,Nursery 3,N06,ReBottle Garden,Which reused container is safest for a school planter?,Clean smooth plastic bottle,Broken glass bottle,Rusty sharp can,Container with chemicals,A,A clean smooth plastic container avoids sharp and chemical hazards.,standard,GM-NUR-B001
-GM-NUR,Nursery 3,N07,MicroGrow Garden,What happens after a seed germinates successfully?,A young shoot begins to grow,It becomes a stone,It turns into plastic,It disappears,A,Germination produces early root and shoot growth.,standard,GM-NUR-B001
-GM-NUR,Nursery 3,N08,Mini Table Garden,Why is a small table garden useful for observation?,Plants are easy to reach and inspect,It hides every plant,It needs no care,It stops plants growing,A,Accessible plants are easier for young learners to observe.,standard,GM-NUR-B001
-GM-NUR,Nursery 3,N09,Sack Garden,Why can plants grow at different openings in a sack garden?,The sack can hold soil around several planting points,The sack has electricity,The sack is a book,The sack makes sunlight,A,A filled sack can support several planting positions.,standard,GM-NUR-B001
-GM-NUR,Nursery 3,N10,Discovery Garden,What is the best way to find out whether a plant grew this week?,Compare observations from two times,Guess without looking,Pull out the plant,Ignore the garden,A,Comparing observations over time shows change.,standard,GM-NUR-B001
 GM-NUR,Nursery 1,N01,Alphabet Garden,Which letter begins the word garden?,G,P,S,W,A,Garden begins with G.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N01,Alphabet Garden,Which letter begins the word water?,W,G,L,R,A,Water begins with W.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N01,Alphabet Garden,Which letter begins the word leaf?,L,S,P,G,A,Leaf begins with L.,foundation,GM-NUR-PROD-V1
@@ -38,7 +9,7 @@ GM-NUR,Nursery 1,N01,Alphabet Garden,Which word begins with P?,Plant,Garden,Seed
 GM-NUR,Nursery 1,N01,Alphabet Garden,Which word begins with S?,Seed,Leaf,Root,Flower,A,Seed begins with S.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N01,Alphabet Garden,Which word begins with W?,Water,Plant,Garden,Leaf,A,Water begins with W.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N01,Alphabet Garden,Which two words begin with the same letter?,Garden and grow,Leaf and seed,Plant and water,Root and flower,A,Garden and grow both begin with G.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 1,N01,Alphabet Garden,Which word starts with the same sound as plant?,Pot,Seed,Water,Garden,A,Plant and pot begin with P.,standard,GM-NUR-PROD-V1
+GM-NUR,Nursery 1,N02,Number Garden,How many plants are in a group of three?,1,2,3,4,C,A group of three has 3 plants.,foundation,GM-NUR-B001
 GM-NUR,Nursery 1,N02,Number Garden,How many leaves are in a group of two?,1,2,3,4,B,A group of two has 2 leaves.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N02,Number Garden,How many seedlings are in a group of four?,2,3,4,5,C,A group of four has 4 seedlings.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N02,Number Garden,One plant and one more plant make how many?,1,2,3,4,B,One plus one equals two.,foundation,GM-NUR-PROD-V1
@@ -48,7 +19,7 @@ GM-NUR,Nursery 1,N02,Number Garden,Which group has more plants?,4 plants,2 plant
 GM-NUR,Nursery 1,N02,Number Garden,Which number comes after 3?,2,3,4,5,C,Four comes after three.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N02,Number Garden,Which number comes before 5?,3,4,5,6,B,Four comes before five.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N02,Number Garden,Two rows with two plants in each row have how many plants?,2,3,4,5,C,Two groups of two make four.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 1,N02,Number Garden,"If 6 seeds are shared into two equal groups, how many are in each group?",2,3,4,6,B,Six shared equally into two groups gives three in each.,standard,GM-NUR-PROD-V1
+GM-NUR,Nursery 1,N03,Geometry Garden,Which shape is round like a circle bed?,Circle,Square,Triangle,Rectangle,A,A circle is round.,foundation,GM-NUR-B001
 GM-NUR,Nursery 1,N03,Geometry Garden,Which shape is round?,Circle,Square,Triangle,Rectangle,A,A circle is round.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N03,Geometry Garden,Which shape has three sides?,Triangle,Circle,Square,Oval,A,A triangle has three sides.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N03,Geometry Garden,Which shape has four equal sides?,Square,Triangle,Circle,Oval,A,A square has four equal sides.,foundation,GM-NUR-PROD-V1
@@ -58,7 +29,7 @@ GM-NUR,Nursery 1,N03,Geometry Garden,How many corners does a square have?,2,3,4,
 GM-NUR,Nursery 1,N03,Geometry Garden,How many sides does a triangle have?,2,3,4,5,B,A triangle has three sides.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N03,Geometry Garden,Which pair both have four sides?,Square and rectangle,Circle and triangle,Circle and oval,Triangle and circle,A,Squares and rectangles both have four sides.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N03,Geometry Garden,Which shape could make a round garden bed?,Circle,Triangle,Square only,Line,A,A circle forms a round bed.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 1,N03,Geometry Garden,A bed has four equal sides. What shape is it?,Square,Circle,Triangle,Oval,A,Four equal sides describe a square.,standard,GM-NUR-PROD-V1
+GM-NUR,Nursery 1,N04,Leaf Garden,Which part of a plant is usually green and flat?,Leaf,Root,Stone,Pot,A,Leaves are commonly green and flat.,foundation,GM-NUR-B001
 GM-NUR,Nursery 1,N04,Leaf Garden,Which plant part is usually flat and green?,Leaf,Root,Stone,Pot,A,A leaf is commonly flat and green.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N04,Leaf Garden,Which leaf is bigger?,The longer wider leaf,The smallest leaf,A stone,A stick,A,Length and width help us compare leaf size.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N04,Leaf Garden,What can we look at when comparing leaves?,Shape,Shoe size,Clock time,Desk number,A,Leaf shape is an observable feature.,foundation,GM-NUR-PROD-V1
@@ -68,7 +39,7 @@ GM-NUR,Nursery 1,N04,Leaf Garden,What should we do before touching a leaf for ob
 GM-NUR,Nursery 1,N04,Leaf Garden,Which observation describes a change?,The leaf became larger,The chair is blue,The bell rang,A book opened,A,A larger leaf is a change in the plant.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N04,Leaf Garden,What tool can help compare leaf length?,Ruler,Plate,Shoe,Cup,A,A ruler can measure leaf length.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N04,Leaf Garden,Two leaves have different edges. What are we comparing?,Leaf shape and edge,School uniform,Weather only,Desk height,A,Leaf edges are visible features for comparison.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 1,N04,Leaf Garden,Why record leaf observations on different days?,To notice changes over time,To make the leaf noisy,To stop growth,To hide the plant,A,Repeated observations show changes over time.,standard,GM-NUR-PROD-V1
+GM-NUR,Nursery 1,N05,Butterfly Garden,Which animal may visit flowers in the garden?,Butterfly,Fish,Goat,Lizard,A,Butterflies visit flowers for nectar.,foundation,GM-NUR-B001
 GM-NUR,Nursery 1,N05,Butterfly Garden,Which animal often visits flowers?,Butterfly,Fish,Catfish,Goat,A,Butterflies often visit flowers.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N05,Butterfly Garden,What do many butterflies drink from flowers?,Nectar,Sand,Plastic,Chalk,A,Many butterflies feed on flower nectar.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N05,Butterfly Garden,Which part attracts many visiting butterflies?,Flowers,Broken glass,Bare concrete,Plastic bags,A,Flowers can attract butterflies.,foundation,GM-NUR-PROD-V1
@@ -78,7 +49,7 @@ GM-NUR,Nursery 1,N05,Butterfly Garden,What may a butterfly carry between flowers
 GM-NUR,Nursery 1,N05,Butterfly Garden,Which garden is friendliest to butterflies?,One with healthy flowering plants,One with no plants,One covered in litter,One with broken glass,A,Flowering plants provide food and habitat.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N05,Butterfly Garden,What should we avoid spraying near butterflies?,Unknown chemicals,Clean water on soil,Nothing at all,Observation notes,A,Unknown chemicals may harm butterflies and other organisms.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N05,Butterfly Garden,A butterfly moves from flower to flower. What is it helping with?,Pollination,Painting,Digging,Sweeping,A,Flower visits can help transfer pollen.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 1,N05,Butterfly Garden,Why count butterfly visits?,To compare garden observations,To scare butterflies,To remove flowers,To stop learning,A,Counting visits creates useful observations.,standard,GM-NUR-PROD-V1
+GM-NUR,Nursery 1,N06,ReBottle Garden,What can we reuse to grow a small plant?,Clean bottle,Dirty tissue,Broken glass,Metal nail,A,A clean suitable bottle can be reused as a planter.,foundation,GM-NUR-B001
 GM-NUR,Nursery 1,N06,ReBottle Garden,What can be reused as a small planter?,Clean plastic bottle,Broken glass,Dirty chemical container,Sharp metal,A,A clean suitable plastic bottle can be reused safely.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N06,ReBottle Garden,What should a bottle planter hold?,Growing mix,Broken glass,School books,Metal nails,A,A planter holds a safe growing medium.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N06,ReBottle Garden,Why make drainage holes?,To let extra water out,To make music,To hold pencils,To add weight,A,Drainage holes allow excess water to leave.,foundation,GM-NUR-PROD-V1
@@ -88,7 +59,7 @@ GM-NUR,Nursery 1,N06,ReBottle Garden,Where should a drainage hole be placed?,Nea
 GM-NUR,Nursery 1,N06,ReBottle Garden,What can grow in a bottle planter?,A small suitable plant,A stone,A pencil,A shoe,A,Small plants can grow in suitable bottle planters.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N06,ReBottle Garden,Why reuse a bottle in the garden?,To give it another useful purpose,To create sharp waste,To dirty the garden,To stop plants growing,A,Reuse gives a suitable container another useful purpose.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N06,ReBottle Garden,What should we check after watering a bottle planter?,That extra water can drain,That the cap is noisy,That books are wet,That soil is removed,A,Drainage helps prevent waterlogging.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 1,N06,ReBottle Garden,Which action makes a bottle planter safer?,Smooth or cover cut edges,Leave sharp edges,Use chemical residue,Break the bottle,A,Cut edges should be made safe before use.,standard,GM-NUR-PROD-V1
+GM-NUR,Nursery 1,N07,MicroGrow Garden,Which word means a very young plant?,Seedling,Rock,Spoon,Chair,A,A seedling is a young plant.,foundation,GM-NUR-B001
 GM-NUR,Nursery 1,N07,MicroGrow Garden,What is a very young plant called?,Seedling,Stone,Chair,Cup,A,A seedling is a young plant.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N07,MicroGrow Garden,What helps a seed start germinating?,Water,Plastic toy,Paint,Metal,A,Water is needed for germination.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N07,MicroGrow Garden,What may appear first when a seed germinates?,A tiny root or shoot,A stone,A spoon,A shoe,A,Germination produces early root and shoot growth.,foundation,GM-NUR-PROD-V1
@@ -98,7 +69,7 @@ GM-NUR,Nursery 1,N07,MicroGrow Garden,What does a seed need besides water to gro
 GM-NUR,Nursery 1,N07,MicroGrow Garden,How can we tell a seedling is growing?,It becomes taller or makes new leaves,It turns to metal,It disappears,It becomes a book,A,Height and new leaves are visible growth signs.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N07,MicroGrow Garden,Why observe seedlings each day?,To notice germination and growth,To stop growth,To hide them,To remove roots,A,Daily observations reveal changes.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N07,MicroGrow Garden,What should we do if the growing medium is already wet?,Avoid adding too much water,Flood it again,Remove every seed,Cover it with plastic litter,A,Too much water can be harmful.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 1,N07,MicroGrow Garden,Which sequence is correct?,Seed then germination then seedling,Seedling then stone then seed,Flower then chair then seed,Root then plastic then seed,A,A seed germinates and develops into a seedling.,standard,GM-NUR-PROD-V1
+GM-NUR,Nursery 1,N08,Mini Table Garden,Where do plants in a table garden grow?,In soil or growing mix,On a book,Inside a shoe,On a wall clock,A,Table gardens hold soil or another safe growing medium.,foundation,GM-NUR-B001
 GM-NUR,Nursery 1,N08,Mini Table Garden,Where do table-garden plants grow?,In growing mix held by the table bed,On a clock,Inside a shoe,On a book,A,A table garden contains growing medium.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N08,Mini Table Garden,Why is a mini table garden easy to observe?,Plants are raised and accessible,Plants are hidden,It has no plants,It is locked away,A,Raised plants are easier to reach and inspect.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N08,Mini Table Garden,What should we check before watering?,Soil moisture,Chair colour,Book count,Clock sound,A,Checking moisture helps guide watering.,foundation,GM-NUR-PROD-V1
@@ -108,7 +79,7 @@ GM-NUR,Nursery 1,N08,Mini Table Garden,Why should the table garden have drainage
 GM-NUR,Nursery 1,N08,Mini Table Garden,Which action keeps a table garden tidy?,Remove litter and keep paths clear,Throw plastic into it,Break plants,Flood the floor,A,A tidy learning garden is safer and easier to use.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N08,Mini Table Garden,What tool can record plant height?,Ruler,Plate,Pillow,Cup,A,A ruler can measure plant height.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N08,Mini Table Garden,If one plant is taller than another what are we comparing?,Height,Colour of desks,School bell,Book pages,A,Tall and short describe height.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 1,N08,Mini Table Garden,Why record table-garden observations each week?,To track growth over time,To stop watering forever,To hide results,To remove plants,A,Weekly records show how plants change.,standard,GM-NUR-PROD-V1
+GM-NUR,Nursery 1,N09,Sack Garden,What holds the soil in a sack garden?,Sack,Pencil,Cupboard,Plate,A,A sack holds the growing soil.,foundation,GM-NUR-B001
 GM-NUR,Nursery 1,N09,Sack Garden,What holds soil in a sack garden?,Sack,Plate,Pencil,Chair,A,The sack contains the growing soil.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N09,Sack Garden,Where should water be directed?,Into the growing soil,Onto books,At learners,Onto a wall,A,Water belongs in the growing medium.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N09,Sack Garden,Where can plants grow in a sack garden?,At suitable planting openings,Inside a pencil,On a clock,Under a shoe,A,Plants can grow from prepared openings.,foundation,GM-NUR-PROD-V1
@@ -118,7 +89,7 @@ GM-NUR,Nursery 1,N09,Sack Garden,Why should a sack stand securely?,So it does no
 GM-NUR,Nursery 1,N09,Sack Garden,What happens if water drains from the bottom?,Extra water is leaving,The sack is making electricity,The plants are books,The soil is disappearing instantly,A,Drainage allows excess water to leave.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N09,Sack Garden,Which plant is best for a small sack opening?,A suitable small crop,A large tree,A metal pole,A chair,A,Small crops suit limited planting openings.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N09,Sack Garden,Why observe plants at different sack openings?,To compare how they grow,To remove them daily,To hide them,To stop watering,A,Comparing positions can reveal growth differences.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 1,N09,Sack Garden,What keeps a sack garden healthy?,Watering as needed and caring for plants,Never observing it,Adding litter,Breaking stems,A,Regular appropriate care supports plant growth.,standard,GM-NUR-PROD-V1
+GM-NUR,Nursery 1,N10,Discovery Garden,What should we do when we notice a new leaf?,Observe it,Break it,Hide it,Throw soil at it,A,Observation helps learners notice plant growth.,foundation,GM-NUR-B001
 GM-NUR,Nursery 1,N10,Discovery Garden,What should we do when we see a new leaf?,Observe it,Break it,Hide it,Step on it,A,Observation helps us notice growth.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N10,Discovery Garden,What can we use to record what we see?,Observation sheet,Football,Pillow,Plate,A,An observation sheet records findings.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N10,Discovery Garden,Why look at the same plant on different days?,To notice changes,To make it disappear,To stop growth,To change the weather,A,Repeated observations reveal change.,foundation,GM-NUR-PROD-V1
@@ -128,7 +99,7 @@ GM-NUR,Nursery 1,N10,Discovery Garden,If a plant has more leaves this week what 
 GM-NUR,Nursery 1,N10,Discovery Garden,What is a fair way to compare two plants?,Observe the same feature on both,Guess without looking,Pull both out,Change one answer later,A,Using the same observation supports a fair comparison.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N10,Discovery Garden,Why draw a plant in an observation book?,To record how it looks,To stop it growing,To water the book,To hide the plant,A,A drawing can document visible features.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 1,N10,Discovery Garden,What should we do if we are unsure what changed?,Look carefully and compare earlier records,Guess quickly,Break the plant,Ignore all notes,A,Earlier records help verify change.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 1,N10,Discovery Garden,Which sequence supports discovery?,Observe record compare,Break hide forget,Guess erase ignore,Run shout leave,A,"Observation, recording and comparison support discovery.",standard,GM-NUR-PROD-V1
+GM-NUR,Nursery 2,N01,Alphabet Garden,Which letter begins the word seed?,S,A,M,P,A,Seed begins with S.,foundation,GM-NUR-B001
 GM-NUR,Nursery 2,N01,Alphabet Garden,Which letter begins the word garden?,G,P,S,W,A,Garden begins with G.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N01,Alphabet Garden,Which letter begins the word water?,W,G,L,R,A,Water begins with W.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N01,Alphabet Garden,Which letter begins the word leaf?,L,S,P,G,A,Leaf begins with L.,foundation,GM-NUR-PROD-V1
@@ -138,7 +109,7 @@ GM-NUR,Nursery 2,N01,Alphabet Garden,Which word begins with P?,Plant,Garden,Seed
 GM-NUR,Nursery 2,N01,Alphabet Garden,Which word begins with S?,Seed,Leaf,Root,Flower,A,Seed begins with S.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N01,Alphabet Garden,Which word begins with W?,Water,Plant,Garden,Leaf,A,Water begins with W.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N01,Alphabet Garden,Which two words begin with the same letter?,Garden and grow,Leaf and seed,Plant and water,Root and flower,A,Garden and grow both begin with G.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 2,N01,Alphabet Garden,Which word starts with the same sound as plant?,Pot,Seed,Water,Garden,A,Plant and pot begin with P.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 2,N02,Number Garden,If you see two plants and one more plant how many are there?,1,2,3,4,C,Two plus one equals three.,foundation,GM-NUR-B001
 GM-NUR,Nursery 2,N02,Number Garden,How many leaves are in a group of two?,1,2,3,4,B,A group of two has 2 leaves.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N02,Number Garden,How many seedlings are in a group of four?,2,3,4,5,C,A group of four has 4 seedlings.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N02,Number Garden,One plant and one more plant make how many?,1,2,3,4,B,One plus one equals two.,foundation,GM-NUR-PROD-V1
@@ -148,7 +119,7 @@ GM-NUR,Nursery 2,N02,Number Garden,Which group has more plants?,4 plants,2 plant
 GM-NUR,Nursery 2,N02,Number Garden,Which number comes after 3?,2,3,4,5,C,Four comes after three.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N02,Number Garden,Which number comes before 5?,3,4,5,6,B,Four comes before five.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N02,Number Garden,Two rows with two plants in each row have how many plants?,2,3,4,5,C,Two groups of two make four.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 2,N02,Number Garden,"If 6 seeds are shared into two equal groups, how many are in each group?",2,3,4,6,B,Six shared equally into two groups gives three in each.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 2,N03,Geometry Garden,Which shape has three sides?,Triangle,Circle,Square,Oval,A,A triangle has three sides.,foundation,GM-NUR-B001
 GM-NUR,Nursery 2,N03,Geometry Garden,Which shape is round?,Circle,Square,Triangle,Rectangle,A,A circle is round.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N03,Geometry Garden,Which shape has four equal sides?,Square,Triangle,Circle,Oval,A,A square has four equal sides.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N03,Geometry Garden,Which shape looks like a long box?,Rectangle,Circle,Triangle,Oval,A,A rectangle can look like a long box.,foundation,GM-NUR-PROD-V1
@@ -158,6 +129,7 @@ GM-NUR,Nursery 2,N03,Geometry Garden,How many sides does a triangle have?,2,3,4,
 GM-NUR,Nursery 2,N03,Geometry Garden,Which pair both have four sides?,Square and rectangle,Circle and triangle,Circle and oval,Triangle and circle,A,Squares and rectangles both have four sides.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N03,Geometry Garden,Which shape could make a round garden bed?,Circle,Triangle,Square only,Line,A,A circle forms a round bed.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N03,Geometry Garden,A bed has four equal sides. What shape is it?,Square,Circle,Triangle,Oval,A,Four equal sides describe a square.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 2,N04,Leaf Garden,What can we compare when looking at two leaves?,Size and shape,Telephone number,Shoe size,Clock time,A,Leaves can be compared by visible features such as size and shape.,foundation,GM-NUR-B001
 GM-NUR,Nursery 2,N04,Leaf Garden,Which plant part is usually flat and green?,Leaf,Root,Stone,Pot,A,A leaf is commonly flat and green.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N04,Leaf Garden,Which leaf is bigger?,The longer wider leaf,The smallest leaf,A stone,A stick,A,Length and width help us compare leaf size.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N04,Leaf Garden,What can we look at when comparing leaves?,Shape,Shoe size,Clock time,Desk number,A,Leaf shape is an observable feature.,foundation,GM-NUR-PROD-V1
@@ -167,7 +139,7 @@ GM-NUR,Nursery 2,N04,Leaf Garden,What should we do before touching a leaf for ob
 GM-NUR,Nursery 2,N04,Leaf Garden,Which observation describes a change?,The leaf became larger,The chair is blue,The bell rang,A book opened,A,A larger leaf is a change in the plant.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N04,Leaf Garden,What tool can help compare leaf length?,Ruler,Plate,Shoe,Cup,A,A ruler can measure leaf length.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N04,Leaf Garden,Two leaves have different edges. What are we comparing?,Leaf shape and edge,School uniform,Weather only,Desk height,A,Leaf edges are visible features for comparison.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 2,N04,Leaf Garden,Why record leaf observations on different days?,To notice changes over time,To make the leaf noisy,To stop growth,To hide the plant,A,Repeated observations show changes over time.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 2,N05,Butterfly Garden,What do flowering plants provide for butterflies?,Nectar,Plastic,Sandals,Chalk,A,Many flowers provide nectar for butterflies.,foundation,GM-NUR-B001
 GM-NUR,Nursery 2,N05,Butterfly Garden,Which animal often visits flowers?,Butterfly,Fish,Catfish,Goat,A,Butterflies often visit flowers.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N05,Butterfly Garden,What do many butterflies drink from flowers?,Nectar,Sand,Plastic,Chalk,A,Many butterflies feed on flower nectar.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N05,Butterfly Garden,Which part attracts many visiting butterflies?,Flowers,Broken glass,Bare concrete,Plastic bags,A,Flowers can attract butterflies.,foundation,GM-NUR-PROD-V1
@@ -177,7 +149,7 @@ GM-NUR,Nursery 2,N05,Butterfly Garden,What may a butterfly carry between flowers
 GM-NUR,Nursery 2,N05,Butterfly Garden,Which garden is friendliest to butterflies?,One with healthy flowering plants,One with no plants,One covered in litter,One with broken glass,A,Flowering plants provide food and habitat.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N05,Butterfly Garden,What should we avoid spraying near butterflies?,Unknown chemicals,Clean water on soil,Nothing at all,Observation notes,A,Unknown chemicals may harm butterflies and other organisms.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N05,Butterfly Garden,A butterfly moves from flower to flower. What is it helping with?,Pollination,Painting,Digging,Sweeping,A,Flower visits can help transfer pollen.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 2,N05,Butterfly Garden,Why count butterfly visits?,To compare garden observations,To scare butterflies,To remove flowers,To stop learning,A,Counting visits creates useful observations.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 2,N06,ReBottle Garden,Why should a reused bottle planter have drainage holes?,To let extra water out,To make noise,To hold pencils,To make it heavier,A,Drainage holes allow excess water to leave the planter.,standard,GM-NUR-B001
 GM-NUR,Nursery 2,N06,ReBottle Garden,What can be reused as a small planter?,Clean plastic bottle,Broken glass,Dirty chemical container,Sharp metal,A,A clean suitable plastic bottle can be reused safely.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N06,ReBottle Garden,What should a bottle planter hold?,Growing mix,Broken glass,School books,Metal nails,A,A planter holds a safe growing medium.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N06,ReBottle Garden,Why make drainage holes?,To let extra water out,To make music,To hold pencils,To add weight,A,Drainage holes allow excess water to leave.,foundation,GM-NUR-PROD-V1
@@ -187,7 +159,7 @@ GM-NUR,Nursery 2,N06,ReBottle Garden,Where should a drainage hole be placed?,Nea
 GM-NUR,Nursery 2,N06,ReBottle Garden,What can grow in a bottle planter?,A small suitable plant,A stone,A pencil,A shoe,A,Small plants can grow in suitable bottle planters.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N06,ReBottle Garden,Why reuse a bottle in the garden?,To give it another useful purpose,To create sharp waste,To dirty the garden,To stop plants growing,A,Reuse gives a suitable container another useful purpose.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N06,ReBottle Garden,What should we check after watering a bottle planter?,That extra water can drain,That the cap is noisy,That books are wet,That soil is removed,A,Drainage helps prevent waterlogging.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 2,N06,ReBottle Garden,Which action makes a bottle planter safer?,Smooth or cover cut edges,Leave sharp edges,Use chemical residue,Break the bottle,A,Cut edges should be made safe before use.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 2,N07,MicroGrow Garden,What helps a seed begin to grow?,Water,Plastic toy,Paint,Paper clip,A,Water is needed for germination.,foundation,GM-NUR-B001
 GM-NUR,Nursery 2,N07,MicroGrow Garden,What is a very young plant called?,Seedling,Stone,Chair,Cup,A,A seedling is a young plant.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N07,MicroGrow Garden,What helps a seed start germinating?,Water,Plastic toy,Paint,Metal,A,Water is needed for germination.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N07,MicroGrow Garden,What may appear first when a seed germinates?,A tiny root or shoot,A stone,A spoon,A shoe,A,Germination produces early root and shoot growth.,foundation,GM-NUR-PROD-V1
@@ -197,7 +169,7 @@ GM-NUR,Nursery 2,N07,MicroGrow Garden,What does a seed need besides water to gro
 GM-NUR,Nursery 2,N07,MicroGrow Garden,How can we tell a seedling is growing?,It becomes taller or makes new leaves,It turns to metal,It disappears,It becomes a book,A,Height and new leaves are visible growth signs.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N07,MicroGrow Garden,Why observe seedlings each day?,To notice germination and growth,To stop growth,To hide them,To remove roots,A,Daily observations reveal changes.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N07,MicroGrow Garden,What should we do if the growing medium is already wet?,Avoid adding too much water,Flood it again,Remove every seed,Cover it with plastic litter,A,Too much water can be harmful.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 2,N07,MicroGrow Garden,Which sequence is correct?,Seed then germination then seedling,Seedling then stone then seed,Flower then chair then seed,Root then plastic then seed,A,A seed germinates and develops into a seedling.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 2,N08,Mini Table Garden,What should we check before watering a table garden?,Whether the soil needs water,The classroom clock only,The colour of a chair,The number of books,A,Checking the growing medium helps avoid unnecessary watering.,standard,GM-NUR-B001
 GM-NUR,Nursery 2,N08,Mini Table Garden,Where do table-garden plants grow?,In growing mix held by the table bed,On a clock,Inside a shoe,On a book,A,A table garden contains growing medium.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N08,Mini Table Garden,Why is a mini table garden easy to observe?,Plants are raised and accessible,Plants are hidden,It has no plants,It is locked away,A,Raised plants are easier to reach and inspect.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N08,Mini Table Garden,What should we check before watering?,Soil moisture,Chair colour,Book count,Clock sound,A,Checking moisture helps guide watering.,foundation,GM-NUR-PROD-V1
@@ -207,7 +179,7 @@ GM-NUR,Nursery 2,N08,Mini Table Garden,Why should the table garden have drainage
 GM-NUR,Nursery 2,N08,Mini Table Garden,Which action keeps a table garden tidy?,Remove litter and keep paths clear,Throw plastic into it,Break plants,Flood the floor,A,A tidy learning garden is safer and easier to use.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N08,Mini Table Garden,What tool can record plant height?,Ruler,Plate,Pillow,Cup,A,A ruler can measure plant height.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N08,Mini Table Garden,If one plant is taller than another what are we comparing?,Height,Colour of desks,School bell,Book pages,A,Tall and short describe height.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 2,N08,Mini Table Garden,Why record table-garden observations each week?,To track growth over time,To stop watering forever,To hide results,To remove plants,A,Weekly records show how plants change.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 2,N09,Sack Garden,Where should water be directed when watering a sack garden?,Toward the growing soil,At another learner,Onto a book,Into a school bag,A,Water should reach the plant growing medium.,foundation,GM-NUR-B001
 GM-NUR,Nursery 2,N09,Sack Garden,What holds soil in a sack garden?,Sack,Plate,Pencil,Chair,A,The sack contains the growing soil.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N09,Sack Garden,Where should water be directed?,Into the growing soil,Onto books,At learners,Onto a wall,A,Water belongs in the growing medium.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N09,Sack Garden,Where can plants grow in a sack garden?,At suitable planting openings,Inside a pencil,On a clock,Under a shoe,A,Plants can grow from prepared openings.,foundation,GM-NUR-PROD-V1
@@ -217,7 +189,7 @@ GM-NUR,Nursery 2,N09,Sack Garden,Why should a sack stand securely?,So it does no
 GM-NUR,Nursery 2,N09,Sack Garden,What happens if water drains from the bottom?,Extra water is leaving,The sack is making electricity,The plants are books,The soil is disappearing instantly,A,Drainage allows excess water to leave.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N09,Sack Garden,Which plant is best for a small sack opening?,A suitable small crop,A large tree,A metal pole,A chair,A,Small crops suit limited planting openings.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N09,Sack Garden,Why observe plants at different sack openings?,To compare how they grow,To remove them daily,To hide them,To stop watering,A,Comparing positions can reveal growth differences.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 2,N09,Sack Garden,What keeps a sack garden healthy?,Watering as needed and caring for plants,Never observing it,Adding litter,Breaking stems,A,Regular appropriate care supports plant growth.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 2,N10,Discovery Garden,Which tool helps us record what we see in the garden?,Observation sheet,Football,Plate,Pillow,A,An observation sheet can record garden changes.,foundation,GM-NUR-B001
 GM-NUR,Nursery 2,N10,Discovery Garden,What should we do when we see a new leaf?,Observe it,Break it,Hide it,Step on it,A,Observation helps us notice growth.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N10,Discovery Garden,What can we use to record what we see?,Observation sheet,Football,Pillow,Plate,A,An observation sheet records findings.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N10,Discovery Garden,Why look at the same plant on different days?,To notice changes,To make it disappear,To stop growth,To change the weather,A,Repeated observations reveal change.,foundation,GM-NUR-PROD-V1
@@ -227,7 +199,7 @@ GM-NUR,Nursery 2,N10,Discovery Garden,If a plant has more leaves this week what 
 GM-NUR,Nursery 2,N10,Discovery Garden,What is a fair way to compare two plants?,Observe the same feature on both,Guess without looking,Pull both out,Change one answer later,A,Using the same observation supports a fair comparison.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N10,Discovery Garden,Why draw a plant in an observation book?,To record how it looks,To stop it growing,To water the book,To hide the plant,A,A drawing can document visible features.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 2,N10,Discovery Garden,What should we do if we are unsure what changed?,Look carefully and compare earlier records,Guess quickly,Break the plant,Ignore all notes,A,Earlier records help verify change.,standard,GM-NUR-PROD-V1
-GM-NUR,Nursery 2,N10,Discovery Garden,Which sequence supports discovery?,Observe record compare,Break hide forget,Guess erase ignore,Run shout leave,A,"Observation, recording and comparison support discovery.",advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 3,N01,Alphabet Garden,Which word begins with the same first letter as garden?,Grow,Plant,Seed,Water,A,Garden and grow both begin with G.,standard,GM-NUR-B001
 GM-NUR,Nursery 3,N01,Alphabet Garden,Which letter begins the word garden?,G,P,S,W,A,Garden begins with G.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N01,Alphabet Garden,Which letter begins the word water?,W,G,L,R,A,Water begins with W.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N01,Alphabet Garden,Which letter begins the word leaf?,L,S,P,G,A,Leaf begins with L.,foundation,GM-NUR-PROD-V1
@@ -237,7 +209,7 @@ GM-NUR,Nursery 3,N01,Alphabet Garden,Which word begins with P?,Plant,Garden,Seed
 GM-NUR,Nursery 3,N01,Alphabet Garden,Which word begins with S?,Seed,Leaf,Root,Flower,A,Seed begins with S.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N01,Alphabet Garden,Which word begins with W?,Water,Plant,Garden,Leaf,A,Water begins with W.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N01,Alphabet Garden,Which two words begin with the same letter?,Garden and grow,Leaf and seed,Plant and water,Root and flower,A,Garden and grow both begin with G.,advanced,GM-NUR-PROD-V1
-GM-NUR,Nursery 3,N01,Alphabet Garden,Which word starts with the same sound as plant?,Pot,Seed,Water,Garden,A,Plant and pot begin with P.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 3,N02,Number Garden,There are four seedlings and one is removed. How many remain?,1,2,3,4,C,Four minus one leaves three.,standard,GM-NUR-B001
 GM-NUR,Nursery 3,N02,Number Garden,How many leaves are in a group of two?,1,2,3,4,B,A group of two has 2 leaves.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N02,Number Garden,How many seedlings are in a group of four?,2,3,4,5,C,A group of four has 4 seedlings.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N02,Number Garden,One plant and one more plant make how many?,1,2,3,4,B,One plus one equals two.,foundation,GM-NUR-PROD-V1
@@ -247,7 +219,7 @@ GM-NUR,Nursery 3,N02,Number Garden,Which group has more plants?,4 plants,2 plant
 GM-NUR,Nursery 3,N02,Number Garden,Which number comes after 3?,2,3,4,5,C,Four comes after three.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N02,Number Garden,Which number comes before 5?,3,4,5,6,B,Four comes before five.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N02,Number Garden,Two rows with two plants in each row have how many plants?,2,3,4,5,C,Two groups of two make four.,advanced,GM-NUR-PROD-V1
-GM-NUR,Nursery 3,N02,Number Garden,"If 6 seeds are shared into two equal groups, how many are in each group?",2,3,4,6,B,Six shared equally into two groups gives three in each.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 3,N03,Geometry Garden,Which bed shape has four equal sides?,Square,Triangle,Circle,Oval,A,A square has four equal sides.,standard,GM-NUR-B001
 GM-NUR,Nursery 3,N03,Geometry Garden,Which shape is round?,Circle,Square,Triangle,Rectangle,A,A circle is round.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N03,Geometry Garden,Which shape has three sides?,Triangle,Circle,Square,Oval,A,A triangle has three sides.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N03,Geometry Garden,Which shape has four equal sides?,Square,Triangle,Circle,Oval,A,A square has four equal sides.,foundation,GM-NUR-PROD-V1
@@ -257,7 +229,7 @@ GM-NUR,Nursery 3,N03,Geometry Garden,How many corners does a square have?,2,3,4,
 GM-NUR,Nursery 3,N03,Geometry Garden,How many sides does a triangle have?,2,3,4,5,B,A triangle has three sides.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N03,Geometry Garden,Which pair both have four sides?,Square and rectangle,Circle and triangle,Circle and oval,Triangle and circle,A,Squares and rectangles both have four sides.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N03,Geometry Garden,Which shape could make a round garden bed?,Circle,Triangle,Square only,Line,A,A circle forms a round bed.,advanced,GM-NUR-PROD-V1
-GM-NUR,Nursery 3,N03,Geometry Garden,A bed has four equal sides. What shape is it?,Square,Circle,Triangle,Oval,A,Four equal sides describe a square.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 3,N04,Leaf Garden,Which observation best shows that a leaf has changed?,It became larger,The table moved,A bell rang,A pencil broke,A,An increase in leaf size is a plant-growth observation.,standard,GM-NUR-B001
 GM-NUR,Nursery 3,N04,Leaf Garden,Which plant part is usually flat and green?,Leaf,Root,Stone,Pot,A,A leaf is commonly flat and green.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N04,Leaf Garden,Which leaf is bigger?,The longer wider leaf,The smallest leaf,A stone,A stick,A,Length and width help us compare leaf size.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N04,Leaf Garden,What can we look at when comparing leaves?,Shape,Shoe size,Clock time,Desk number,A,Leaf shape is an observable feature.,foundation,GM-NUR-PROD-V1
@@ -267,7 +239,7 @@ GM-NUR,Nursery 3,N04,Leaf Garden,What should we do before touching a leaf for ob
 GM-NUR,Nursery 3,N04,Leaf Garden,Which observation describes a change?,The leaf became larger,The chair is blue,The bell rang,A book opened,A,A larger leaf is a change in the plant.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N04,Leaf Garden,What tool can help compare leaf length?,Ruler,Plate,Shoe,Cup,A,A ruler can measure leaf length.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N04,Leaf Garden,Two leaves have different edges. What are we comparing?,Leaf shape and edge,School uniform,Weather only,Desk height,A,Leaf edges are visible features for comparison.,advanced,GM-NUR-PROD-V1
-GM-NUR,Nursery 3,N04,Leaf Garden,Why record leaf observations on different days?,To notice changes over time,To make the leaf noisy,To stop growth,To hide the plant,A,Repeated observations show changes over time.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 3,N05,Butterfly Garden,Why should we avoid damaging flowers in a butterfly garden?,Flowers support visiting pollinators,Flowers are toys,Flowers are stones,Flowers stop all insects,A,Healthy flowers can provide food resources for pollinators.,standard,GM-NUR-B001
 GM-NUR,Nursery 3,N05,Butterfly Garden,Which animal often visits flowers?,Butterfly,Fish,Catfish,Goat,A,Butterflies often visit flowers.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N05,Butterfly Garden,What do many butterflies drink from flowers?,Nectar,Sand,Plastic,Chalk,A,Many butterflies feed on flower nectar.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N05,Butterfly Garden,Which part attracts many visiting butterflies?,Flowers,Broken glass,Bare concrete,Plastic bags,A,Flowers can attract butterflies.,foundation,GM-NUR-PROD-V1
@@ -277,7 +249,7 @@ GM-NUR,Nursery 3,N05,Butterfly Garden,What may a butterfly carry between flowers
 GM-NUR,Nursery 3,N05,Butterfly Garden,Which garden is friendliest to butterflies?,One with healthy flowering plants,One with no plants,One covered in litter,One with broken glass,A,Flowering plants provide food and habitat.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N05,Butterfly Garden,What should we avoid spraying near butterflies?,Unknown chemicals,Clean water on soil,Nothing at all,Observation notes,A,Unknown chemicals may harm butterflies and other organisms.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N05,Butterfly Garden,A butterfly moves from flower to flower. What is it helping with?,Pollination,Painting,Digging,Sweeping,A,Flower visits can help transfer pollen.,advanced,GM-NUR-PROD-V1
-GM-NUR,Nursery 3,N05,Butterfly Garden,Why count butterfly visits?,To compare garden observations,To scare butterflies,To remove flowers,To stop learning,A,Counting visits creates useful observations.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 3,N06,ReBottle Garden,Which reused container is safest for a school planter?,Clean smooth plastic bottle,Broken glass bottle,Rusty sharp can,Container with chemicals,A,A clean smooth plastic container avoids sharp and chemical hazards.,standard,GM-NUR-B001
 GM-NUR,Nursery 3,N06,ReBottle Garden,What can be reused as a small planter?,Clean plastic bottle,Broken glass,Dirty chemical container,Sharp metal,A,A clean suitable plastic bottle can be reused safely.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N06,ReBottle Garden,What should a bottle planter hold?,Growing mix,Broken glass,School books,Metal nails,A,A planter holds a safe growing medium.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N06,ReBottle Garden,Why make drainage holes?,To let extra water out,To make music,To hold pencils,To add weight,A,Drainage holes allow excess water to leave.,foundation,GM-NUR-PROD-V1
@@ -287,7 +259,7 @@ GM-NUR,Nursery 3,N06,ReBottle Garden,Where should a drainage hole be placed?,Nea
 GM-NUR,Nursery 3,N06,ReBottle Garden,What can grow in a bottle planter?,A small suitable plant,A stone,A pencil,A shoe,A,Small plants can grow in suitable bottle planters.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N06,ReBottle Garden,Why reuse a bottle in the garden?,To give it another useful purpose,To create sharp waste,To dirty the garden,To stop plants growing,A,Reuse gives a suitable container another useful purpose.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N06,ReBottle Garden,What should we check after watering a bottle planter?,That extra water can drain,That the cap is noisy,That books are wet,That soil is removed,A,Drainage helps prevent waterlogging.,advanced,GM-NUR-PROD-V1
-GM-NUR,Nursery 3,N06,ReBottle Garden,Which action makes a bottle planter safer?,Smooth or cover cut edges,Leave sharp edges,Use chemical residue,Break the bottle,A,Cut edges should be made safe before use.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 3,N07,MicroGrow Garden,What happens after a seed germinates successfully?,A young shoot begins to grow,It becomes a stone,It turns into plastic,It disappears,A,Germination produces early root and shoot growth.,standard,GM-NUR-B001
 GM-NUR,Nursery 3,N07,MicroGrow Garden,What is a very young plant called?,Seedling,Stone,Chair,Cup,A,A seedling is a young plant.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N07,MicroGrow Garden,What helps a seed start germinating?,Water,Plastic toy,Paint,Metal,A,Water is needed for germination.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N07,MicroGrow Garden,What may appear first when a seed germinates?,A tiny root or shoot,A stone,A spoon,A shoe,A,Germination produces early root and shoot growth.,foundation,GM-NUR-PROD-V1
@@ -297,7 +269,7 @@ GM-NUR,Nursery 3,N07,MicroGrow Garden,What does a seed need besides water to gro
 GM-NUR,Nursery 3,N07,MicroGrow Garden,How can we tell a seedling is growing?,It becomes taller or makes new leaves,It turns to metal,It disappears,It becomes a book,A,Height and new leaves are visible growth signs.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N07,MicroGrow Garden,Why observe seedlings each day?,To notice germination and growth,To stop growth,To hide them,To remove roots,A,Daily observations reveal changes.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N07,MicroGrow Garden,What should we do if the growing medium is already wet?,Avoid adding too much water,Flood it again,Remove every seed,Cover it with plastic litter,A,Too much water can be harmful.,advanced,GM-NUR-PROD-V1
-GM-NUR,Nursery 3,N07,MicroGrow Garden,Which sequence is correct?,Seed then germination then seedling,Seedling then stone then seed,Flower then chair then seed,Root then plastic then seed,A,A seed germinates and develops into a seedling.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 3,N08,Mini Table Garden,Why is a small table garden useful for observation?,Plants are easy to reach and inspect,It hides every plant,It needs no care,It stops plants growing,A,Accessible plants are easier for young learners to observe.,standard,GM-NUR-B001
 GM-NUR,Nursery 3,N08,Mini Table Garden,Where do table-garden plants grow?,In growing mix held by the table bed,On a clock,Inside a shoe,On a book,A,A table garden contains growing medium.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N08,Mini Table Garden,Why is a mini table garden easy to observe?,Plants are raised and accessible,Plants are hidden,It has no plants,It is locked away,A,Raised plants are easier to reach and inspect.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N08,Mini Table Garden,What should we check before watering?,Soil moisture,Chair colour,Book count,Clock sound,A,Checking moisture helps guide watering.,foundation,GM-NUR-PROD-V1
@@ -307,7 +279,7 @@ GM-NUR,Nursery 3,N08,Mini Table Garden,Why should the table garden have drainage
 GM-NUR,Nursery 3,N08,Mini Table Garden,Which action keeps a table garden tidy?,Remove litter and keep paths clear,Throw plastic into it,Break plants,Flood the floor,A,A tidy learning garden is safer and easier to use.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N08,Mini Table Garden,What tool can record plant height?,Ruler,Plate,Pillow,Cup,A,A ruler can measure plant height.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N08,Mini Table Garden,If one plant is taller than another what are we comparing?,Height,Colour of desks,School bell,Book pages,A,Tall and short describe height.,advanced,GM-NUR-PROD-V1
-GM-NUR,Nursery 3,N08,Mini Table Garden,Why record table-garden observations each week?,To track growth over time,To stop watering forever,To hide results,To remove plants,A,Weekly records show how plants change.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 3,N09,Sack Garden,Why can plants grow at different openings in a sack garden?,The sack can hold soil around several planting points,The sack has electricity,The sack is a book,The sack makes sunlight,A,A filled sack can support several planting positions.,standard,GM-NUR-B001
 GM-NUR,Nursery 3,N09,Sack Garden,What holds soil in a sack garden?,Sack,Plate,Pencil,Chair,A,The sack contains the growing soil.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N09,Sack Garden,Where should water be directed?,Into the growing soil,Onto books,At learners,Onto a wall,A,Water belongs in the growing medium.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N09,Sack Garden,Where can plants grow in a sack garden?,At suitable planting openings,Inside a pencil,On a clock,Under a shoe,A,Plants can grow from prepared openings.,foundation,GM-NUR-PROD-V1
@@ -317,7 +289,7 @@ GM-NUR,Nursery 3,N09,Sack Garden,Why should a sack stand securely?,So it does no
 GM-NUR,Nursery 3,N09,Sack Garden,What happens if water drains from the bottom?,Extra water is leaving,The sack is making electricity,The plants are books,The soil is disappearing instantly,A,Drainage allows excess water to leave.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N09,Sack Garden,Which plant is best for a small sack opening?,A suitable small crop,A large tree,A metal pole,A chair,A,Small crops suit limited planting openings.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N09,Sack Garden,Why observe plants at different sack openings?,To compare how they grow,To remove them daily,To hide them,To stop watering,A,Comparing positions can reveal growth differences.,advanced,GM-NUR-PROD-V1
-GM-NUR,Nursery 3,N09,Sack Garden,What keeps a sack garden healthy?,Watering as needed and caring for plants,Never observing it,Adding litter,Breaking stems,A,Regular appropriate care supports plant growth.,advanced,GM-NUR-PROD-V1
+GM-NUR,Nursery 3,N10,Discovery Garden,What is the best way to find out whether a plant grew this week?,Compare observations from two times,Guess without looking,Pull out the plant,Ignore the garden,A,Comparing observations over time shows change.,standard,GM-NUR-B001
 GM-NUR,Nursery 3,N10,Discovery Garden,What should we do when we see a new leaf?,Observe it,Break it,Hide it,Step on it,A,Observation helps us notice growth.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N10,Discovery Garden,What can we use to record what we see?,Observation sheet,Football,Pillow,Plate,A,An observation sheet records findings.,foundation,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N10,Discovery Garden,Why look at the same plant on different days?,To notice changes,To make it disappear,To stop growth,To change the weather,A,Repeated observations reveal change.,foundation,GM-NUR-PROD-V1
@@ -327,4 +299,3 @@ GM-NUR,Nursery 3,N10,Discovery Garden,If a plant has more leaves this week what 
 GM-NUR,Nursery 3,N10,Discovery Garden,What is a fair way to compare two plants?,Observe the same feature on both,Guess without looking,Pull both out,Change one answer later,A,Using the same observation supports a fair comparison.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N10,Discovery Garden,Why draw a plant in an observation book?,To record how it looks,To stop it growing,To water the book,To hide the plant,A,A drawing can document visible features.,standard,GM-NUR-PROD-V1
 GM-NUR,Nursery 3,N10,Discovery Garden,What should we do if we are unsure what changed?,Look carefully and compare earlier records,Guess quickly,Break the plant,Ignore all notes,A,Earlier records help verify change.,advanced,GM-NUR-PROD-V1
-GM-NUR,Nursery 3,N10,Discovery Garden,Which sequence supports discovery?,Observe record compare,Break hide forget,Guess erase ignore,Run shout leave,A,"Observation, recording and comparison support discovery.",advanced,GM-NUR-PROD-V1
