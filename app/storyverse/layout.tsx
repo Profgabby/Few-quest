@@ -1,0 +1,1 @@
+import type {ReactNode} from "react";import "@/components/storyverse/storyverse.css";export default function StoryVerseLayout({children}:{children:ReactNode}){return children}
