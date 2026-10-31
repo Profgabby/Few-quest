@@ -1,0 +1,6 @@
+import Link from "next/link";
+import type {ReactNode} from "react";
+const tabs=[['','Home'],['library','Library'],['dashboard','My Dashboard'],['rewards','Rewards'],['family','Family'],['creator','Creator Studio'],['admin','Publishing']];
+export function StudioShell({locale,title,eyebrow='LIFEWS STORYVERSE',children}:{locale:string;title:string;eyebrow?:string;children:ReactNode}){return <div className="sv-root"><div className="sv-top"><Link className="sv-brand" href={`/${locale}/storyverse`}>✦ LIFEWS <span>StoryVerse</span></Link><Link className="sv-return" href={`/${locale}`}>FEW Quest ↗</Link></div><nav className="sv-nav" aria-label="StoryVerse navigation">{tabs.map(([slug,label])=><Link key={slug} href={`/${locale}/storyverse${slug?'/'+slug:''}`}>{label}</Link>)}</nav><main className="sv-container"><p className="sv-eyebrow">{eyebrow} · LOCAL PREVIEW</p><h1 className="sv-title">{title}</h1>{children}</main><footer className="sv-footer">StoryVerse preview · No accounts, publishing, or cloud rewards are active · Independent of FEW Quest competitions</footer></div>}
+export function Panel({title,children}:{title:string;children:ReactNode}){return <section className="sv-panel"><h2>{title}</h2>{children}</section>}
+export function Notice({children}:{children:ReactNode}){return <p className="sv-notice" role="status">{children}</p>}
