@@ -1,0 +1,21 @@
+PASS empty guest state
+PASS save and load guest
+PASS deduplicated saved identifiers
+PASS invalid entries ignored
+PASS malformed JSON resets
+PASS invalid level resets
+PASS badge milestones
+PASS storage exception fails safely
+8 offline guest-progress tests passed
+
+PASS three distinct story levels
+PASS unique story slugs
+PASS valid nonempty story metadata
+PASS every scene has readable content
+PASS each optional quiz has one correct answer
+PASS each choice has feedback
+PASS reward amounts
+PASS reward keys distinguish kind and source
+PASS reward source rejects invalid input
+PASS reward event yields configured points
+10 catalog/rewards tests passed
