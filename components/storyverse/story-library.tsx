@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import {useSearchParams} from "next/navigation";
 import {useMemo,useState} from "react";
 import type {Story,StoryLevel} from "@/lib/storyverse/catalog";
 
@@ -15,9 +14,8 @@ const images:Record<string,string>={
  "missing-watering-can":"missing-watering-can.webp.png"
 };
 const root="/storyverse/images/";
-export function StoryLibrary({stories,locale}:{stories:Story[];locale:string}){
- const params=useSearchParams();
- const initial=params.get("level");
+export function StoryLibrary({stories,locale,initialLevel}:{stories:Story[];locale:string;initialLevel?:string}){
+ const initial=initialLevel;
  const [level,setLevel]=useState<StoryLevel|"all">(initial==="1"||initial==="2"||initial==="3"?Number(initial) as StoryLevel:"all");
  const [world,setWorld]=useState("All worlds");
  const [search,setSearch]=useState("");
