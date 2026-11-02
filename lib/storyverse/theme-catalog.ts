@@ -29,3 +29,17 @@ export const storyConcepts:StoryConcept[]=storyThemes.flatMap(([themeId,theme])=
 export const STORY_COLLECTION_TARGET=12000;
 export const TARGET_STORIES_PER_THEME=200;
 export const INITIAL_CONCEPTS_PER_THEME=50;
+
+export const TARGET_PER_TIER={1:70,2:70,3:60} as const;
+export const storyCollectionPlan=storyThemes.map(([themeId,theme])=>({
+ themeId,theme,target:TARGET_STORIES_PER_THEME,
+ tierTargets:[{tier:1 as const,count:TARGET_PER_TIER[1]},{tier:2 as const,count:TARGET_PER_TIER[2]},{tier:3 as const,count:TARGET_PER_TIER[3]}],
+ seededConcepts:storyConcepts.filter(c=>c.themeId===themeId).length,
+ publishedCount:0 // Roadmap-only count; do not infer publication from this plan.
+}));
+export function validateStoryCollectionPlan(){
+ const ids=new Set(storyConcepts.map(c=>c.id));
+ return {themes:storyThemes.length,seededConcepts:storyConcepts.length,uniqueConceptIds:ids.size,
+ target:storyCollectionPlan.reduce((sum,c)=>sum+c.target,0),
+ consistent:storyThemes.length===60&&storyConcepts.length===3000&&ids.size===storyConcepts.length&&storyCollectionPlan.every(c=>c.seededConcepts===50&&c.tierTargets.reduce((n,t)=>n+t.count,0)===c.target)};
+}
