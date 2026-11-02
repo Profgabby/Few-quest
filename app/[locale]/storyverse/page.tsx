@@ -3,6 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/i18n";
 import { stories } from "@/lib/storyverse/catalog";
+import {storyThemes,STORY_COLLECTION_TARGET} from "@/lib/storyverse/theme-catalog";
 import { StudioShell, Panel, Notice } from "@/components/storyverse/studio-shell";
 
 const imageRoot = "/storyverse/images/";
@@ -33,6 +34,19 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         </div>
       </section>
+      <section aria-label="Choose your StoryVerse experience" className="sv-grid" style={{gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))"}}>
+        <article className="sv-card" style={{borderTop:"6px solid #006B3C"}}>
+          <span className="sv-tag">SCHOOLS AND EDUCATORS</span><h2>Explore as a School</h2>
+          <p>Curriculum connections, classroom reading, school groups, and teacher-led activities. School accounts and assignments require secure integration.</p>
+          <Link className="sv-button" href={`/${locale}/storyverse/school`}>Explore as a School →</Link>
+        </article>
+        <article className="sv-card" style={{borderTop:"6px solid #FDB515"}}>
+          <span className="sv-tag">EVERYONE IS WELCOME</span><h2>Explore as an Individual, Family or Community</h2>
+          <p>Discover stories independently or with family and community groups. Guest reading progress remains local to your device.</p>
+          <Link className="sv-button alt" href={`/${locale}/storyverse/dashboard`}>Explore Individual, Family or Community →</Link>
+        </article>
+      </section>
+      <p className="sv-muted">Shared collection roadmap: {storyThemes.length} themes · {STORY_COLLECTION_TARGET.toLocaleString("en-US")} planned stories · three reading tiers. Only the approved pilot content is currently readable.</p>
       <Notice>Editorial pilot: the available story text is English. Narration and reviewed translations are planned, not yet available.</Notice>
       <h2>Choose your reading adventure</h2>
       <div className="sv-grid sv-photo-grid">
