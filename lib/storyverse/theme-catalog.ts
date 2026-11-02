@@ -1,5 +1,9 @@
 export const storyThemes=[
-["garden","Garden Adventures"],["nature","Nature & Wildlife"],["water","Water & Rivers"],["food","Food & Nutrition"],["energy","Solar & Clean Energy"],["science","Science Discoveries"],["math","Mathematics Mysteries"],["culture","Culture & Traditions"],["family","Family & Friendship"],["school","School Life"],["environment","Environmental Heroes"],["health","Health & Wellbeing"],["technology","Technology & Inventions"],["space","Space & Exploration"],["history","History & Heritage"],["values","Ethics & Character"],["business","Entrepreneurship & Money"],["art","Art, Music & Creativity"],["sports","Sports & Teamwork"],["future","Future Worlds & Innovation"]
+["garden","Garden Adventures"],["nature","Nature & Wildlife"],["water","Water & Rivers"],["food","Food & Nutrition"],["energy","Solar & Clean Energy"],["science","Science Discoveries"],["math","Mathematics Mysteries"],["culture","Culture & Traditions"],["family","Family & Friendship"],["school","School Life"],["environment","Environmental Heroes"],["health","Health & Wellbeing"],["technology","Technology & Inventions"],["space","Space & Exploration"],["history","History & Heritage"],["values","Ethics & Character"],["business","Entrepreneurship & Money"],["art","Art, Music & Creativity"],["sports","Sports & Teamwork"],["future","Future Worlds & Innovation"],
+["agriculture","Farming & Food Systems"],["climate","Climate & Weather"],["oceans","Oceans & Marine Life"],["forests","Forests & Biodiversity"],["animals","Animal Companions"],["plants","Plants & Botany"],["engineering","Engineering & Design"],["robots","Robotics & AI"],["coding","Coding & Digital Life"],["transport","Transport & Mobility"],
+["cities","Cities & Communities"],["leadership","Leadership & Service"],["peace","Peace & Cooperation"],["inclusion","Inclusion & Belonging"],["languages","Languages & Communication"],["folklore","Folktales & Legends"],["mythology","Myths & Imagination"],["mystery","Mystery & Detective"],["fantasy","Fantasy & Magic"],["adventure","Adventure & Discovery"],
+["humor","Humor & Everyday Life"],["poetry","Poetry & Expression"],["music","Music & Performance"],["crafts","Crafts & Making"],["money","Financial Literacy"],["careers","Careers & Work"],["citizenship","Citizenship & Responsibility"],["safety","Safety & Preparedness"],["emotions","Emotions & Resilience"],["mindfulness","Mindfulness & Reflection"],
+["nutrition","Cooking & Healthy Meals"],["recycling","Recycling & Circular Economy"],["watertech","Water Technology"],["renewables","Renewable Energy Systems"],["inventions","Inventors & Discoveries"],["geography","Geography & Places"],["travel","Travel & World Cultures"],["accessibility","Accessibility & Universal Design"],["volunteering","Volunteering & Kindness"],["sustainability","Sustainable Futures"]
 ] as const;
 export const tierNames=["Little Explorers","Story Adventurers","Master Storytellers"] as const;
 const prompts=[
@@ -20,3 +24,8 @@ export const storyConcepts:StoryConcept[]=storyThemes.flatMap(([themeId,theme])=
  const tier=(index<17?1:index<34?2:3) as ThemeTier;
  return {id:`SV-${themeId.toUpperCase()}-${String(index+1).padStart(2,"0")}`,themeId,theme,tier,tierName:tierNames[tier-1],title:`${theme}: ${prompt}`,status:"concept" as const,summary:`A ${tierNames[tier-1].toLowerCase()} story concept exploring ${theme.toLowerCase()} through ${prompt.toLowerCase()}.`};
 }));
+
+/** Roadmap capacity: 60 categories x 200 original manuscripts = 12,000 stories. */
+export const STORY_COLLECTION_TARGET=12000;
+export const TARGET_STORIES_PER_THEME=200;
+export const INITIAL_CONCEPTS_PER_THEME=50;
