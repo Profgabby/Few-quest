@@ -15,7 +15,7 @@ export function FamilyPreview({locale="en"}:{locale?:string}){
  const [tier,setTier]=useState<ThemeTier>(1);
  const [conceptId,setConceptId]=useState("SV-GARDEN-01");
  const concepts=storyConcepts.filter(x=>x.themeId===theme&&x.tier===tier);
- const concept=storyConcepts.find(x=>x.id===conceptId);
+ const concept=concepts.find(x=>x.id===conceptId);
  const chosen=stories.find(s=>s.slug===story);
  const plan=["LIFEWS StoryVerse reading plan","Reader group: "+audience,"Theme: "+(storyThemes.find(x=>x[0]===theme)?.[1]??theme),"Tier: "+tierNames[tier-1],"Planned story concept: "+(concept?.title??"Not selected"),"Story: "+(chosen?.title??"Not selected"),"Activity: "+mode,"Sessions each week: "+goal,"Preferred days: "+(days.join(", ")||"Flexible"),"Discuss: What surprised you? What would you do differently?"].join("\n");
  function toggle(day:string){setDays(old=>old.includes(day)?old.filter(d=>d!==day):[...old,day]);setCopied(false);}
