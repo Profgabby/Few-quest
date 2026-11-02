@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import {useMemo,useState} from "react";
 import type {Story,StoryLevel} from "@/lib/storyverse/catalog";
-import {storyThemes,storyConcepts} from "@/lib/storyverse/theme-catalog";
+import {storyThemes,storyConcepts,STORY_COLLECTION_TARGET,TARGET_STORIES_PER_THEME} from "@/lib/storyverse/theme-catalog";
 
 const levels:{id:StoryLevel;name:string;description:string;image:string}[]=[
  {id:1,name:"Little Explorers",description:"Picture-led discoveries and first reading steps",image:"little-explorers.webp.png"},
@@ -36,7 +36,7 @@ export function StoryLibrary({stories,locale,initialLevel}:{stories:Story[];loca
   </button>)}</div>
   <div className="sv-library-filters">
    <label>Reader group<select value={audience} onChange={e=>setAudience(e.target.value)}>{["Individual reader","Family or caregiver","Teacher or classroom","School reading club","Community reading group","Adult learner","Librarian or facilitator","Story creator"].map(a=><option key={a}>{a}</option>)}</select></label>
-   <label>Category / theme<select value={theme} onChange={e=>{setTheme(e.target.value);setPage(1);}}><option value="all">All 20 categories</option>{storyThemes.map(([id,name])=><option key={id} value={id}>{name} · 50 planned stories</option>)}</select></label>
+   <label>Category / theme<select value={theme} onChange={e=>{setTheme(e.target.value);setPage(1);}}><option value="all">All 60 categories</option>{storyThemes.map(([id,name])=><option key={id} value={id}>{name} · 200-story target</option>)}</select></label>
    <label>Search stories<input type="search" value={search} onChange={e=>{setSearch(e.target.value);setPage(1);}} placeholder="Title, topic or garden code"/></label>
    <label>Story world<select value={world} onChange={e=>setWorld(e.target.value)}>{worlds.map(w=><option key={w}>{w}</option>)}</select></label>
    <button type="button" onClick={()=>{setLevel("all");setWorld("All worlds");setSearch("");setTheme("all");setPage(1);}}>Clear filters</button>
@@ -47,6 +47,6 @@ export function StoryLibrary({stories,locale,initialLevel}:{stories:Story[];loca
    <div className="sv-card-body"><span className="sv-tag">Level {s.levelNumber} · {s.world}</span><h2>{s.title}</h2><p>{s.description}</p>{s.gardenCode&&<p className="sv-muted">Garden connection: {s.gardenCode}</p>}<Link href={`/${locale}/storyverse/read/${s.slug}`}>Read this story →</Link></div>
   </article>)}</div>
   {visible.length===0&&<p role="status">No readable pilot story matches these filters. Browse planned concepts below.</p>}
-  <section aria-label="Planned StoryVerse collection"><h2>20 themes · 1,000 planned story concepts</h2><p className="sv-muted">Each category contains 50 concepts divided into three tiers (17 / 17 / 16). These are editorial outlines, not completed stories. The 3 readable pilot stories are displayed above.</p><p role="status">Showing {shownConcepts.length} of {concepts.length} concepts · Reader group: {audience}</p><div className="sv-grid">{shownConcepts.map(c=><article className="sv-card" key={c.id}><span className="sv-tag">{c.id} · Tier {c.tier}</span><h3>{c.title}</h3><p>{c.summary}</p><p className="sv-muted">{c.tierName} · Concept awaiting manuscript</p></article>)}</div><div className="sv-actions"><button type="button" disabled={currentPage===1} onClick={()=>setPage(p=>Math.max(1,p-1))}>Previous</button><span aria-live="polite">Page {currentPage} of {pages}</span><button type="button" disabled={currentPage===pages} onClick={()=>setPage(p=>Math.min(pages,p+1))}>Next</button></div></section>
+  <section aria-label="Planned StoryVerse collection"><h2>{storyThemes.length} themes · {STORY_COLLECTION_TARGET.toLocaleString("en-US")} story roadmap</h2><p className="sv-muted">Each category currently has 50 initial editorial concepts across three tiers (17 / 17 / 16), with a target of 200 original manuscripts per category. These concepts are not completed stories. The 3 readable pilot stories are displayed above.</p><p role="status">Showing {shownConcepts.length} of {concepts.length} concepts · Reader group: {audience}</p><div className="sv-grid">{shownConcepts.map(c=><article className="sv-card" key={c.id}><span className="sv-tag">{c.id} · Tier {c.tier}</span><h3>{c.title}</h3><p>{c.summary}</p><p className="sv-muted">{c.tierName} · Concept awaiting manuscript</p></article>)}</div><div className="sv-actions"><button type="button" disabled={currentPage===1} onClick={()=>setPage(p=>Math.max(1,p-1))}>Previous</button><span aria-live="polite">Page {currentPage} of {pages}</span><button type="button" disabled={currentPage===pages} onClick={()=>setPage(p=>Math.min(pages,p+1))}>Next</button></div></section>
  </section>;
 }
