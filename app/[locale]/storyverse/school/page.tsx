@@ -1,3 +1,4 @@
+import {StoryVerseAsset,StoryVerseVisuals} from "@/components/storyverse/visual-assets";
 import {ReadingWorkflow} from "@/components/storyverse/reading-workflow";
 import Link from "next/link";
 import {ExperienceDashboard} from "@/components/storyverse/experience-dashboard";
@@ -7,7 +8,7 @@ import {StudioShell,Notice,Panel} from "@/components/storyverse/studio-shell";
 import {storyThemes,STORY_COLLECTION_TARGET} from "@/lib/storyverse/theme-catalog";
 export default async function Page({params}:{params:Promise<{locale:string}>}){
  const {locale}=await params;if(!isLocale(locale))notFound();
- return <StudioShell locale={locale} title="School StoryVerse" eyebrow="SCHOOL READING ENVIRONMENT">
+ return <StudioShell locale={locale} title="School StoryVerse" eyebrow="SCHOOL READING ENVIRONMENT"><StoryVerseAsset name="school-progress" hero alt="school StoryVerse workspace"/><StoryVerseVisuals items={[{"name":"school-progress","title":"Reading progress","alt":"Reading progress StoryVerse illustration"},{"name":"school-review","title":"Teacher review","alt":"Teacher review StoryVerse illustration"}]}/>
  <p className="sv-lead">A dedicated school entry point to the shared StoryVerse collection, designed for teachers, classrooms, school leaders and learners.</p>
  <Notice>This is a school-experience preview, not an authenticated school dashboard. Class enrollment, teacher assignments, pupil records and school analytics are not active.</Notice>
  <ExperienceDashboard locale={locale} mode="school"/><ReadingWorkflow locale={locale} mode="school"/>
