@@ -1,3 +1,4 @@
+import {StoryVerseAsset} from "@/components/storyverse/visual-assets";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -8,9 +9,9 @@ import { StudioShell, Panel, Notice } from "@/components/storyverse/studio-shell
 
 const imageRoot = "/storyverse/images/";
 const levels = [
-  { name: "Little Explorers", description: "Picture-led discoveries and first reading steps", image: "little-explorers.webp.png" },
-  { name: "Story Adventurers", description: "Choices, mysteries, and comprehension", image: "story-adventurers.webp.png" },
-  { name: "Master Storytellers", description: "Advanced narratives, ethics, and investigations", image: "master-storytellers.webp.png" },
+  { name: "Little Explorers", description: "Picture-led discoveries and first reading steps", image: "sv-level-little-explorers.webp.png" },
+  { name: "Story Adventurers", description: "Choices, mysteries, and comprehension", image: "sv-level-story-adventurers.webp.png" },
+  { name: "Master Storytellers", description: "Advanced narratives, ethics, and investigations", image: "sv-level-master-storytellers.webp.png" },
 ];
 const storyImages: Record<string, string> = {
   "little-seed": "little-seed-story.webp.png",
@@ -23,7 +24,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   return (
     <StudioShell locale={locale} title="Every Story Opens a World">
       <section className="sv-photo-hero">
-        <Image src={imageRoot + "storyverse-hero.webp.png"} alt="Young explorers looking across a scenic river valley" fill priority sizes="(max-width: 768px) 100vw, 1160px" className="sv-photo-hero-image" />
+        <Image src={imageRoot + "sv-home-hero.webp"} alt="Young explorers looking across a scenic river valley" fill priority sizes="(max-width: 768px) 100vw, 1160px" className="sv-photo-hero-image" />
         <div className="sv-photo-hero-content">
           <p className="sv-photo-kicker">READ · LISTEN · READ &amp; PLAY</p>
           <h2>Stories for every curious mind.</h2>
@@ -36,12 +37,12 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       </section>
       <section aria-label="Choose your StoryVerse experience" className="sv-grid" style={{gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))"}}>
         <article className="sv-card" style={{borderTop:"6px solid #006B3C"}}>
-          <span className="sv-tag">SCHOOLS AND EDUCATORS</span><h2>Explore as a School</h2>
+          <StoryVerseAsset name="home-school" alt="Teacher reading with pupils"/><span className="sv-tag">SCHOOLS AND EDUCATORS</span><h2>Explore as a School</h2>
           <p>Curriculum connections, classroom reading, school groups, and teacher-led activities. School accounts and assignments require secure integration.</p>
           <Link className="sv-button" href={`/${locale}/storyverse/school`}>Explore as a School →</Link>
         </article>
         <article className="sv-card" style={{borderTop:"6px solid #FDB515"}}>
-          <span className="sv-tag">EVERYONE IS WELCOME</span><h2>Explore as an Individual, Family or Community</h2>
+          <StoryVerseAsset name="home-community" alt="Family and community reading together"/><span className="sv-tag">EVERYONE IS WELCOME</span><h2>Explore as an Individual, Family or Community</h2>
           <p>Discover stories independently or with family and community groups. Guest reading progress remains local to your device.</p>
           <Link className="sv-button alt" href={`/${locale}/storyverse/dashboard`}>Explore Individual, Family or Community →</Link>
         </article>
