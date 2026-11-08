@@ -18,7 +18,6 @@ export function StoryLibrary({stories,locale,initialLevel}:{stories:Story[];loca
  const [level,setLevel]=useState<StoryLevel|"all">(initialLevel==="1"||initialLevel==="2"||initialLevel==="3"?Number(initialLevel) as StoryLevel:"all");
  const [group,setGroup]=useState("all");
  const [category,setCategory]=useState("all");
- const [topic,setTopic]=useState("all");
  const [search,setSearch]=useState("");
  const [mobileFilters,setMobileFilters]=useState(false);
  const groupCategories=useMemo(()=>storyThemes.filter(([id])=>group==="all"||categoryToGroup[id]===group),[group]);
@@ -33,25 +32,25 @@ export function StoryLibrary({stories,locale,initialLevel}:{stories:Story[];loca
   const q=search.trim().toLowerCase();
   const matchesSearch=!q||[s.title,s.description,s.world,s.gardenCode??"",storyThemes.find(([key])=>key===id)?.[1]??"",discoveryGroups.find(g=>g.id===categoryToGroup[id])?.name??""].join(" ").toLowerCase().includes(q);
   // Topic assignment requires reviewed story metadata; do not guess it from titles.
-  return matchesGroup&&matchesCategory&&matchesLevel&&matchesSearch&&(topic==="all");
+  return matchesGroup&&matchesCategory&&matchesLevel&&matchesSearch;
  });
- const clear=()=>{setGroup("all");setCategory("all");setTopic("all");setLevel("all");setSearch("");};
+ const clear=()=>{setGroup("all");setCategory("all");setLevel("all");setSearch("");};
  return <section className="sv-library" aria-label="Browse stories">
  <div style={{margin:"20px 0 26px"}}><label htmlFor="sv-story-search" style={{fontWeight:700,display:"block",marginBottom:8}}>Find a story</label><input id="sv-story-search" type="search" value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search by story title, subject or category" style={{width:"100%",padding:"15px 18px",borderRadius:12,border:"1px solid #b7d3c3",fontSize:16}}/></div>
  <div className="sv-grid sv-photo-grid" aria-label="Choose a reading level">{levels.map(l=><button type="button" key={l.id} className="sv-level-choice" aria-pressed={level===l.id} onClick={()=>setLevel(level===l.id?"all":l.id)}><span className="sv-level-choice-image"><Image src={root+l.image} alt="" fill sizes="(max-width:600px) 100vw, 33vw"/></span><span className="sv-level-choice-text"><strong>{l.name}</strong><small>{l.description}</small></span></button>)}</div>
- <button type="button" onClick={()=>setMobileFilters(v=>!v)} aria-expanded={mobileFilters} aria-controls="sv-library-filters" style={{padding:"10px 16px",margin:"18px 0",borderRadius:9,border:"1px solid #006B3C",background:"white",color:"#006B3C",fontWeight:700}}> {mobileFilters?"Hide filters":"Browse categories & filters"} </button>
- <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(min(100%,260px),1fr))",gap:24,alignItems:"start"}}>
- <aside id="sv-library-filters" aria-label="Story filters" style={{display:mobileFilters?"block":"block",border:"1px solid #d5e5da",borderRadius:16,padding:18,background:"#f7fbf8"}}>
+ <button className="sv-discovery-toggle" type="button" onClick={()=>setMobileFilters(v=>!v)} aria-expanded={mobileFilters} aria-controls="sv-library-filters" style={{padding:"10px 16px",margin:"18px 0",borderRadius:9,border:"1px solid #006B3C",background:"white",color:"#006B3C",fontWeight:700}}> {mobileFilters?"Hide filters":"Browse categories & filters"} </button>
+ <style>{`@media(max-width:767px){.sv-discovery-sidebar:not(.sv-discovery-sidebar-open){display:none!important}.sv-discovery-layout{display:block!important}.sv-discovery-results{grid-column:auto!important}}@media(min-width:768px){.sv-discovery-toggle{display:none!important}}`}</style><div className="sv-discovery-layout" style={{display:"grid",gridTemplateColumns:"minmax(240px,290px) minmax(0,1fr)",gap:24,alignItems:"start"}}>
+ <aside className={`sv-discovery-sidebar ${mobileFilters?"sv-discovery-sidebar-open":""}`} id="sv-library-filters" aria-label="Story filters" style={{display:mobileFilters?"block":"block",border:"1px solid #d5e5da",borderRadius:16,padding:18,background:"#f7fbf8"}}>
  <h2 style={{fontSize:21,marginTop:0}}>Explore by category</h2>
- <label style={{display:"block",marginBottom:12}}>Discovery group<select style={{width:"100%",marginTop:5}} value={group} onChange={e=>{setGroup(e.target.value);setCategory("all");setTopic("all");}}><option value="all">All discovery groups</option>{discoveryGroups.map(g=><option value={g.id} key={g.id}>{g.name}</option>)}</select></label>
- <label style={{display:"block",marginBottom:12}}>Category<select style={{width:"100%",marginTop:5}} value={category} onChange={e=>{setCategory(e.target.value);setTopic("all");}}><option value="all">All categories</option>{groupCategories.map(([id,name])=><option value={id} key={id}>{name}</option>)}</select></label>
+ <label style={{display:"block",marginBottom:12}}>Discovery group<select style={{width:"100%",marginTop:5}} value={group} onChange={e=>{setGroup(e.target.value);setCategory("all");}}><option value="all">All discovery groups</option>{discoveryGroups.map(g=><option value={g.id} key={g.id}>{g.name}</option>)}</select></label>
+ <label style={{display:"block",marginBottom:12}}>Category<select style={{width:"100%",marginTop:5}} value={category} onChange={e=>{setCategory(e.target.value);}}><option value="all">All categories</option>{groupCategories.map(([id,name])=><option value={id} key={id}>{name}</option>)}</select></label>
  {category!=="all"&&availableTopics.length>0&&<div style={{marginBottom:12}}><p style={{fontWeight:700,marginBottom:6}}>Topics in this category</p><p className="sv-muted">Topic browsing is being prepared. Stories will appear here once reviewed topic tags are added.</p><ul style={{paddingLeft:18}}>{availableTopics.map(t=><li key={t}>{t}</li>)}</ul></div>}
  <label style={{display:"block",marginBottom:12}}>Reading level<select style={{width:"100%",marginTop:5}} value={String(level)} onChange={e=>setLevel(e.target.value==="all"?"all":Number(e.target.value) as StoryLevel)}><option value="all">All reading levels</option>{levels.map(l=><option key={l.id} value={l.id}>{l.name}</option>)}</select></label>
  <button type="button" onClick={clear}>Clear filters</button>
  <h3 style={{marginTop:24}}>Discovery groups</h3>
- <nav aria-label="Discovery groups"><button type="button" onClick={()=>{setGroup("all");setCategory("all");}} aria-pressed={group==="all"}>All stories</button>{discoveryGroups.map(g=><div key={g.id} style={{marginTop:12}}><button type="button" aria-pressed={group===g.id} onClick={()=>{setGroup(g.id);setCategory("all");setTopic("all");}} style={{fontWeight:700,textAlign:"left"}}>{g.name}</button>{group===g.id&&<ul style={{paddingLeft:20,margin:"8px 0"}}>{groupCategories.map(([id,name])=><li key={id}><button type="button" aria-pressed={category===id} onClick={()=>{setCategory(id);setTopic("all");}} style={{textAlign:"left"}}>{name}</button></li>)}</ul>}</div>)}</nav>
+ <nav aria-label="Discovery groups"><button type="button" onClick={()=>{setGroup("all");setCategory("all");}} aria-pressed={group==="all"}>All stories</button>{discoveryGroups.map(g=><div key={g.id} style={{marginTop:12}}><button type="button" aria-pressed={group===g.id} onClick={()=>{setGroup(g.id);setCategory("all");}} style={{fontWeight:700,textAlign:"left"}}>{g.name}</button>{group===g.id&&<ul style={{paddingLeft:20,margin:"8px 0"}}>{groupCategories.map(([id,name])=><li key={id}><button type="button" aria-pressed={category===id} onClick={()=>{setCategory(id);}} style={{textAlign:"left"}}>{name}</button></li>)}</ul>}</div>)}</nav>
  </aside>
- <div style={{minWidth:0,gridColumn:"span 2"}}>
+ <div className="sv-discovery-results" style={{minWidth:0}}>
  <h2>{selectedCategory?.[1]??discoveryGroups.find(g=>g.id===group)?.name??"Stories to explore"}</h2>
  <p className="sv-muted" role="status">{visible.length===0?"No stories match these filters yet. Try another category or reading level.":`${visible.length} ${visible.length===1?"story":"stories"} to explore`}</p>
  <div className="sv-grid sv-photo-grid">{visible.map(s=><article className="sv-card sv-photo-card" key={s.slug}>
