@@ -1,0 +1,395 @@
+{
+  "schemaVersion": "1.0.0",
+  "storyId": "SV-GARDEN-003",
+  "slug": "the-sunflower-that-followed-the-sun",
+  "title": "The Sunflower That Followed the Sun",
+  "collection": "GardenVerse",
+  "primaryCategory": "garden",
+  "subcategory": "garden-adventures",
+  "readingTier": 1,
+  "readingTierName": "Little Explorers",
+  "sourceLanguage": "en",
+  "availableLanguages": [
+    "en"
+  ],
+  "editorialStatus": "draft_review_required",
+  "publication": {
+    "approved": false,
+    "publiclyListed": false
+  },
+  "wordCount": 571,
+  "chapterLabel": "Scene",
+  "chapters": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "title": "A Tall New Neighbor",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Zara and her father planted sunflower seeds beside the garden fence. Weeks later, one plant rose higher than Zara’s shoulders. Its broad green leaves looked like hands reaching into the morning air. At the top was a round flower bud, still closed tight. Zara named it Sunny. Every day she checked how much taller it had grown. ‘Will it be taller than you?’ she asked Dad. ‘Perhaps,’ he said. ‘Let us measure it and see.’ They tied a soft ribbon to a measuring stick, not to the growing stem."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-003-S01",
+          "filename": "SV-GARDEN-003-S01.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Zara beside tall young sunflower with closed bud; father holds measuring stick.",
+          "alt": "Zara beside tall young sunflower with closed bud; father holds measuring stick.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-003-S01-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did Zara name the plant?",
+          "options": [
+            "Bobby",
+            "Sunny",
+            "Star"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Sunny."
+        },
+        {
+          "id": "SV-GARDEN-003-S01-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did they use to measure it?",
+          "options": [
+            "A measuring stick",
+            "A spoon",
+            "A book"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: A measuring stick."
+        }
+      ],
+      "navigation": {
+        "previous": null,
+        "next": "scene-02"
+      }
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "title": "Facing Morning",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "One morning, Zara noticed that Sunny’s bud pointed toward the bright eastern sky. She drew an arrow in her notebook. At lunchtime, she returned. The bud seemed to face a different direction. Zara blinked. ‘Did you turn?’ she asked. The plant did not answer. Dad explained that young sunflowers can slowly change the direction of their growing heads during the day. Zara imagined Sunny following the light across the sky. She decided to watch carefully instead of guessing."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-003-S02",
+          "filename": "SV-GARDEN-003-S02.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Young sunflower bud angled toward morning light; Zara recording arrow in notebook.",
+          "alt": "Young sunflower bud angled toward morning light; Zara recording arrow in notebook.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-003-S02-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did Zara notice about the bud?",
+          "options": [
+            "It faced a different direction later",
+            "It became blue",
+            "It fell off"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: It faced a different direction later."
+        },
+        {
+          "id": "SV-GARDEN-003-S02-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did Zara decide to do?",
+          "options": [
+            "Move the plant",
+            "Stop watering",
+            "Watch carefully"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: Watch carefully."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-01",
+        "next": "scene-03"
+      }
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "title": "The Shadow Game",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Dad helped Zara mark the shadow of a garden stick on the ground in the morning. They marked it again at midday and late afternoon. The shadow changed place and length. ‘The sun looks as if it moves across our sky,’ Dad said. ‘That helps us understand why the light comes from different directions.’ Zara compared her shadow marks with her sunflower drawings. She saw that the garden could tell a story with light, even when nobody spoke."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-003-S03",
+          "filename": "SV-GARDEN-003-S03.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Zara and Dad mark three shadow positions from a vertical garden stick; sunlit garden.",
+          "alt": "Zara and Dad mark three shadow positions from a vertical garden stick; sunlit garden.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-003-S03-Q01",
+          "type": "multiple_choice",
+          "prompt": "What changed during the day?",
+          "options": [
+            "The stick’s color",
+            "The fence height",
+            "The stick’s shadow"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: The stick’s shadow."
+        },
+        {
+          "id": "SV-GARDEN-003-S03-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did Zara compare?",
+          "options": [
+            "Three shoes",
+            "Shadow marks and sunflower drawings",
+            "Two bicycles"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Shadow marks and sunflower drawings."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-02",
+        "next": "scene-04"
+      }
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "title": "A Cloudy Surprise",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The next day was cloudy. Zara hurried outside, hoping to see Sunny turn again. The sky was pale and the sunlight was weak. She watched for a while but could not tell whether the bud was moving. ‘Maybe Sunny is confused,’ she said. Dad reminded her that plants respond to many things and that changes can be hard to notice. ‘One cloudy day does not tell us everything,’ he said. Zara wrote CLOUDY in her notebook and left room for tomorrow’s observations."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-003-S04",
+          "filename": "SV-GARDEN-003-S04.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Overcast garden with young sunflower and Zara noting cloudy weather.",
+          "alt": "Overcast garden with young sunflower and Zara noting cloudy weather.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-003-S04-Q01",
+          "type": "multiple_choice",
+          "prompt": "What was the weather like?",
+          "options": [
+            "Very windy with sand",
+            "Cloudy",
+            "Snowy"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Cloudy."
+        },
+        {
+          "id": "SV-GARDEN-003-S04-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did Zara write in her notebook?",
+          "options": [
+            "CLOUDY",
+            "GOODBYE",
+            "LOST"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: CLOUDY."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-03",
+        "next": "scene-05"
+      }
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "title": "A Golden Face",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "After more days of growth, Sunny’s bud began to open. Bright yellow petals spread around a dark center. Zara clapped her hands. ‘You have a face now!’ she said. She noticed something else: the open flower seemed to keep facing roughly toward the morning sun. Dad explained that mature sunflower heads usually stop making the same daily turning movement that young growing buds can show. Zara looked at her old drawings. Sunny had changed in more ways than one."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-003-S05",
+          "filename": "SV-GARDEN-003-S05.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Open mature sunflower with golden petals facing eastward morning light; Zara comparing notebook sketches.",
+          "alt": "Open mature sunflower with golden petals facing eastward morning light; Zara comparing notebook sketches.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-003-S05-Q01",
+          "type": "multiple_choice",
+          "prompt": "What color were the petals?",
+          "options": [
+            "Yellow",
+            "Purple",
+            "Blue"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: Yellow."
+        },
+        {
+          "id": "SV-GARDEN-003-S05-Q02",
+          "type": "multiple_choice",
+          "prompt": "Did the open flower keep turning like the young bud?",
+          "options": [
+            "Yes, it spun quickly",
+            "It walked away",
+            "Not in the same way"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: Not in the same way."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-04",
+        "next": "scene-06"
+      }
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "title": "Visitors to Sunny",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Soon bees began visiting Sunny. Zara watched from the path, keeping her hands to herself. A bee landed on the flower and moved across its center. Another came a moment later. Dad told Zara that visiting insects can help many flowers make seeds by moving pollen. Zara felt proud of the little garden she had helped plant. Sunny was not just tall and bright. It was part of a busy place where plants and animals depended on one another."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-003-S06",
+          "filename": "SV-GARDEN-003-S06.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Scientifically plausible bees foraging on sunflower disk; Zara observes at safe distance.",
+          "alt": "Scientifically plausible bees foraging on sunflower disk; Zara observes at safe distance.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-003-S06-Q01",
+          "type": "multiple_choice",
+          "prompt": "Who visited Sunny?",
+          "options": [
+            "Penguins",
+            "Cats",
+            "Bees"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: Bees."
+        },
+        {
+          "id": "SV-GARDEN-003-S06-Q02",
+          "type": "multiple_choice",
+          "prompt": "What can visiting insects help flowers make?",
+          "options": [
+            "Shoes",
+            "Seeds",
+            "Stones"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Seeds."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-05",
+        "next": "scene-07"
+      }
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "title": "The Sunflower Diary",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "At the end of the week, Zara spread her drawings across the table. There was the tiny plant, the turning bud, the cloudy day, the golden flower, and the visiting bees. ‘I thought the flower followed the sun forever,’ she said. ‘Now I know young buds and open flowers behave differently.’ Dad smiled. Zara placed the pages into a folder marked SUNNY’S DIARY. Tomorrow she would look for new changes, but she already knew something wonderful: careful watching could turn a simple question into a discovery."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-003-S07",
+          "filename": "SV-GARDEN-003-S07.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Zara and Dad arranging chronological sunflower observation sketches on table.",
+          "alt": "Zara and Dad arranging chronological sunflower observation sketches on table.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-003-S07-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did Zara make?",
+          "options": [
+            "A toy train",
+            "A sunflower diary",
+            "A kite"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: A sunflower diary."
+        },
+        {
+          "id": "SV-GARDEN-003-S07-Q02",
+          "type": "multiple_choice",
+          "prompt": "What helped Zara learn?",
+          "options": [
+            "Careful watching",
+            "Guessing once",
+            "Pulling petals"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: Careful watching."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-06",
+        "next": null
+      }
+    }
+  ],
+  "endOfBook": {
+    "activities": [
+      {
+        "type": "draw",
+        "prompt": "Draw your favorite scene and tell someone why you chose it."
+      },
+      {
+        "type": "retell",
+        "prompt": "Retell the story in your own words: beginning, middle, and end."
+      }
+    ],
+    "reflection": "What did the main character learn? What would you try in your own garden?"
+  },
+  "accessibility": {
+    "readingDirection": "ltr",
+    "textAlternativeForIllustrations": true
+  },
+  "rights": {
+    "copyrightHolder": "LIFEWS — editorial attribution pending",
+    "reviewRequired": true
+  }
+}

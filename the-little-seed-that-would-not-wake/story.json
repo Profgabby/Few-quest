@@ -1,0 +1,395 @@
+{
+  "schemaVersion": "1.0.0",
+  "storyId": "SV-GARDEN-001",
+  "slug": "the-little-seed-that-would-not-wake",
+  "title": "The Little Seed That Would Not Wake",
+  "collection": "GardenVerse",
+  "primaryCategory": "garden",
+  "subcategory": "planting-and-growing",
+  "readingTier": 1,
+  "readingTierName": "Little Explorers",
+  "sourceLanguage": "en",
+  "availableLanguages": [
+    "en"
+  ],
+  "editorialStatus": "draft_review_required",
+  "publication": {
+    "approved": false,
+    "publiclyListed": false
+  },
+  "wordCount": 561,
+  "chapterLabel": "Scene",
+  "chapters": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "title": "A Bed for a Seed",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mimi held a tiny brown seed on her palm. It was smaller than the button on her yellow shirt. Grandma showed her a sunny corner of the garden. Together they loosened the soil and made a shallow hole. Mimi tucked the seed inside and covered it gently. ‘Good morning, little seed,’ she whispered, although it was nearly lunchtime. She set a small wooden marker beside the spot so she would remember where she had planted it."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-001-S01",
+          "filename": "SV-GARDEN-001-S01.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Mimi and Grandma kneel beside a small prepared garden bed; a single seed on Mimi’s palm and a wooden marker.",
+          "alt": "Mimi and Grandma kneel beside a small prepared garden bed; a single seed on Mimi’s palm and a wooden marker.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-001-S01-Q01",
+          "type": "multiple_choice",
+          "prompt": "Who helped Mimi plant?",
+          "options": [
+            "A puppy",
+            "Grandma",
+            "The baker"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Grandma."
+        },
+        {
+          "id": "SV-GARDEN-001-S01-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did Mimi put beside the spot?",
+          "options": [
+            "A wooden marker",
+            "A toy car",
+            "A red cup"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: A wooden marker."
+        }
+      ],
+      "navigation": {
+        "previous": null,
+        "next": "scene-02"
+      }
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "title": "Nothing Yet",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The next morning, Mimi ran outside before breakfast. She looked beside her wooden marker. There was only brown soil. She looked again after breakfast. Still nothing. ‘Perhaps my seed is too sleepy,’ she said. Grandma smiled. ‘A seed can be busy even when we cannot see it.’ Mimi pressed her ear close to the ground. She heard a bird singing and a bicycle passing, but no tiny seed. She wondered what might be happening underneath."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-001-S02",
+          "filename": "SV-GARDEN-001-S02.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Mimi peers at bare soil beside marker while Grandma watches from garden path.",
+          "alt": "Mimi peers at bare soil beside marker while Grandma watches from garden path.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-001-S02-Q01",
+          "type": "multiple_choice",
+          "prompt": "What could Mimi see above the soil?",
+          "options": [
+            "Only soil",
+            "A tall tree",
+            "A red flower"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: Only soil."
+        },
+        {
+          "id": "SV-GARDEN-001-S02-Q02",
+          "type": "multiple_choice",
+          "prompt": "Where might the seed be changing?",
+          "options": [
+            "On the roof",
+            "In a basket",
+            "Under the soil"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: Under the soil."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-01",
+        "next": "scene-03"
+      }
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "title": "A Gentle Drink",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mimi carried a little watering can to the bed. She wanted to pour every drop in one big splash. Grandma put a hand on the handle. ‘Slowly,’ she said. ‘The soil should be moist, not flooded.’ Mimi tipped the can until a soft shower darkened the earth. Then she stopped. She touched the soil with one finger. It felt damp and cool. ‘There,’ she said. ‘A drink for someone I cannot see.’ She left the seed to rest in its quiet place."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-001-S03",
+          "filename": "SV-GARDEN-001-S03.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Close view of gentle watering with modest water flow, darkened soil, no flooding.",
+          "alt": "Close view of gentle watering with modest water flow, darkened soil, no flooding.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-001-S03-Q01",
+          "type": "multiple_choice",
+          "prompt": "How did Mimi water the soil?",
+          "options": [
+            "With a huge flood",
+            "With sand",
+            "Gently"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: Gently."
+        },
+        {
+          "id": "SV-GARDEN-001-S03-Q02",
+          "type": "multiple_choice",
+          "prompt": "How did the soil feel?",
+          "options": [
+            "Hot as a stove",
+            "Damp and cool",
+            "Hard and dry"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Damp and cool."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-02",
+        "next": "scene-04"
+      }
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "title": "Waiting Is Hard",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Two days passed. Mimi watered only when the soil began to feel dry. She watched a butterfly rest on a leaf and ants carry crumbs across the path. But beside her marker, nothing green appeared. ‘I am tired of waiting,’ she told Grandma. Grandma brought two stools into the shade. ‘Some good things take time,’ she said. They sat together and counted birds. Mimi still wished the seed would hurry, but sitting with Grandma made the waiting easier."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-001-S04",
+          "filename": "SV-GARDEN-001-S04.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Mimi and Grandma on low stools beside garden; butterflies and ants visible, seed bed undisturbed.",
+          "alt": "Mimi and Grandma on low stools beside garden; butterflies and ants visible, seed bed undisturbed.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-001-S04-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did Mimi watch while she waited?",
+          "options": [
+            "A snowman",
+            "A butterfly and ants",
+            "A whale"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: A butterfly and ants."
+        },
+        {
+          "id": "SV-GARDEN-001-S04-Q02",
+          "type": "multiple_choice",
+          "prompt": "Who sat with Mimi?",
+          "options": [
+            "Grandma",
+            "The postman",
+            "Her teacher"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: Grandma."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-03",
+        "next": "scene-05"
+      }
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "title": "A Tiny Hook",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "After a night of light rain, Mimi went to check the marker. Something had changed. A small green hook pushed through the soil. Mimi bent down so quickly that her hat slipped over one eye. ‘Grandma! It woke up!’ she called. Grandma came outside and knelt beside her. ‘That is a new shoot,’ she said. ‘The seed has started growing.’ Mimi wanted to pull the shoot higher to help it. Instead, she folded her hands and let the little plant grow by itself."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-001-S05",
+          "filename": "SV-GARDEN-001-S05.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Macro of newly emerged bent green seedling beside marker, Mimi excited in background.",
+          "alt": "Macro of newly emerged bent green seedling beside marker, Mimi excited in background.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-001-S05-Q01",
+          "type": "multiple_choice",
+          "prompt": "What came through the soil?",
+          "options": [
+            "A green shoot",
+            "A blue stone",
+            "A mushroom house"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: A green shoot."
+        },
+        {
+          "id": "SV-GARDEN-001-S05-Q02",
+          "type": "multiple_choice",
+          "prompt": "Did Mimi pull the shoot?",
+          "options": [
+            "Yes, very hard",
+            "She buried it again",
+            "No, she left it alone"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: No, she left it alone."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-04",
+        "next": "scene-06"
+      }
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "title": "Two Little Leaves",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Each morning, Mimi looked for a change. The green hook straightened. Then two small leaves opened like tiny hands. Mimi made a drawing in her notebook. On the first page she drew the brown seed. On the next, she drew the shoot. On the third, she drew the two leaves. ‘Now I can see part of its story,’ she told Grandma. ‘And there is more to come,’ Grandma answered. Mimi placed the notebook safely on the shelf before going outside to look again."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-001-S06",
+          "filename": "SV-GARDEN-001-S06.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Young seedling with two seed leaves; Mimi drawing three stages in notebook.",
+          "alt": "Young seedling with two seed leaves; Mimi drawing three stages in notebook.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-001-S06-Q01",
+          "type": "multiple_choice",
+          "prompt": "What opened on the seedling?",
+          "options": [
+            "Two doors",
+            "Two umbrellas",
+            "Two little leaves"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: Two little leaves."
+        },
+        {
+          "id": "SV-GARDEN-001-S06-Q02",
+          "type": "multiple_choice",
+          "prompt": "Where did Mimi draw the changes?",
+          "options": [
+            "On her shoes",
+            "In her notebook",
+            "On the garden wall"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: In her notebook."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-05",
+        "next": "scene-07"
+      }
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "title": "Good Morning, Little Plant",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "One bright morning, Mimi stood beside the bed with her watering can. The little plant was taller now, but it was still small enough to fit beneath her hand. She gave the soil a careful drink and checked that no one had stepped on the bed. ‘I thought you were asleep,’ she told the plant. ‘You were growing where I could not see.’ Grandma smiled from the path. Mimi smiled too. Tomorrow might bring another leaf. She was happy to wait and find out."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-001-S07",
+          "filename": "SV-GARDEN-001-S07.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Mimi beside healthy young seedling, watering carefully; warm morning garden light.",
+          "alt": "Mimi beside healthy young seedling, watering carefully; warm morning garden light.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-001-S07-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did Mimi learn about the seed?",
+          "options": [
+            "It needed no water",
+            "It grew before she could see it",
+            "It could talk"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: It grew before she could see it."
+        },
+        {
+          "id": "SV-GARDEN-001-S07-Q02",
+          "type": "multiple_choice",
+          "prompt": "What might appear next?",
+          "options": [
+            "Another leaf",
+            "A bicycle",
+            "A spoon"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: Another leaf."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-06",
+        "next": null
+      }
+    }
+  ],
+  "endOfBook": {
+    "activities": [
+      {
+        "type": "draw",
+        "prompt": "Draw your favorite scene and tell someone why you chose it."
+      },
+      {
+        "type": "retell",
+        "prompt": "Retell the story in your own words: beginning, middle, and end."
+      }
+    ],
+    "reflection": "What did the main character learn? What would you try in your own garden?"
+  },
+  "accessibility": {
+    "readingDirection": "ltr",
+    "textAlternativeForIllustrations": true
+  },
+  "rights": {
+    "copyrightHolder": "LIFEWS — editorial attribution pending",
+    "reviewRequired": true
+  }
+}

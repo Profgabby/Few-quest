@@ -1,0 +1,395 @@
+{
+  "schemaVersion": "1.0.0",
+  "storyId": "SV-GARDEN-005",
+  "slug": "the-pumpkin-that-grew-too-big",
+  "title": "The Pumpkin That Grew Too Big",
+  "collection": "GardenVerse",
+  "primaryCategory": "garden",
+  "subcategory": "garden-adventures",
+  "readingTier": 1,
+  "readingTierName": "Little Explorers",
+  "sourceLanguage": "en",
+  "availableLanguages": [
+    "en"
+  ],
+  "editorialStatus": "draft_review_required",
+  "publication": {
+    "approved": false,
+    "publiclyListed": false
+  },
+  "wordCount": 583,
+  "chapterLabel": "Scene",
+  "chapters": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "title": "One Small Pumpkin",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Bola planted pumpkin seeds with Grandpa near the sunny edge of the garden. The vines spread over the soil, and wide leaves made patches of shade. One day, Bola found a little green pumpkin tucked beneath a leaf. It was no bigger than her two hands together. ‘This one is mine to watch,’ she said. Grandpa tied a soft tag to a nearby stake so they could find it again. ‘It belongs to the plant,’ he reminded her, ‘but you can help care for it.’"
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-005-S01",
+          "filename": "SV-GARDEN-005-S01.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Bola discovers small developing green pumpkin attached to vine; Grandpa marks nearby stake.",
+          "alt": "Bola discovers small developing green pumpkin attached to vine; Grandpa marks nearby stake.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-005-S01-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did Bola find?",
+          "options": [
+            "A potato",
+            "A small pumpkin",
+            "A mango"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: A small pumpkin."
+        },
+        {
+          "id": "SV-GARDEN-005-S01-Q02",
+          "type": "multiple_choice",
+          "prompt": "Where did Grandpa tie the tag?",
+          "options": [
+            "To a nearby stake",
+            "Around the fruit",
+            "To Bola’s shoe"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: To a nearby stake."
+        }
+      ],
+      "navigation": {
+        "previous": null,
+        "next": "scene-02"
+      }
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "title": "A Little Bigger",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Each week, Bola returned to the same pumpkin. First it was as round as a small ball. Then it was wider than her lunch plate. She measured around it with a piece of string and marked the length on a chart. ‘It keeps growing!’ she said. Grandpa checked that the vine had room to spread and that the soil was not too dry. Bola gave the plant space and tried not to step on its long stems. She wondered how big the pumpkin might become."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-005-S02",
+          "filename": "SV-GARDEN-005-S02.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Bola measuring circumference of growing pumpkin with soft string; Grandpa checks vine.",
+          "alt": "Bola measuring circumference of growing pumpkin with soft string; Grandpa checks vine.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-005-S02-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did Bola use to measure the pumpkin?",
+          "options": [
+            "String",
+            "A spoon",
+            "A ribbon on her hat"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: String."
+        },
+        {
+          "id": "SV-GARDEN-005-S02-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did Bola avoid stepping on?",
+          "options": [
+            "The path",
+            "Her boots",
+            "The vine stems"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: The vine stems."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-01",
+        "next": "scene-03"
+      }
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "title": "The Path Disappears",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "One morning, Bola came with a basket of garden tools. She stopped at the narrow path. The pumpkin vine had crept across it, and the growing fruit rested near the middle. ‘How will we get through?’ she asked. Grandpa looked at the long vine. ‘We should not yank it,’ he said. ‘That could damage the plant.’ They walked around the bed while they thought. Bola wanted to move the pumpkin, but it already felt much heavier than before."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-005-S03",
+          "filename": "SV-GARDEN-005-S03.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Large pumpkin and sprawling vine partially obstruct narrow garden path; safe alternative route.",
+          "alt": "Large pumpkin and sprawling vine partially obstruct narrow garden path; safe alternative route.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-005-S03-Q01",
+          "type": "multiple_choice",
+          "prompt": "What blocked the path?",
+          "options": [
+            "A bicycle",
+            "A pile of books",
+            "The pumpkin vine and fruit"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: The pumpkin vine and fruit."
+        },
+        {
+          "id": "SV-GARDEN-005-S03-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why should they not yank the vine?",
+          "options": [
+            "It would sing",
+            "It might damage the plant",
+            "It would turn blue"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: It might damage the plant."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-02",
+        "next": "scene-04"
+      }
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "title": "A Clever Detour",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Bola fetched two flat stepping stones from the shed. Grandpa helped her place them on firm ground beside the garden bed, away from the vine. They made a little detour so everyone could pass without stepping on leaves or fruit. Bola tested the stones while Grandpa watched. They were steady. ‘The pumpkin can stay where it is,’ she said, ‘and we can still reach the beans.’ Grandpa smiled. ‘That is a good solution. You thought about the plant and the people.’"
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-005-S04",
+          "filename": "SV-GARDEN-005-S04.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Bola and Grandpa placing two stable stepping stones around vine, not on plant.",
+          "alt": "Bola and Grandpa placing two stable stepping stones around vine, not on plant.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-005-S04-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did they use to make a detour?",
+          "options": [
+            "A boat",
+            "Stepping stones",
+            "A ladder"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Stepping stones."
+        },
+        {
+          "id": "SV-GARDEN-005-S04-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did the detour protect?",
+          "options": [
+            "The plant and people walking",
+            "A toy shop",
+            "A bicycle tire"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: The plant and people walking."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-03",
+        "next": "scene-05"
+      }
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "title": "Orange as Sunset",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "More days passed. The pumpkin’s skin changed from green to a rich orange. Its stalk became firm, and the vine around it began to dry. Grandpa checked the fruit carefully. ‘It may be ready soon,’ he said. Bola wanted to lift it at once, but Grandpa reminded her that a heavy pumpkin could hurt her back or toes if it fell. ‘We will harvest it together,’ he promised. Bola took one last measurement and drew a bright orange circle on her chart."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-005-S05",
+          "filename": "SV-GARDEN-005-S05.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Mature orange pumpkin on drying vine, Bola sketching, Grandpa assessing ripeness.",
+          "alt": "Mature orange pumpkin on drying vine, Bola sketching, Grandpa assessing ripeness.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-005-S05-Q01",
+          "type": "multiple_choice",
+          "prompt": "What color did the pumpkin become?",
+          "options": [
+            "Orange",
+            "Blue",
+            "Pink"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: Orange."
+        },
+        {
+          "id": "SV-GARDEN-005-S05-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why did Grandpa say to wait for help?",
+          "options": [
+            "It was invisible",
+            "It was too cold",
+            "The pumpkin was heavy"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: The pumpkin was heavy."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-04",
+        "next": "scene-06"
+      }
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "title": "The Big Lift",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "On harvest day, Grandpa used a clean garden tool to cut the stalk, leaving a short handle. He and another adult lifted the heavy pumpkin onto a sturdy cart. Bola walked beside them, carrying her chart. At the table, they weighed the pumpkin together. Bola was amazed by the number on the scale, but Grandpa did not ask her to carry the fruit. ‘You cared for it while it grew,’ he said. ‘That was your important job.’ Bola felt taller than the pumpkin itself."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-005-S06",
+          "filename": "SV-GARDEN-005-S06.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Two adults safely lift heavy pumpkin onto sturdy cart; Bola stands clear holding chart.",
+          "alt": "Two adults safely lift heavy pumpkin onto sturdy cart; Bola stands clear holding chart.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-005-S06-Q01",
+          "type": "multiple_choice",
+          "prompt": "Who lifted the heavy pumpkin?",
+          "options": [
+            "Bola alone",
+            "A kitten",
+            "Two adults"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: Two adults."
+        },
+        {
+          "id": "SV-GARDEN-005-S06-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did Bola carry?",
+          "options": [
+            "A ladder",
+            "Her chart",
+            "The pumpkin"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Her chart."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-05",
+        "next": "scene-07"
+      }
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "title": "Enough to Share",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Grandpa cut the pumpkin safely in the kitchen while Bola watched from a clear space. Inside were pale seeds and bright flesh. Some pieces would become soup, and others would be roasted for the family meal. Grandpa saved a few healthy seeds for another planting season. Bola drew the final page of her chart: one small pumpkin, one enormous pumpkin, and a family table. ‘It grew too big for our path,’ she said, ‘but just right for sharing.’ Everyone laughed, and Bola asked when they could plant again."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-005-S07",
+          "filename": "SV-GARDEN-005-S07.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Kitchen family scene with adult cutting pumpkin safely, seeds in bowl and cooked pumpkin meal.",
+          "alt": "Kitchen family scene with adult cutting pumpkin safely, seeds in bowl and cooked pumpkin meal.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-005-S07-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did Grandpa save?",
+          "options": [
+            "The stepping stones",
+            "Some seeds",
+            "The cart wheels"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Some seeds."
+        },
+        {
+          "id": "SV-GARDEN-005-S07-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did the family do with the pumpkin?",
+          "options": [
+            "Shared it as food",
+            "Threw it away",
+            "Used it as a ball"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: Shared it as food."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-06",
+        "next": null
+      }
+    }
+  ],
+  "endOfBook": {
+    "activities": [
+      {
+        "type": "draw",
+        "prompt": "Draw your favorite scene and tell someone why you chose it."
+      },
+      {
+        "type": "retell",
+        "prompt": "Retell the story in your own words: beginning, middle, and end."
+      }
+    ],
+    "reflection": "What did the main character learn? What would you try in your own garden?"
+  },
+  "accessibility": {
+    "readingDirection": "ltr",
+    "textAlternativeForIllustrations": true
+  },
+  "rights": {
+    "copyrightHolder": "LIFEWS — editorial attribution pending",
+    "reviewRequired": true
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "schemaVersion": "1.0.0",
+  "storyId": "SV-GARDEN-004",
+  "slug": "tobi-and-the-tiny-garden-visitor",
+  "title": "Tobi and the Tiny Garden Visitor",
+  "collection": "GardenVerse",
+  "primaryCategory": "garden",
+  "subcategory": "garden-creatures",
+  "readingTier": 1,
+  "readingTierName": "Little Explorers",
+  "sourceLanguage": "en",
+  "availableLanguages": [
+    "en"
+  ],
+  "editorialStatus": "draft_review_required",
+  "publication": {
+    "approved": false,
+    "publiclyListed": false
+  },
+  "wordCount": 557,
+  "chapterLabel": "Scene",
+  "chapters": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "title": "Something on the Leaf",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tobi was helping Auntie Nneka check the bean plants. He lifted one broad leaf and spotted a tiny green creature resting underneath. It had six little legs and two long feelers. ‘Auntie! There is someone here,’ he whispered. Auntie Nneka leaned closer without touching the leaf. ‘A small insect,’ she said. ‘Let us watch before we decide what it is doing.’ Tobi had never thought of a garden leaf as a place where another creature might rest."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-004-S01",
+          "filename": "SV-GARDEN-004-S01.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Tobi and aunt observe small six-legged green insect beneath bean leaf, realistic morphology.",
+          "alt": "Tobi and aunt observe small six-legged green insect beneath bean leaf, realistic morphology.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-004-S01-Q01",
+          "type": "multiple_choice",
+          "prompt": "Where was the visitor?",
+          "options": [
+            "On a plate",
+            "Under a bean leaf",
+            "Inside a shoe"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Under a bean leaf."
+        },
+        {
+          "id": "SV-GARDEN-004-S01-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did Auntie suggest?",
+          "options": [
+            "Watch first",
+            "Squash it",
+            "Take it home"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: Watch first."
+        }
+      ],
+      "navigation": {
+        "previous": null,
+        "next": "scene-02"
+      }
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "title": "The Tiny Trail",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The little insect walked slowly along the leaf’s edge. Tobi followed it with his eyes. A second insect sat near the stem. Tobi noticed a few curled leaves on the same plant. ‘Did the insects do that?’ he asked. Auntie Nneka said it was possible, but they needed to look closely. They checked more leaves and found several tiny insects together. Tobi drew what he saw: a leaf, a stem, and small green dots. He did not give his drawing a name yet."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-004-S02",
+          "filename": "SV-GARDEN-004-S02.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Cluster of small green aphid-like insects near bean stem, some curled leaves; observation notebook.",
+          "alt": "Cluster of small green aphid-like insects near bean stem, some curled leaves; observation notebook.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-004-S02-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did Tobi draw?",
+          "options": [
+            "A leaf, stem, and green dots",
+            "A mountain",
+            "A boat"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: A leaf, stem, and green dots."
+        },
+        {
+          "id": "SV-GARDEN-004-S02-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why did they check more leaves?",
+          "options": [
+            "To pull the plant out",
+            "To hide the insects",
+            "To gather clues"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: To gather clues."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-01",
+        "next": "scene-03"
+      }
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "title": "A Red Dot Arrives",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A bright red beetle landed nearby. It had black spots and a shiny rounded back. ‘Look at that one!’ Tobi said. The beetle walked toward the cluster of green insects. Auntie Nneka told him it was a ladybird beetle. Many ladybird beetles eat aphids, small insects that feed on plant sap. Tobi watched the red beetle pause and then move among the green insects. ‘So the garden has hunters too,’ he whispered. Auntie Nneka nodded. ‘And every visitor has a part in the story.’"
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-004-S03",
+          "filename": "SV-GARDEN-004-S03.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Ladybird beetle near aphids on bean leaf, accurate relative scale and natural lighting.",
+          "alt": "Ladybird beetle near aphids on bean leaf, accurate relative scale and natural lighting.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-004-S03-Q01",
+          "type": "multiple_choice",
+          "prompt": "What color was the beetle?",
+          "options": [
+            "Blue with stripes",
+            "White with stars",
+            "Red with black spots"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: Red with black spots."
+        },
+        {
+          "id": "SV-GARDEN-004-S03-Q02",
+          "type": "multiple_choice",
+          "prompt": "What do many ladybird beetles eat?",
+          "options": [
+            "Flowerpots",
+            "Aphids",
+            "Pebbles"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Aphids."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-02",
+        "next": "scene-04"
+      }
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "title": "Look, Don’t Grab",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tobi reached toward the beetle, but Auntie Nneka gently stopped him. ‘Let us leave it where it is,’ she said. ‘Small creatures can be hurt by rough hands.’ Tobi pulled his fingers back. They watched from the path instead. The beetle moved beneath another leaf and disappeared from sight. Tobi was disappointed for a moment. Then he remembered the curled leaves, the green insects, and the red beetle. There was still plenty to discover without catching anything."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-004-S04",
+          "filename": "SV-GARDEN-004-S04.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Tobi withdraws hand as aunt guides him to observe insects without touching.",
+          "alt": "Tobi withdraws hand as aunt guides him to observe insects without touching.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-004-S04-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did Auntie ask Tobi to do?",
+          "options": [
+            "Throw it away",
+            "Leave the beetle alone",
+            "Put it in a jar"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Leave the beetle alone."
+        },
+        {
+          "id": "SV-GARDEN-004-S04-Q02",
+          "type": "multiple_choice",
+          "prompt": "How could Tobi still learn?",
+          "options": [
+            "By watching",
+            "By shaking the plant",
+            "By closing his eyes"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: By watching."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-03",
+        "next": "scene-05"
+      }
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "title": "A Garden Count",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The next morning, Tobi brought his notebook. Auntie Nneka helped him choose three bean leaves to observe. They counted the small green insects they could see on each leaf and wrote the numbers down. They also looked for ladybird beetles. On one leaf, Tobi saw none. On another, he found a single red beetle. ‘The garden is different every day,’ he said. Auntie Nneka agreed. ‘That is why careful notes are useful.’ They left the leaves attached to the plants."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-004-S05",
+          "filename": "SV-GARDEN-004-S05.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Tobi counting insects on three marked bean leaves, notebook with blank/simple tally marks.",
+          "alt": "Tobi counting insects on three marked bean leaves, notebook with blank/simple tally marks.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-004-S05-Q01",
+          "type": "multiple_choice",
+          "prompt": "How many leaves did they choose?",
+          "options": [
+            "Three",
+            "Ten",
+            "One hundred"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: Three."
+        },
+        {
+          "id": "SV-GARDEN-004-S05-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did they write down?",
+          "options": [
+            "A shopping list",
+            "A song",
+            "Their observations"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: Their observations."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-04",
+        "next": "scene-06"
+      }
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "title": "The Leaf with Holes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "While they worked, Tobi noticed holes in a different leaf. ‘More aphids?’ he asked. Auntie Nneka shook her head. ‘Not necessarily. Many things can make holes in leaves. Aphids usually feed by sucking sap.’ They looked for chewing insects but did not find one that morning. Tobi added a question mark to his drawing. He liked that he could write down a question without pretending to know the answer. The garden was teaching him how to be curious."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-004-S06",
+          "filename": "SV-GARDEN-004-S06.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Bean leaf with small chewing holes, Tobi drawing question mark; no false insect identification.",
+          "alt": "Bean leaf with small chewing holes, Tobi drawing question mark; no false insect identification.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-004-S06-Q01",
+          "type": "multiple_choice",
+          "prompt": "Did Auntie say aphids always make holes?",
+          "options": [
+            "Yes",
+            "Only at night",
+            "No"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: No."
+        },
+        {
+          "id": "SV-GARDEN-004-S06-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did Tobi add to his drawing?",
+          "options": [
+            "A star sticker",
+            "A question mark",
+            "A crown"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: A question mark."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-05",
+        "next": "scene-07"
+      }
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "title": "A Home for Many",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "At the end of the week, Tobi stood by the bean bed and looked carefully at the leaves. He could see the green insects again, and a ladybird beetle rested near the top of the plant. He had not solved every mystery. He had learned something better: a garden was home to many living things. ‘I will keep watching,’ he told Auntie Nneka. She handed him his notebook. ‘And I will keep asking good questions,’ he added, smiling."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-004-S07",
+          "filename": "SV-GARDEN-004-S07.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Tobi and aunt looking at healthy bean bed, ladybird and aphids visible at realistic scale.",
+          "alt": "Tobi and aunt looking at healthy bean bed, ladybird and aphids visible at realistic scale.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-004-S07-Q01",
+          "type": "multiple_choice",
+          "prompt": "What was the garden home to?",
+          "options": [
+            "Only stones",
+            "Many living things",
+            "Only people"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Many living things."
+        },
+        {
+          "id": "SV-GARDEN-004-S07-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did Tobi want to keep doing?",
+          "options": [
+            "Watching and asking questions",
+            "Pulling leaves off",
+            "Catching every insect"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: Watching and asking questions."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-06",
+        "next": null
+      }
+    }
+  ],
+  "endOfBook": {
+    "activities": [
+      {
+        "type": "draw",
+        "prompt": "Draw your favorite scene and tell someone why you chose it."
+      },
+      {
+        "type": "retell",
+        "prompt": "Retell the story in your own words: beginning, middle, and end."
+      }
+    ],
+    "reflection": "What did the main character learn? What would you try in your own garden?"
+  },
+  "accessibility": {
+    "readingDirection": "ltr",
+    "textAlternativeForIllustrations": true
+  },
+  "rights": {
+    "copyrightHolder": "LIFEWS — editorial attribution pending",
+    "reviewRequired": true
+  }
+}

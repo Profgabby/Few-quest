@@ -1,0 +1,395 @@
+{
+  "schemaVersion": "1.0.0",
+  "storyId": "SV-GARDEN-002",
+  "slug": "mimi-and-the-missing-watering-can",
+  "title": "Mimi and the Missing Watering Can",
+  "collection": "GardenVerse",
+  "primaryCategory": "garden",
+  "subcategory": "garden-mysteries",
+  "readingTier": 1,
+  "readingTierName": "Little Explorers",
+  "sourceLanguage": "en",
+  "availableLanguages": [
+    "en"
+  ],
+  "editorialStatus": "draft_review_required",
+  "publication": {
+    "approved": false,
+    "publiclyListed": false
+  },
+  "wordCount": 590,
+  "chapterLabel": "Scene",
+  "chapters": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "title": "The Empty Shelf",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mimi came to the garden with a plan. She would water the bean seedlings before the sun grew hot. But the blue watering can was missing from its usual shelf. Mimi looked above the shelf, below it, and behind a basket of gloves. Nothing. ‘That is strange,’ she said. She had washed the can yesterday and left it to dry. Her little brother, Kele, appeared at the gate holding a paper windmill. ‘What are you looking for?’ he asked. ‘My blue watering can,’ Mimi said. ‘It has vanished!’"
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-002-S01",
+          "filename": "SV-GARDEN-002-S01.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Mimi checking tidy garden shelf with empty watering-can space; Kele holding paper windmill.",
+          "alt": "Mimi checking tidy garden shelf with empty watering-can space; Kele holding paper windmill.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-002-S01-Q01",
+          "type": "multiple_choice",
+          "prompt": "What was missing?",
+          "options": [
+            "A shovel",
+            "The blue watering can",
+            "A yellow hat"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: The blue watering can."
+        },
+        {
+          "id": "SV-GARDEN-002-S01-Q02",
+          "type": "multiple_choice",
+          "prompt": "Who came to the gate?",
+          "options": [
+            "Kele",
+            "Grandpa",
+            "A teacher"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: Kele."
+        }
+      ],
+      "navigation": {
+        "previous": null,
+        "next": "scene-02"
+      }
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "title": "A Trail of Drops",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Kele pointed at three dark spots on the stone path. ‘Maybe those are clues.’ Mimi knelt to look. The spots were wet, but they might have come from someone’s shoes. She followed them toward the bean bed. There she found a small puddle beside the tap. ‘Perhaps someone filled the can,’ she said. Kele shook his head. ‘Or perhaps the tap dripped.’ Mimi touched the tap handle. It was closed, but one last drop fell from its spout. They needed a better clue."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-002-S02",
+          "filename": "SV-GARDEN-002-S02.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Children examine wet stones near outdoor tap; no misleading clear trail.",
+          "alt": "Children examine wet stones near outdoor tap; no misleading clear trail.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-002-S02-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did the children find on the path?",
+          "options": [
+            "Wet spots",
+            "Red feathers",
+            "Coins"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: Wet spots."
+        },
+        {
+          "id": "SV-GARDEN-002-S02-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why was the puddle not a sure clue?",
+          "options": [
+            "It was snowing",
+            "The can was red",
+            "The tap could have dripped"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: The tap could have dripped."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-01",
+        "next": "scene-03"
+      }
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "title": "The Wrong Blue Thing",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Behind the tomato pots, Mimi saw something bright blue. ‘Found it!’ she cried. But when she stepped closer, it was only Kele’s toy bucket. Kele picked it up. ‘I could carry water in this,’ he offered. Mimi laughed. ‘You could, but it would take many trips.’ They searched the tool shed next. A rake leaned against the wall. A coil of hose hung on a hook. There was no watering can. Mimi began to feel cross, then remembered that Kele was trying to help."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-002-S03",
+          "filename": "SV-GARDEN-002-S03.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Blue toy bucket partly hidden behind tomato pots, tidy shed visible beyond.",
+          "alt": "Blue toy bucket partly hidden behind tomato pots, tidy shed visible beyond.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-002-S03-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did Mimi mistake for the can?",
+          "options": [
+            "A flowerpot",
+            "A blue shoe",
+            "Kele’s toy bucket"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: Kele’s toy bucket."
+        },
+        {
+          "id": "SV-GARDEN-002-S03-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did Mimi remember?",
+          "options": [
+            "It was bedtime",
+            "Kele was helping",
+            "The garden was closed"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Kele was helping."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-02",
+        "next": "scene-04"
+      }
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "title": "A Voice by the Fence",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "At the fence, they heard a soft voice singing. Their neighbor, Auntie Sade, was tending a row of young lettuce plants on the other side. ‘Good morning!’ Mimi called. ‘Have you seen our watering can?’ Auntie Sade stopped singing. ‘A blue one with a white flower painted on it?’ Mimi nodded. ‘I saw your grandmother carrying it this morning,’ Auntie Sade said. ‘She went toward the new flower bed.’ Mimi thanked her. At last, they had a clue from someone who had actually seen the can."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-002-S04",
+          "filename": "SV-GARDEN-002-S04.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Neighbor tends lettuce across fence; children listen politely.",
+          "alt": "Neighbor tends lettuce across fence; children listen politely.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-002-S04-Q01",
+          "type": "multiple_choice",
+          "prompt": "Who saw the watering can?",
+          "options": [
+            "The shopkeeper",
+            "Auntie Sade",
+            "A puppy"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Auntie Sade."
+        },
+        {
+          "id": "SV-GARDEN-002-S04-Q02",
+          "type": "multiple_choice",
+          "prompt": "Who was carrying it?",
+          "options": [
+            "Grandma",
+            "Kele",
+            "Auntie Sade"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: Grandma."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-03",
+        "next": "scene-05"
+      }
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "title": "The New Flower Bed",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mimi and Kele hurried toward the new flower bed, but they slowed when they reached the narrow path. Grandma was kneeling beside a tray of marigold seedlings. The blue watering can stood behind a large pot, almost hidden from view. ‘There it is!’ Mimi said. Grandma looked up. ‘Oh! I borrowed it to settle these seedlings into the soil. I meant to put it back.’ Mimi felt relief wash over her. The can had not vanished at all. It had simply been borrowed without a message."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-002-S05",
+          "filename": "SV-GARDEN-002-S05.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Grandma beside marigold seedlings; blue watering can partially obscured by pot.",
+          "alt": "Grandma beside marigold seedlings; blue watering can partially obscured by pot.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-002-S05-Q01",
+          "type": "multiple_choice",
+          "prompt": "Where was the can?",
+          "options": [
+            "Behind a large pot",
+            "Under Mimi’s bed",
+            "At school"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: Behind a large pot."
+        },
+        {
+          "id": "SV-GARDEN-002-S05-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why had Grandma taken it?",
+          "options": [
+            "To wash a bicycle",
+            "To make soup",
+            "To water new seedlings"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: To water new seedlings."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-04",
+        "next": "scene-06"
+      }
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "title": "A Better Plan",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Grandma apologized for leaving Mimi to search. Mimi admitted that she had almost blamed Kele when she could not find the can. ‘I am glad you asked questions instead,’ Grandma said. Kele suggested making a small sign for the shelf. On one side it would say HERE. On the other, IN USE. Mimi liked the idea. They painted the sign together, then took turns watering the beans and marigolds. Nobody had to guess where the watering can had gone."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-002-S06",
+          "filename": "SV-GARDEN-002-S06.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Family painting simple two-sided shelf sign, blue watering can nearby.",
+          "alt": "Family painting simple two-sided shelf sign, blue watering can nearby.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-002-S06-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did Kele suggest?",
+          "options": [
+            "A new fence",
+            "A bigger bucket",
+            "A shelf sign"
+          ],
+          "correctOption": 2,
+          "feedback": "The story tells us: A shelf sign."
+        },
+        {
+          "id": "SV-GARDEN-002-S06-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did Mimi and Kele do together?",
+          "options": [
+            "Built a house",
+            "Painted the sign",
+            "Picked all the beans"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: Painted the sign."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-05",
+        "next": "scene-07"
+      }
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "title": "The Can Comes Home",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When the watering was finished, Mimi emptied the little can and placed it upside down where it could dry. She turned the sign to HERE. Kele stood back to admire their work. ‘Next time, we can look at the sign first,’ he said. ‘And ask before we worry,’ Mimi added. Grandma nodded. The beans stood fresh in their bed, and the marigolds had their first drink. Mimi picked up her notebook. There was one last thing to write: Mystery solved—with help from everyone."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-002-S07",
+          "filename": "SV-GARDEN-002-S07.webp",
+          "prompt": "Premium child-friendly literary storybook illustration, consistent realistic Nigerian family/community garden setting and characters, warm natural light, accurate plant and insect morphology, no printed text. Scene: Watering can draining on shelf, simple HERE sign, children smiling beside healthy seedlings.",
+          "alt": "Watering can draining on shelf, simple HERE sign, children smiling beside healthy seedlings.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-002-S07-Q01",
+          "type": "multiple_choice",
+          "prompt": "Which way did Mimi turn the sign?",
+          "options": [
+            "CLOSED",
+            "HERE",
+            "LOST"
+          ],
+          "correctOption": 1,
+          "feedback": "The story tells us: HERE."
+        },
+        {
+          "id": "SV-GARDEN-002-S07-Q02",
+          "type": "multiple_choice",
+          "prompt": "How was the mystery solved?",
+          "options": [
+            "By asking and helping",
+            "By shouting",
+            "By guessing only"
+          ],
+          "correctOption": 0,
+          "feedback": "The story tells us: By asking and helping."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-06",
+        "next": null
+      }
+    }
+  ],
+  "endOfBook": {
+    "activities": [
+      {
+        "type": "draw",
+        "prompt": "Draw your favorite scene and tell someone why you chose it."
+      },
+      {
+        "type": "retell",
+        "prompt": "Retell the story in your own words: beginning, middle, and end."
+      }
+    ],
+    "reflection": "What did the main character learn? What would you try in your own garden?"
+  },
+  "accessibility": {
+    "readingDirection": "ltr",
+    "textAlternativeForIllustrations": true
+  },
+  "rights": {
+    "copyrightHolder": "LIFEWS — editorial attribution pending",
+    "reviewRequired": true
+  }
+}
