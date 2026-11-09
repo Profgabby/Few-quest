@@ -9,7 +9,6 @@ export function StoryReader({story}:{story:Story}){
  const [mode,setMode]=useState<"read"|"play">("play");
  const [awarded,setAwarded]=useState<string[]>([]);
  const [finished,setFinished]=useState(false);
- const [questionIndex,setQuestionIndex]=useState(0);
  const scene=story.scenes[index];
  const points=awarded.filter(x=>x.startsWith("challenge:")).length*5+(awarded.includes("complete")?20:0);
  const badges=[...(awarded.includes("complete")?["First Story"]:[]),...(awarded.filter(x=>x.startsWith("challenge:")).length>=3?["Curious Explorer"]:[])];
