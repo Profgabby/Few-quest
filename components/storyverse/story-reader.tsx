@@ -1,5 +1,7 @@
 "use client";
 import {useEffect,useState} from "react";
+import Link from "next/link";
+import {useParams} from "next/navigation";
 import {loadReadingShelf,saveReadingPosition,clearReadingPosition} from "@/lib/storyverse/reading-shelf";
 import {loadGuest,saveGuest} from "@/lib/storyverse/guest-progress";
 import type {Story} from "@/lib/storyverse/catalog";
@@ -7,6 +9,9 @@ import type {Story} from "@/lib/storyverse/catalog";
 const green="#145438";
 const buttonBase:React.CSSProperties={padding:"12px 18px",borderRadius:12,fontSize:16,fontWeight:650,cursor:"pointer",border:"1px solid #9cb7a6",background:"#fff",color:green};
 export function StoryReader({story}:{story:Story}){
+ const params=useParams();
+ const locale=typeof params.locale==="string"?params.locale:"en";
+ const libraryHref=`/${locale}/storyverse/library`;
  const [index,setIndex]=useState(0);
  const [restored,setRestored]=useState(false);
  useEffect(()=>{const shelf=loadReadingShelf();const scene=shelf[story.slug]?.scene??0;setIndex(Math.min(Math.max(0,scene),story.scenes.length-1));setRestored(true);},[story.slug,story.scenes.length]);
@@ -45,6 +50,7 @@ export function StoryReader({story}:{story:Story}){
  function restart(){saveReadingPosition(story.slug,0);setIndex(0);setQuestionIndex(0);setFinished(false);setAnswers({});setAwarded([]);}
  return <section aria-label="Interactive story" style={{maxWidth:960,margin:"0 auto",border:"1px solid #dce6df",borderRadius:22,padding:"clamp(16px,4vw,36px)",background:"#fff",display:"grid",gap:20}}>
   {!restored&&<p role="status">Loading saved reading position…</p>}
+  <nav aria-label="Back to story library"><Link href={libraryHref} style={{display:"inline-flex",alignItems:"center",gap:8,color:green,fontWeight:750,textDecoration:"none",border:"1px solid #a6c5b0",borderRadius:12,padding:"10px 14px"}}>← Back to Library</Link></nav>
   <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",gap:12,flexWrap:"wrap"}}>
    <div><span style={{fontWeight:750,color:green}}>{story.world} · {story.level}</span><p style={{margin:"5px 0 0",color:"#52685a"}}>{finished?"Story completed":`Scene ${index+1} of ${story.scenes.length}`}</p></div>
    <span aria-live="polite" style={{background:"#f3f4e5",color:"#4c4927",padding:"9px 13px",borderRadius:20,fontWeight:700}}>{points} session points · {badges.length} session badges</span>
@@ -55,7 +61,7 @@ export function StoryReader({story}:{story:Story}){
   </div>
   {finished?<div role="status" style={{background:"#e9f2e9",padding:28,borderRadius:16}}>
    <h2>You've finished the story!</h2><p>You answered {correctCount} questions correctly during this reading session.</p><p>Session points: {points}. Session badges: {badges.length?badges.join(", "):"None yet"}.</p>
-   <button type="button" onClick={restart} style={{...buttonBase,background:green,color:"#fff"}}>Read again</button>
+   <div style={{display:"flex",gap:12,flexWrap:"wrap"}}><button type="button" onClick={restart} style={{...buttonBase,background:green,color:"#fff"}}>Read again</button><Link href={libraryHref} style={{...buttonBase,textDecoration:"none"}}>← Back to Library</Link></div>
    <p style={{fontSize:13}}>Previously saved guest rewards are not awarded again. This session summary is not your lifetime points balance.</p>
   </div>:<>
    <article style={{background:"#f5f8ef",padding:"clamp(18px,4vw,36px)",borderRadius:18}}>
@@ -75,8 +81,9 @@ export function StoryReader({story}:{story:Story}){
     </div>
     <small>Questions are optional. Each question records only the first answer selected.</small>
    </section>}
-   <nav aria-label="Story scene navigation" style={{display:"flex",justifyContent:"space-between",gap:10,flexWrap:"wrap"}}>
+   <nav aria-label="Story scene navigation" style={{display:"flex",justifyContent:"space-between",alignItems:"center",gap:10,flexWrap:"wrap"}}>
     <button type="button" disabled={index===0} onClick={()=>{saveReadingPosition(story.slug,index-1);setIndex(i=>i-1);setQuestionIndex(0)}} style={buttonBase}>← Previous scene</button>
+    <Link href={libraryHref} style={{...buttonBase,textDecoration:"none",display:"inline-flex",alignItems:"center"}}>⌂ Back to Library</Link>
     <button type="button" onClick={next} style={{...buttonBase,background:green,color:"#fff"}}>{index===story.scenes.length-1?"Finish story":"Next scene →"}</button>
    </nav>
   </>}
