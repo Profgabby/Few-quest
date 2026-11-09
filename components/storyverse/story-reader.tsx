@@ -1,5 +1,6 @@
 "use client";
-import {useState} from "react";
+import {useEffect,useState} from "react";
+import {loadReadingShelf,saveReadingPosition,clearReadingPosition} from "@/lib/storyverse/reading-shelf";
 import {loadGuest,saveGuest} from "@/lib/storyverse/guest-progress";
 import type {Story} from "@/lib/storyverse/catalog";
 
@@ -7,6 +8,8 @@ const green="#145438";
 const buttonBase:React.CSSProperties={padding:"12px 18px",borderRadius:12,fontSize:16,fontWeight:650,cursor:"pointer",border:"1px solid #9cb7a6",background:"#fff",color:green};
 export function StoryReader({story}:{story:Story}){
  const [index,setIndex]=useState(0);
+ const [restored,setRestored]=useState(false);
+ useEffect(()=>{const shelf=loadReadingShelf();const scene=shelf[story.slug]?.scene??0;setIndex(Math.min(Math.max(0,scene),story.scenes.length-1));setRestored(true);},[story.slug,story.scenes.length]);
  const [answers,setAnswers]=useState<Record<string,number>>({});
  const [questionIndex,setQuestionIndex]=useState(0);
  const [mode,setMode]=useState<"read"|"play">("play");
@@ -30,8 +33,8 @@ export function StoryReader({story}:{story:Story}){
   }
  }
  function next(){
-  if(index===story.scenes.length-1){setFinished(true);award("complete");}
-  else {setIndex(i=>i+1);setQuestionIndex(0);}
+  if(index===story.scenes.length-1){setFinished(true);clearReadingPosition(story.slug);award("complete");}
+  else {saveReadingPosition(story.slug,index+1);setIndex(i=>i+1);setQuestionIndex(0);}
  }
  function answer(i:number){
   const key=`${index}:${questionIndex}`;
@@ -39,8 +42,9 @@ export function StoryReader({story}:{story:Story}){
   setAnswers(a=>({...a,[key]:i}));
   if(currentQuestion.choices[i].correct)award(`challenge:${index}:${questionIndex}`);
  }
- function restart(){setIndex(0);setQuestionIndex(0);setFinished(false);setAnswers({});setAwarded([]);}
+ function restart(){saveReadingPosition(story.slug,0);setIndex(0);setQuestionIndex(0);setFinished(false);setAnswers({});setAwarded([]);}
  return <section aria-label="Interactive story" style={{maxWidth:960,margin:"0 auto",border:"1px solid #dce6df",borderRadius:22,padding:"clamp(16px,4vw,36px)",background:"#fff",display:"grid",gap:20}}>
+  {!restored&&<p role="status">Loading saved reading position…</p>}
   <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",gap:12,flexWrap:"wrap"}}>
    <div><span style={{fontWeight:750,color:green}}>{story.world} · {story.level}</span><p style={{margin:"5px 0 0",color:"#52685a"}}>{finished?"Story completed":`Scene ${index+1} of ${story.scenes.length}`}</p></div>
    <span aria-live="polite" style={{background:"#f3f4e5",color:"#4c4927",padding:"9px 13px",borderRadius:20,fontWeight:700}}>{points} session points · {badges.length} session badges</span>
@@ -72,10 +76,10 @@ export function StoryReader({story}:{story:Story}){
     <small>Questions are optional. Each question records only the first answer selected.</small>
    </section>}
    <nav aria-label="Story scene navigation" style={{display:"flex",justifyContent:"space-between",gap:10,flexWrap:"wrap"}}>
-    <button type="button" disabled={index===0} onClick={()=>{setIndex(i=>i-1);setQuestionIndex(0)}} style={buttonBase}>← Previous scene</button>
+    <button type="button" disabled={index===0} onClick={()=>{saveReadingPosition(story.slug,index-1);setIndex(i=>i-1);setQuestionIndex(0)}} style={buttonBase}>← Previous scene</button>
     <button type="button" onClick={next} style={{...buttonBase,background:green,color:"#fff"}}>{index===story.scenes.length-1?"Finish story":"Next scene →"}</button>
    </nav>
   </>}
-  <small style={{color:"#657369"}}>English editorial preview. Illustrations, audio and reviewed translations are not yet available. Guest progress is stored in this browser only; it does not affect FEW Quest competition scores.</small>
+  <small style={{color:"#657369"}}>Your last scene is saved on this device when you navigate between scenes. English editorial preview. Illustrations, audio and reviewed translations are not yet available. Guest progress is stored in this browser only; it does not affect FEW Quest competition scores.</small>
  </section>;
 }
