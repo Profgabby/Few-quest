@@ -6,9 +6,10 @@ export function StoryReader({story}:{story:Story}){
  const [index,setIndex]=useState(0);
  const [answers,setAnswers]=useState<Record<number,number>>({});
  const selected=answers[index]??null;
- const [mode,setMode]=useState<"read"|"play">("read");
+ const [mode,setMode]=useState<"read"|"play">("play");
  const [awarded,setAwarded]=useState<string[]>([]);
  const [finished,setFinished]=useState(false);
+ const [questionIndex,setQuestionIndex]=useState(0);
  const scene=story.scenes[index];
  const points=awarded.filter(x=>x.startsWith("challenge:")).length*5+(awarded.includes("complete")?20:0);
  const badges=[...(awarded.includes("complete")?["First Story"]:[]),...(awarded.filter(x=>x.startsWith("challenge:")).length>=3?["Curious Explorer"]:[])];
@@ -20,7 +21,7 @@ export function StoryReader({story}:{story:Story}){
  <progress value={finished?story.scenes.length:index+1} max={story.scenes.length} aria-label="Reading progress" style={{width:"100%",accentColor:"#006B3C"}} />
  <div role="group" aria-label="Reading mode" style={{display:"flex",gap:12,flexWrap:"wrap"}}><button type="button" aria-pressed={mode==="read"} onClick={()=>setMode("read")}>Just read</button><button type="button" aria-pressed={mode==="play"} onClick={()=>setMode("play")}>Read and play</button></div>
  {finished?<div role="status" style={{background:"#e8f1e9",padding:24,borderRadius:12}}><h2>Story completed!</h2><p>This reading session included {points} potential StoryPoints. Previously completed stories and challenges do not earn duplicate saved points.</p><p>Badges: {badges.length?badges.join(", "):"Keep exploring!"}</p><button type="button" onClick={()=>{setIndex(0);setFinished(false)}}>Read again</button><p><small>Guest progress is saved only in this browser on this device. No account rewards or FEW Quest competition scores are affected.</small></p></div>:<>
- <div style={{background:"#e8f1e9",padding:22,borderRadius:12}}><h2>{scene.heading}</h2><p style={{fontSize:"1.15rem",lineHeight:1.7}}>{scene.body}</p></div>
+ <div style={{background:"#e8f1e9",padding:22,borderRadius:12}}><div role="img" aria-label={`Illustration reserved for ${scene.heading}`} style={{border:"2px dashed #acc8b6",borderRadius:12,minHeight:160,display:"grid",placeItems:"center",marginBottom:18,color:"#386a4b"}}>Scene illustration coming soon</div><h2>{scene.heading}</h2><p style={{fontSize:"1.15rem",lineHeight:1.7}}>{scene.body}</p></div>
  {mode==="play"&&<><h3>{scene.question}</h3><div style={{display:"grid",gap:10}}>{scene.choices.map((choice,i)=><button key={i} type="button" aria-pressed={selected===i} disabled={selected!==null} onClick={()=>answer(i)} style={{textAlign:"start",padding:15,borderRadius:12,border:selected===i?"2px solid #006B3C":"1px solid #b6c6bc",background:selected===i?"#e8f1e9":"white",cursor:"pointer",fontSize:16}}>{choice.label}</button>)}</div>{selected!==null&&<p role="status">{scene.choices[selected].feedback}</p>}<p><small>Questions are optional. Only your first answer counts; you may continue without answering.</small></p></>}
  <div style={{display:"flex",justifyContent:"space-between",gap:10,flexWrap:"wrap"}}><button type="button" disabled={index===0} onClick={()=>{setIndex(i=>i-1)}}>Previous scene</button><button type="button" onClick={next}>{index===story.scenes.length-1?"Finish story":"Next scene"}</button></div></>}
  <small>Prototype: English editorial samples only; no approved audio or translations. Guest rewards are local to this browser and do not affect FEW Quest competitions. Re-reading does not duplicate saved points.</small>
