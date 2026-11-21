@@ -11,7 +11,7 @@ const tiers = [
  {dir:"content/storyverse/gardenverse",tier:3,files:["beneath-the-roots-of-yesterday","the-last-harvest-of-willow-creek","secrets-of-the-forgotten-greenhouse","when-the-rains-refused-to-come","the-garden-beyond-the-boundary"],name:"Master Storytellers"}
 ];
 const slugs = new Set(), ids = new Set();
-let scenes=0, questions=0;
+let scenes=0, questions=0, expandedWords=0;
 for(const tier of tiers){
  for(const slug of tier.files){
   const full=tier.tier===1?path.join(root,slug,"story.json"):path.join(root,tier.dir,slug+".json");
@@ -20,6 +20,13 @@ for(const tier of tiers){
   assert.equal(data.readingTier,tier.tier,slug+" tier mismatch");
   assert.equal(data.readingTierName,tier.name,slug+" tier name mismatch");
   assert.equal(data.chapters.length,7,slug+" must have seven scenes");
+  const manuscriptWords=data.chapters.flatMap(ch=>ch.content.map(p=>p.text)).join(" ").trim().split(/\s+/).length;
+  assert.equal(data.wordCount,manuscriptWords,slug+" stored word count must match narrative");
+  if(tier.tier===3){
+   assert.equal(data.editorialStatus,"expanded_draft_review_required",slug+" must be expanded but unapproved");
+   assert(manuscriptWords>=2000&&manuscriptWords<=3000,slug+" must have 2,000–3,000 story words");
+   expandedWords+=manuscriptWords;
+  }
   assert(["draft_review_required","expanded_draft_review_required"].includes(data.editorialStatus),slug+" editorial status");
   assert.equal(data.publication.approved,false);
   assert.equal(data.publication.publiclyListed,false);
@@ -31,9 +38,13 @@ for(const tier of tiers){
    assert.equal(chapter.id,"scene-"+n,slug+" scene ID");
    assert(chapter.content.some(p=>typeof p.text==="string"&&p.text.trim().length>0),slug+" empty scene");
    assert.equal(chapter.questions.length,2,slug+" question count");
+   assert(chapter.illustrations?.length>=1,slug+" illustration specification missing");
+   for(const art of chapter.illustrations){assert(art.prompt?.trim()&&art.alt?.trim(),slug+" missing illustration prompt or alt text");}
    assert.equal(chapter.navigation.previous,i?"scene-"+String(i).padStart(2,"0"):null);
    assert.equal(chapter.navigation.next,i<6?"scene-"+String(i+2).padStart(2,"0"):null);
+   const questionIds=new Set();
    for(const q of chapter.questions){
+    assert(!questionIds.has(q.id),slug+" duplicate question ID in scene");questionIds.add(q.id);
     assert(typeof q.prompt==="string"&&q.prompt.trim(),slug+" empty question");
     assert(Array.isArray(q.options)&&q.options.length>=2,slug+" options");
     assert(Number.isInteger(q.correctOption)&&q.correctOption>=0&&q.correctOption<q.options.length,slug+" answer index");
@@ -46,4 +57,4 @@ for(const tier of tiers){
  }
 }
 assert.equal(slugs.size,15);assert.equal(scenes,105);assert.equal(questions,210);
-console.log("PASS: "+slugs.size+" books, "+scenes+" scenes, "+questions+" questions.");
+console.log("PASS: "+slugs.size+" books, "+scenes+" scenes, "+questions+" questions; five expanded Master Storytellers manuscripts ("+expandedWords+" words).");
