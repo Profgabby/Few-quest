@@ -15,12 +15,12 @@ export function StoryReader({story}:{story:Story}){
  const [index,setIndex]=useState(0);
  const [restored,setRestored]=useState(false);
  useEffect(()=>{const shelf=loadReadingShelf();const scene=shelf[story.slug]?.scene??0;setIndex(Math.min(Math.max(0,scene),story.scenes.length-1));setRestored(true);},[story.slug,story.scenes.length]);
- useEffect(()=>{if(restored&&!finished)saveReadingPosition(story.slug,index);},[restored,story.slug,index,finished]);
  const [answers,setAnswers]=useState<Record<string,number>>({});
  const [questionIndex,setQuestionIndex]=useState(0);
  const [mode,setMode]=useState<"read"|"play">("play");
  const [awarded,setAwarded]=useState<string[]>([]);
  const [finished,setFinished]=useState(false);
+ useEffect(()=>{if(restored&&!finished)saveReadingPosition(story.slug,index);},[restored,story.slug,index,finished]);
  const scene=story.scenes[index];
  const questions=scene.questions??[{question:scene.question,choices:scene.choices}];
  const currentQuestion=questions[questionIndex];
