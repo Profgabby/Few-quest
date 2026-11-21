@@ -14,8 +14,7 @@ const slugs = new Set(), ids = new Set();
 let scenes=0, questions=0;
 for(const tier of tiers){
  for(const slug of tier.files){
-  const file=path.join(root,tier.dir,slug,tier.tier===1?"story.json":undefined);
-  const full=tier.tier===1?file:file+".json";
+  const full=tier.tier===1?path.join(root,slug,"story.json"):path.join(root,tier.dir,slug+".json");
   const data=JSON.parse(fs.readFileSync(full,"utf8"));
   assert.equal(data.slug,slug,slug+" slug mismatch");
   assert.equal(data.readingTier,tier.tier,slug+" tier mismatch");
