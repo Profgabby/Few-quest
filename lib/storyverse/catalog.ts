@@ -1,3 +1,4 @@
+import adventure1 from "../../content/storyverse/gardenverse/the-secret-behind-the-garden-gate.json";
 import manuscript1 from "../../the-little-seed-that-would-not-wake/story.json";
 import manuscript2 from "../../mimi-and-the-missing-watering-can/story.json";
 import manuscript3 from "../../the-sunflower-that-followed-the-sun/story.json";
@@ -30,4 +31,15 @@ for (const manuscript of gardenManuscripts) {
  const story: Story = {levelNumber:1,slug:manuscript.slug,title:manuscript.title,level:'Little Explorers',world:'GardenVerse',description:`Seven-scene English editorial preview: ${manuscript.title}`,scenes};
  const existing=stories.findIndex(s=>s.slug===story.slug);
  if(existing>=0) stories[existing]=story; else stories.push(story);
+}
+
+// Story Adventurers: editorial draft, not approved for public publication.
+for(const manuscript of [adventure1]){
+ const scenes:StoryScene[]=manuscript.chapters.map(chapter=>{
+  const questions:StoryQuestion[]=chapter.questions.map(q=>({question:q.prompt,choices:q.options.map((label,i)=>({label,correct:i===q.correctOption,feedback:i===q.correctOption?q.feedback:"Review the scene and try the next question."}))}));
+  return {heading:chapter.title,body:chapter.content.map(p=>p.text).join("\n\n"),question:questions[0].question,choices:questions[0].choices,questions,illustrationAlt:chapter.illustrations[0]?.alt};
+ });
+ const story:Story={levelNumber:2,slug:manuscript.slug,title:manuscript.title,level:"Story Adventurers",world:"GardenVerse",description:"Seven-scene English editorial preview: "+manuscript.title,scenes};
+ const existing=stories.findIndex(s=>s.slug===story.slug);
+ if(existing>=0)stories[existing]=story;else stories.push(story);
 }
