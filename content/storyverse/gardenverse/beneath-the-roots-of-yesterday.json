@@ -1,0 +1,389 @@
+{
+  "schemaVersion": "1.0.0",
+  "storyId": "SV-GARDEN-011",
+  "slug": "beneath-the-roots-of-yesterday",
+  "title": "Beneath the Roots of Yesterday",
+  "collection": "GardenVerse",
+  "primaryCategory": "garden",
+  "subcategory": "heritage-and-land-stewardship",
+  "readingTier": 3,
+  "readingTierName": "Master Storytellers",
+  "sourceLanguage": "en",
+  "availableLanguages": [
+    "en"
+  ],
+  "editorialStatus": "draft_review_required",
+  "publication": {
+    "approved": false,
+    "publiclyListed": false
+  },
+  "wordCount": 592,
+  "chapterLabel": "Scene",
+  "chapters": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "title": "The Tree That Remembered",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The ancient baobab had stood in Adara village for generations. Seventeen-year-old Nneka learned that a proposed commercial road would require its removal. Chief Ekanem promised better market access and jobs. Her grandmother, Mama Uduak, instead opened an old chest and showed her a map marked beside the tree. 'They speak as though the land began yesterday,' she said. The mark suggested that the tree stood at the center of a forgotten agreement. Nneka began asking what the village owed its past."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-011-S01",
+          "filename": "SV-GARDEN-011-S01.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Tree That Remembered: The ancient baobab had stood in Adara village for generations. Seventeen-year-old Nneka learned that a proposed commercial road would require its removal. Chief Ekanem promised better market access and jobs. He",
+          "alt": "Illustration of The Tree That Remembered from Beneath the Roots of Yesterday",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-011-S01-Q01",
+          "type": "multiple_choice",
+          "prompt": "What is the central conflict?",
+          "options": [
+            "Whether infrastructure development justifies removing a culturally important tree",
+            "Whether Nneka should leave school",
+            "Whether farmers should stop selling produce"
+          ],
+          "correctOption": 0,
+          "feedback": "The proposal pits economic development against heritage and environmental stewardship."
+        },
+        {
+          "id": "SV-GARDEN-011-S01-Q02",
+          "type": "multiple_choice",
+          "prompt": "What does 'the land did not begin yesterday' imply?",
+          "options": [
+            "Current decisions should consider historical obligations",
+            "The road was built yesterday",
+            "Old maps are always correct"
+          ],
+          "correctOption": 0,
+          "feedback": "History may carry responsibilities into present decisions."
+        }
+      ],
+      "navigation": {
+        "previous": null,
+        "next": "scene-02"
+      }
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "title": "The Map Beneath the Dust",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Nneka and Malik compared the old map with archived agricultural reports and a recent satellite image. A former stream and seasonal wetland appeared to have been altered by development and drainage works. Malik cautioned that the map did not prove the proposed road would flood. They needed current measurements. Mama Uduak revealed that Nneka's grandfather had helped negotiate a community agreement concerning the baobab and surrounding land. The records, she said, were held by the council, though some residents preferred that history remain undisturbed."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-011-S02",
+          "filename": "SV-GARDEN-011-S02.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Map Beneath the Dust: Nneka and Malik compared the old map with archived agricultural reports and a recent satellite image. A former stream and seasonal wetland appeared to have been altered by development and drainage works. Malik ",
+          "alt": "Illustration of The Map Beneath the Dust from Beneath the Roots of Yesterday",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-011-S02-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why does Malik resist predicting flooding?",
+          "options": [
+            "Historical clues are not a complete risk assessment",
+            "Flooding cannot occur",
+            "Old maps have no value"
+          ],
+          "correctOption": 0,
+          "feedback": "Current drainage data are necessary."
+        },
+        {
+          "id": "SV-GARDEN-011-S02-Q02",
+          "type": "multiple_choice",
+          "prompt": "What does the agreement introduce?",
+          "options": [
+            "Possible community rights and consultation duties",
+            "Proof of supernatural powers",
+            "Ownership by Nneka alone"
+          ],
+          "correctOption": 0,
+          "feedback": "The agreement may shape land-management obligations."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-01",
+        "next": "scene-03"
+      }
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "title": "The Missing Pages",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "At the council archive, Nneka found the agreement listed but several pages missing. Mr. Bassey, the clerk, warned that damage and poor storage were possible explanations; absence alone did not prove concealment. A district office supplied a duplicate plan and agreement. It described community-managed open space around the baobab and required consultation before major changes. It did not ban every development. Nneka wanted to announce victory, but Malik insisted they first establish whether the provisions remained legally applicable. Evidence could be important without being conclusive."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-011-S03",
+          "filename": "SV-GARDEN-011-S03.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Missing Pages: At the council archive, Nneka found the agreement listed but several pages missing. Mr. Bassey, the clerk, warned that damage and poor storage were possible explanations; absence alone did not prove concealment",
+          "alt": "Illustration of The Missing Pages from Beneath the Roots of Yesterday",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-011-S03-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why do missing pages not prove concealment?",
+          "options": [
+            "Records may be lost through several causes",
+            "Documents are unimportant",
+            "The agreement was imaginary"
+          ],
+          "correctOption": 0,
+          "feedback": "Missing records do not establish intent."
+        },
+        {
+          "id": "SV-GARDEN-011-S03-Q02",
+          "type": "multiple_choice",
+          "prompt": "Which recovered provision matters most?",
+          "options": [
+            "A requirement for community consultation",
+            "A ban on every road",
+            "Private ownership by Nneka"
+          ],
+          "correctOption": 0,
+          "feedback": "The consultation clause could affect the decision process."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-02",
+        "next": "scene-04"
+      }
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "title": "The Price of Progress",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "At a crowded public meeting, Chief Ekanem argued that farmers lost income when produce spoiled en route to market. Nneka presented the agreement and old drainage map. A trader challenged her: families needed jobs, not merely a preserved tree. Nneka asked whether alternative alignments had been assessed. Engineer Ms. Bello admitted the preliminary design lacked detailed assessment of the historical drainage corridor and agreed to study alternatives. The meeting ended without consensus, but the question had changed: could the village improve transport without ignoring heritage, environmental risk or affected residents?"
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-011-S04",
+          "filename": "SV-GARDEN-011-S04.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Price of Progress: At a crowded public meeting, Chief Ekanem argued that farmers lost income when produce spoiled en route to market. Nneka presented the agreement and old drainage map. A trader challenged her: families needed jo",
+          "alt": "Illustration of The Price of Progress from Beneath the Roots of Yesterday",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-011-S04-Q01",
+          "type": "multiple_choice",
+          "prompt": "What makes the debate ethically complex?",
+          "options": [
+            "The road offers genuine economic benefits",
+            "All development is harmful",
+            "Preservation has no costs"
+          ],
+          "correctOption": 0,
+          "feedback": "Competing benefits and harms require careful comparison."
+        },
+        {
+          "id": "SV-GARDEN-011-S04-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why examine alternative routes?",
+          "options": [
+            "To compare trade-offs",
+            "To guarantee a free solution",
+            "To avoid public participation"
+          ],
+          "correctOption": 0,
+          "feedback": "Alternatives allow competing objectives to be evaluated."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-03",
+        "next": "scene-05"
+      }
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "title": "What the Soil Revealed",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "An environmental assessment documented the tree, surveyed elevations, examined drains and sampled soil. Dr. Sani showed Nneka a dark soil layer that might support the history of wetter conditions, but stressed that a single observation could not establish a former wetland. The team recommended specialist arboricultural review and further drainage analysis. Nneka realized that defending the baobab meant accepting uncertainty as well as evidence. She no longer needed every discovery to confirm her grandmother's interpretation; she needed the village to make a sound decision."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-011-S05",
+          "filename": "SV-GARDEN-011-S05.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. What the Soil Revealed: An environmental assessment documented the tree, surveyed elevations, examined drains and sampled soil. Dr. Sani showed Nneka a dark soil layer that might support the history of wetter conditions, but stressed ",
+          "alt": "Illustration of What the Soil Revealed from Beneath the Roots of Yesterday",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-011-S05-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why is one soil layer insufficient?",
+          "options": [
+            "Interpretation requires multiple lines of evidence",
+            "Soil never records history",
+            "Only oral histories count"
+          ],
+          "correctOption": 0,
+          "feedback": "Historical and field evidence must be considered together."
+        },
+        {
+          "id": "SV-GARDEN-011-S05-Q02",
+          "type": "multiple_choice",
+          "prompt": "How does Nneka's reasoning mature?",
+          "options": [
+            "She tests beliefs against evidence",
+            "She abandons the tree",
+            "She rejects science"
+          ],
+          "correctOption": 0,
+          "feedback": "She moves beyond confirmation of her initial view."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-04",
+        "next": "scene-06"
+      }
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "title": "The Alternative Route",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Engineers presented three options. The original was shortest but removed the baobab; another preserved it but displaced market stalls; a third followed an existing corridor yet required drainage improvements and longer journeys for some vehicles. Residents raised concerns about compensation, noise and farm access. After review, the council selected a revised third alignment subject to permits, funding and protections for affected households. The decision was not unanimous. Chief Ekanem admitted the council had listened too late. Nneka answered that listening still mattered."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-011-S06",
+          "filename": "SV-GARDEN-011-S06.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Alternative Route: Engineers presented three options. The original was shortest but removed the baobab; another preserved it but displaced market stalls; a third followed an existing corridor yet required drainage improvements an",
+          "alt": "Illustration of The Alternative Route from Beneath the Roots of Yesterday",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-011-S06-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why was the third option not best for everyone?",
+          "options": [
+            "It shifted costs and impacts",
+            "It preserved the tree",
+            "It appeared on a map"
+          ],
+          "correctOption": 0,
+          "feedback": "Every route distributed burdens differently."
+        },
+        {
+          "id": "SV-GARDEN-011-S06-Q02",
+          "type": "multiple_choice",
+          "prompt": "What improved the process?",
+          "options": [
+            "Technical assessment and consultation",
+            "Unanimous agreement",
+            "Ignoring economic concerns"
+          ],
+          "correctOption": 0,
+          "feedback": "Evidence and participation informed the revised decision."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-05",
+        "next": "scene-07"
+      }
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "title": "Beneath the Roots of Yesterday",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A year later, the baobab still stood while the revised road entered its next stage. Malik helped children exhibit historical maps, surveys and photographs. Mama Uduak shared memories of former gardens and water channels. Nneka placed a copy of the agreement in a protected archive. She had searched for a secret beneath the roots and found a network of relationships and responsibilities. In her notebook she wrote: 'We do not inherit the past as a finished story. We inherit the responsibility to decide what happens next.'"
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-011-S07",
+          "filename": "SV-GARDEN-011-S07.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. Beneath the Roots of Yesterday: A year later, the baobab still stood while the revised road entered its next stage. Malik helped children exhibit historical maps, surveys and photographs. Mama Uduak shared memories of former gardens and water",
+          "alt": "Illustration of Beneath the Roots of Yesterday from Beneath the Roots of Yesterday",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-011-S07-Q01",
+          "type": "multiple_choice",
+          "prompt": "What do the roots symbolize?",
+          "options": [
+            "History shaping present responsibilities",
+            "The impossibility of change",
+            "The superiority of elders"
+          ],
+          "correctOption": 0,
+          "feedback": "The roots connect memory and stewardship."
+        },
+        {
+          "id": "SV-GARDEN-011-S07-Q02",
+          "type": "multiple_choice",
+          "prompt": "What is the central theme?",
+          "options": [
+            "Responsible progress requires evidence and participation",
+            "Development must always stop",
+            "Young people should remain silent"
+          ],
+          "correctOption": 0,
+          "feedback": "The story reconciles progress with inherited obligations."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-06",
+        "next": null
+      }
+    }
+  ],
+  "endOfBook": {
+    "activities": [
+      {
+        "type": "investigate",
+        "prompt": "Examine a fictional development proposal: identify benefits, risks, stakeholders, alternative routes and evidence required."
+      }
+    ],
+    "reflection": "How does this story connect evidence, ethical responsibility, and environmental decision-making?"
+  },
+  "accessibility": {
+    "illustrationAltText": true
+  },
+  "rights": {
+    "originalWork": true
+  }
+}
