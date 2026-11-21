@@ -1,0 +1,389 @@
+{
+  "schemaVersion": "1.0.0",
+  "storyId": "SV-GARDEN-014",
+  "slug": "when-the-rains-refused-to-come",
+  "title": "When the Rains Refused to Come",
+  "collection": "GardenVerse",
+  "primaryCategory": "garden",
+  "subcategory": "drought-and-water-equity",
+  "readingTier": 3,
+  "readingTierName": "Master Storytellers",
+  "sourceLanguage": "en",
+  "availableLanguages": [
+    "en"
+  ],
+  "editorialStatus": "draft_review_required",
+  "publication": {
+    "approved": false,
+    "publiclyListed": false
+  },
+  "wordCount": 517,
+  "chapterLabel": "Scene",
+  "chapters": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "title": "The Empty Rain Gauge",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For thirty-two days, Leila checked the empty rain gauge beside the Kachana school garden. Rainfall had arrived late; farmers delayed planting and the reservoir declined. Her father scanned the sky each evening. At school, the geography teacher compared historical rainfall records and explained that climate change can affect drought risks, but attribution of one event requires analysis. Leila wanted certainty and instead discovered a problem demanding evidence, preparation and action."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-014-S01",
+          "filename": "SV-GARDEN-014-S01.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Empty Rain Gauge: For thirty-two days, Leila checked the empty rain gauge beside the Kachana school garden. Rainfall had arrived late; farmers delayed planting and the reservoir declined. Her father scanned the sky each evening.",
+          "alt": "Illustration of The Empty Rain Gauge from When the Rains Refused to Come",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-014-S01-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why is delayed rain serious?",
+          "options": [
+            "It threatens farming, water and livelihoods",
+            "It prevents clouds forever",
+            "It guarantees permanent desert"
+          ],
+          "correctOption": 0,
+          "feedback": "Water shortage affects connected systems."
+        },
+        {
+          "id": "SV-GARDEN-014-S01-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why avoid immediate climate attribution?",
+          "options": [
+            "Attribution requires appropriate analysis",
+            "Climate never affects rain",
+            "Records are irrelevant"
+          ],
+          "correctOption": 0,
+          "feedback": "Specific events need careful evaluation."
+        }
+      ],
+      "navigation": {
+        "previous": null,
+        "next": "scene-02"
+      }
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "title": "The Water Committee",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The village council gathered farmers, households, health workers and livestock owners. Reservoir records showed declining storage. Every group had legitimate water needs, but the available supply was limited. A health worker stressed drinking water and sanitation. The council formed a temporary allocation committee and invited Leila as a student observer. She realized that scarcity was not merely a technical problem; it required fair decisions among people whose needs could not all be satisfied without compromise."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-014-S02",
+          "filename": "SV-GARDEN-014-S02.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Water Committee: The village council gathered farmers, households, health workers and livestock owners. Reservoir records showed declining storage. Every group had legitimate water needs, but the available supply was limited. A",
+          "alt": "Illustration of The Water Committee from When the Rains Refused to Come",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-014-S02-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why is allocation ethically difficult?",
+          "options": [
+            "Different users have legitimate competing needs",
+            "Only farms need water",
+            "Demand is identical"
+          ],
+          "correctOption": 0,
+          "feedback": "Scarcity creates competing priorities."
+        },
+        {
+          "id": "SV-GARDEN-014-S02-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why prioritize basic household needs?",
+          "options": [
+            "They protect health and safety",
+            "They are always largest",
+            "They eliminate farm demand"
+          ],
+          "correctOption": 0,
+          "feedback": "Essential water and sanitation are fundamental."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-01",
+        "next": "scene-03"
+      }
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "title": "The Field of Failed Seeds",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Leila accompanied her father to a field where seedlings had emerged after an early shower and then begun to wilt. She proposed watering everything. 'With what water?' he asked. An extension officer discussed soil moisture monitoring, soil cover, forecasts and locally appropriate drought-tolerant crops. None promised a harvest. Leila understood that adaptation reduces vulnerability under certain conditions; it does not eliminate uncertainty or conjure rainfall."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-014-S03",
+          "filename": "SV-GARDEN-014-S03.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Field of Failed Seeds: Leila accompanied her father to a field where seedlings had emerged after an early shower and then begun to wilt. She proposed watering everything. 'With what water?' he asked. An extension officer discussed so",
+          "alt": "Illustration of The Field of Failed Seeds from When the Rains Refused to Come",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-014-S03-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why was immediate irrigation impractical?",
+          "options": [
+            "Water supplies were constrained",
+            "Seedlings need no water",
+            "Irrigation always harms crops"
+          ],
+          "correctOption": 0,
+          "feedback": "Resource limits shape feasible responses."
+        },
+        {
+          "id": "SV-GARDEN-014-S03-Q02",
+          "type": "multiple_choice",
+          "prompt": "What is adaptation?",
+          "options": [
+            "Risk reduction without guaranteed outcomes",
+            "Guaranteed rain",
+            "Action without planning"
+          ],
+          "correctOption": 0,
+          "feedback": "Adaptation cannot remove all uncertainty."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-02",
+        "next": "scene-04"
+      }
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "title": "The Price of a Bucket",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Private water vendors raised prices as supplies tightened. Leila visited Safiya's household, where basic hygiene and cooking needs were increasingly difficult to meet. At the committee, Leila argued that equal allocations could be inequitable if they ignored household circumstances. Members discussed transparent pricing, emergency supply and targeted assistance. Some worried about costs; others feared the consequences of leaving vulnerable residents without adequate water. Leila learned that fairness requires examining both needs and access."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-014-S04",
+          "filename": "SV-GARDEN-014-S04.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Price of a Bucket: Private water vendors raised prices as supplies tightened. Leila visited Safiya's household, where basic hygiene and cooking needs were increasingly difficult to meet. At the committee, Leila argued that equal ",
+          "alt": "Illustration of The Price of a Bucket from When the Rains Refused to Come",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-014-S04-Q01",
+          "type": "multiple_choice",
+          "prompt": "What distinction does Leila make?",
+          "options": [
+            "Equal amounts do not always ensure equitable access",
+            "Prices never matter",
+            "Needs are identical"
+          ],
+          "correctOption": 0,
+          "feedback": "Equity considers relevant circumstances."
+        },
+        {
+          "id": "SV-GARDEN-014-S04-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why consider targeted assistance?",
+          "options": [
+            "Some households face greater barriers",
+            "Wealthy households use no water",
+            "Vulnerable residents are irrelevant"
+          ],
+          "correctOption": 0,
+          "feedback": "Support can address unequal vulnerability."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-03",
+        "next": "scene-05"
+      }
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "title": "The Rumor of the Hidden Reservoir",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A viral message accused officials of secretly diverting water to a commercial farm, using a photograph of a large pipe. Leila recognized the pipe from an older school visit. The image was real, but it did not establish current withdrawals. She sought records and an independent review. The specific allegation lacked supporting evidence, though reporting practices were weak. The committee agreed to publish regular water-accounting summaries. Leila learned that evidence without context can mislead."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-014-S05",
+          "filename": "SV-GARDEN-014-S05.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Rumor of the Hidden Reservoir: A viral message accused officials of secretly diverting water to a commercial farm, using a photograph of a large pipe. Leila recognized the pipe from an older school visit. The image was real, but it did not e",
+          "alt": "Illustration of The Rumor of the Hidden Reservoir from When the Rains Refused to Come",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-014-S05-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why doesn't the photo prove misconduct?",
+          "options": [
+            "It does not show current allocations",
+            "Photos never count",
+            "Pipes have no purpose"
+          ],
+          "correctOption": 0,
+          "feedback": "Operational context is necessary."
+        },
+        {
+          "id": "SV-GARDEN-014-S05-Q02",
+          "type": "multiple_choice",
+          "prompt": "What improves accountability?",
+          "options": [
+            "Transparent reporting and independent review",
+            "Punishment without evidence",
+            "Ending monitoring"
+          ],
+          "correctOption": 0,
+          "feedback": "Reliable records can strengthen trust."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-04",
+        "next": "scene-06"
+      }
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "title": "The Difficult Agreement",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The committee adopted an emergency plan prioritizing essential household water and public health, monitoring selected restrictions, and guiding agricultural decisions according to crop and water conditions. It also established hardship reviews. Farmers feared crop losses; households feared shortages. Leila's proposal for school water monitoring was accepted. The plan could not produce rain, but it could organize the response. Her father studied a revised planting calendar and told her, 'We will do what we can, and keep learning.'"
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-014-S06",
+          "filename": "SV-GARDEN-014-S06.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Difficult Agreement: The committee adopted an emergency plan prioritizing essential household water and public health, monitoring selected restrictions, and guiding agricultural decisions according to crop and water conditions. It ",
+          "alt": "Illustration of The Difficult Agreement from When the Rains Refused to Come",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-014-S06-Q01",
+          "type": "multiple_choice",
+          "prompt": "What makes the plan responsible?",
+          "options": [
+            "Priorities, monitoring and review",
+            "Guaranteed supply",
+            "Exclusion of residents"
+          ],
+          "correctOption": 0,
+          "feedback": "Accountability requires structured decisions."
+        },
+        {
+          "id": "SV-GARDEN-014-S06-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why allow hardship reviews?",
+          "options": [
+            "General rules affect people differently",
+            "Rules never change",
+            "Circumstances never matter"
+          ],
+          "correctOption": 0,
+          "feedback": "Review can reduce disproportionate burdens."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-05",
+        "next": "scene-07"
+      }
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "title": "The First Clouds",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Rain arrived on a Sunday, first as drops and then a steady shower. People celebrated, but reservoir storage remained low and some fields were already damaged. Leila presented the drought records at school and emphasized continued monitoring. She ended with a sentence of her own: 'Resilience is not the power to command the rain. It is the responsibility to prepare, cooperate, and protect one another when the rain does not come.' She hoped for more rain, but no longer believed hope was enough."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-014-S07",
+          "filename": "SV-GARDEN-014-S07.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The First Clouds: Rain arrived on a Sunday, first as drops and then a steady shower. People celebrated, but reservoir storage remained low and some fields were already damaged. Leila presented the drought records at school and e",
+          "alt": "Illustration of The First Clouds from When the Rains Refused to Come",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-014-S07-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why doesn't one rainfall end the crisis?",
+          "options": [
+            "Recovery of storage and crops takes time",
+            "Rain has no effect",
+            "All damage vanishes instantly"
+          ],
+          "correctOption": 0,
+          "feedback": "Environmental and livelihood recovery can lag."
+        },
+        {
+          "id": "SV-GARDEN-014-S07-Q02",
+          "type": "multiple_choice",
+          "prompt": "What is the central theme?",
+          "options": [
+            "Resilience combines science, fairness and cooperation",
+            "Drought is always preventable",
+            "Water is only technical"
+          ],
+          "correctOption": 0,
+          "feedback": "The story links evidence and justice."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-06",
+        "next": null
+      }
+    }
+  ],
+  "endOfBook": {
+    "activities": [
+      {
+        "type": "investigate",
+        "prompt": "Develop a fictional drought response framework covering essential needs, irrigation constraints, monitoring and equity."
+      }
+    ],
+    "reflection": "How does this story connect evidence, ethical responsibility, and environmental decision-making?"
+  },
+  "accessibility": {
+    "illustrationAltText": true
+  },
+  "rights": {
+    "originalWork": true
+  }
+}
