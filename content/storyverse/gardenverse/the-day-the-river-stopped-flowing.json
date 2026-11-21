@@ -1,0 +1,569 @@
+{
+  "schemaVersion": "1.0.0",
+  "storyId": "SV-GARDEN-008",
+  "slug": "the-day-the-river-stopped-flowing",
+  "title": "The Day the River Stopped Flowing",
+  "collection": "GardenVerse",
+  "primaryCategory": "garden",
+  "subcategory": "watershed-and-water-conservation",
+  "readingTier": 2,
+  "readingTierName": "Story Adventurers",
+  "sourceLanguage": "en",
+  "availableLanguages": [
+    "en"
+  ],
+  "editorialStatus": "draft_review_required",
+  "publication": {
+    "approved": false,
+    "publiclyListed": false
+  },
+  "wordCount": 853,
+  "chapterLabel": "Scene",
+  "chapters": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "title": "The Silent River",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Every morning, Kelechi woke to the sound of the river beside his village. The water usually rushed over smooth stones, carrying fallen leaves downstream."
+        },
+        {
+          "type": "paragraph",
+          "text": "But one Monday, the familiar sound was missing. Kelechi hurried to the riverbank. Instead of flowing water, he found exposed stones and shallow pools."
+        },
+        {
+          "type": "paragraph",
+          "text": "His friend Zainab arrived carrying an empty watering can. “The river is disappearing,” she said."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nearby, Mr. Musa, a vegetable farmer, examined his irrigation intake. “We have had little rain,” he explained. “And the river is lower than I have seen it in years.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kelechi looked upstream. The river curved behind a distant hill. “Could something be blocking it?”"
+        },
+        {
+          "type": "paragraph",
+          "text": "“Possibly,” Mr. Musa said. “But we should not assume that is the only explanation.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kelechi and Zainab decided to find out what was happening."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-008-S01",
+          "filename": "SV-GARDEN-008-S01.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Two children standing beside an unusually low river, with exposed stones and nearby farms.",
+          "alt": "Two children standing beside an unusually low river, with exposed stones and nearby farms.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-008-S01-Q01",
+          "type": "multiple_choice",
+          "prompt": "What first alerted Kelechi to the problem?",
+          "options": [
+            "The usual sound of flowing water was missing",
+            "A broken radio",
+            "A loud thunderstorm"
+          ],
+          "correctOption": 0,
+          "feedback": "The river had become unusually quiet."
+        },
+        {
+          "id": "SV-GARDEN-008-S01-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why did Mr. Musa avoid blaming a blockage immediately?",
+          "options": [
+            "Several factors could explain low flow",
+            "Rivers cannot be blocked",
+            "He had forgotten the river"
+          ],
+          "correctOption": 0,
+          "feedback": "Low rainfall, withdrawals, and obstructions can all affect flow."
+        }
+      ],
+      "navigation": {
+        "previous": null,
+        "next": "scene-02"
+      }
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "title": "The Water Detectives",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "At school, their science teacher, Mrs. Nwosu, listened to their concerns."
+        },
+        {
+          "type": "paragraph",
+          "text": "“A river is part of a watershed,” she explained. “Rainfall, soil, vegetation, groundwater, and human activities can influence how much water reaches it.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "She helped the children examine rainfall records from the school weather station. Rainfall had been below the usual seasonal amount for several weeks."
+        },
+        {
+          "type": "paragraph",
+          "text": "“That explains some of it,” Zainab said."
+        },
+        {
+          "type": "paragraph",
+          "text": "“But perhaps not everything,” Kelechi replied."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mrs. Nwosu contacted the local water officer, who agreed to organize a supervised visit along accessible sections of the river."
+        },
+        {
+          "type": "paragraph",
+          "text": "The children prepared notebooks and a map. They would observe rather than enter the water or interfere with any structures. Their investigation now had a plan."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-008-S02",
+          "filename": "SV-GARDEN-008-S02.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Children examining rainfall charts and a watershed map with their teacher.",
+          "alt": "Children examining rainfall charts and a watershed map with their teacher.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-008-S02-Q01",
+          "type": "multiple_choice",
+          "prompt": "What is a watershed?",
+          "options": [
+            "An area draining water toward a common outlet",
+            "A building for storing books",
+            "A type of watering can"
+          ],
+          "correctOption": 0,
+          "feedback": "A watershed collects and directs water toward connected streams or rivers."
+        },
+        {
+          "id": "SV-GARDEN-008-S02-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did the rainfall records show?",
+          "options": [
+            "Rainfall had been unusually low",
+            "It rained every day",
+            "There had been a flood"
+          ],
+          "correctOption": 0,
+          "feedback": "The records supported the possibility of drought-related low flow."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-01",
+        "next": "scene-03"
+      }
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "title": "The Hill of Broken Branches",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The supervised group followed the river upstream. Along one section, they noticed that the banks were bare and eroded."
+        },
+        {
+          "type": "paragraph",
+          "text": "A little farther ahead, they reached a narrow channel where branches, plastic waste, and sediment had accumulated. Some water trickled through the obstruction."
+        },
+        {
+          "type": "paragraph",
+          "text": "“Could this be the problem?” Zainab asked."
+        },
+        {
+          "type": "paragraph",
+          "text": "The water officer examined the area. “It may restrict local flow and worsen flooding or erosion under some conditions. But the entire river's low water level may have several causes.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "The children photographed the obstruction from a safe distance. They also noticed a recently cleared hillside nearby."
+        },
+        {
+          "type": "paragraph",
+          "text": "Without vegetation, loose soil could be washed into the channel during storms."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kelechi drew the hillside, the exposed bank, and the accumulated sediment. Their list of possible causes was growing."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-008-S03",
+          "filename": "SV-GARDEN-008-S03.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Supervised riverside investigation showing a debris-filled channel and an eroded hillside.",
+          "alt": "Supervised riverside investigation showing a debris-filled channel and an eroded hillside.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-008-S03-Q01",
+          "type": "multiple_choice",
+          "prompt": "What had accumulated in the narrow channel?",
+          "options": [
+            "Branches, waste and sediment",
+            "Books and pencils",
+            "Fresh vegetables"
+          ],
+          "correctOption": 0,
+          "feedback": "The obstruction contained debris and deposited soil."
+        },
+        {
+          "id": "SV-GARDEN-008-S03-Q02",
+          "type": "multiple_choice",
+          "prompt": "How can clearing vegetation affect a river?",
+          "options": [
+            "It can increase erosion and sediment movement",
+            "It creates more rainfall automatically",
+            "It turns water into salt"
+          ],
+          "correctOption": 0,
+          "feedback": "Vegetation helps stabilize soil and reduce erosion."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-02",
+        "next": "scene-04"
+      }
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "title": "The Argument at the Farm",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "News of the investigation spread quickly. At a community meeting, some residents blamed farmers for taking too much water. Others blamed the village for dumping waste."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mr. Musa stood up. “My vegetables need water, but so do the river's fish and downstream communities.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "A woman from the next village explained that her family's well had also become shallow."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mrs. Nwosu asked everyone to consider the evidence. The low rainfall was documented. Sediment and waste had been observed. Water withdrawals also needed proper assessment."
+        },
+        {
+          "type": "paragraph",
+          "text": "“No single person should be blamed without reliable information,” she said."
+        },
+        {
+          "type": "paragraph",
+          "text": "The local water officer proposed a coordinated response involving farmers, residents, and local authorities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kelechi realized that solving a water problem required more than discovering one obstacle. It required people to listen to one another."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-008-S04",
+          "filename": "SV-GARDEN-008-S04.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Farmers, residents, children, and a water officer discussing a watershed map at a community meeting.",
+          "alt": "Farmers, residents, children, and a water officer discussing a watershed map at a community meeting.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-008-S04-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why was blaming one group unfair?",
+          "options": [
+            "The available evidence did not establish a single cause",
+            "Water has no users",
+            "Meetings are always unnecessary"
+          ],
+          "correctOption": 0,
+          "feedback": "Several interacting factors could contribute to the problem."
+        },
+        {
+          "id": "SV-GARDEN-008-S04-Q02",
+          "type": "multiple_choice",
+          "prompt": "What was needed for a responsible response?",
+          "options": [
+            "Cooperation and reliable information",
+            "More arguments",
+            "Ignoring downstream users"
+          ],
+          "correctOption": 0,
+          "feedback": "Shared water resources require coordinated management."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-03",
+        "next": "scene-05"
+      }
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "title": "The Plan for Every Drop",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The village formed a water-care committee. Qualified workers assessed the channel obstruction and planned safe removal where permitted."
+        },
+        {
+          "type": "paragraph",
+          "text": "Farmers inspected irrigation pipes for leaks and discussed watering schedules that would reduce unnecessary losses."
+        },
+        {
+          "type": "paragraph",
+          "text": "Families repaired dripping taps and collected suitable rainwater for non-drinking uses when rainfall returned."
+        },
+        {
+          "type": "paragraph",
+          "text": "The school started a project to protect bare soil with vegetation and mulch in appropriate areas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kelechi and Zainab designed posters reminding people not to dump waste into drainage channels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Their teacher emphasized that these actions could improve local water management, but they could not guarantee that river flow would recover without sufficient rainfall."
+        },
+        {
+          "type": "paragraph",
+          "text": "The children understood. A river could not be repaired by wishing. It needed careful, sustained action."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-008-S05",
+          "filename": "SV-GARDEN-008-S05.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Community members repairing irrigation lines, protecting soil, and displaying water-conservation posters.",
+          "alt": "Community members repairing irrigation lines, protecting soil, and displaying water-conservation posters.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-008-S05-Q01",
+          "type": "multiple_choice",
+          "prompt": "Which action could reduce unnecessary irrigation losses?",
+          "options": [
+            "Repairing leaks",
+            "Leaving taps running",
+            "Flooding paths"
+          ],
+          "correctOption": 0,
+          "feedback": "Fixing leaks reduces avoidable water loss."
+        },
+        {
+          "id": "SV-GARDEN-008-S05-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why couldn't the committee guarantee immediate river recovery?",
+          "options": [
+            "Rainfall and other watershed conditions also mattered",
+            "Rivers never change",
+            "Posters stop all water flow"
+          ],
+          "correctOption": 0,
+          "feedback": "River recovery depends on multiple environmental factors."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-04",
+        "next": "scene-06"
+      }
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "title": "The First Rain",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Several weeks passed. The river remained low, although the community had improved its water-management practices."
+        },
+        {
+          "type": "paragraph",
+          "text": "Then one afternoon, dark clouds gathered over the hills. Rain fell steadily across the watershed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kelechi watched from the classroom window. By the following morning, the river had risen."
+        },
+        {
+          "type": "paragraph",
+          "text": "The water officer reminded everyone that a single rainfall event did not mean the dry period was over."
+        },
+        {
+          "type": "paragraph",
+          "text": "The children visited the riverbank with their teacher. Water moved around the familiar stones again."
+        },
+        {
+          "type": "paragraph",
+          "text": "Zainab smiled. “It's singing.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kelechi opened his notebook. He recorded the date, rainfall, and the river's appearance."
+        },
+        {
+          "type": "paragraph",
+          "text": "He had learned not to confuse a hopeful observation with proof that every problem was solved."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-008-S06",
+          "filename": "SV-GARDEN-008-S06.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Children observing a recovering river after rainfall, with a teacher supervising from the bank.",
+          "alt": "Children observing a recovering river after rainfall, with a teacher supervising from the bank.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-008-S06-Q01",
+          "type": "multiple_choice",
+          "prompt": "What helped increase the river's flow?",
+          "options": [
+            "Rainfall across the watershed",
+            "A new school bell",
+            "A painted fence"
+          ],
+          "correctOption": 0,
+          "feedback": "Rainfall contributed water to the watershed."
+        },
+        {
+          "id": "SV-GARDEN-008-S06-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why was continued monitoring important?",
+          "options": [
+            "One rainstorm did not prove long-term recovery",
+            "The river had become imaginary",
+            "All records were unnecessary"
+          ],
+          "correctOption": 0,
+          "feedback": "Longer-term observations are needed to understand trends."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-05",
+        "next": "scene-07"
+      }
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "title": "The River's Promise",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "At the end of the school term, Kelechi and Zainab presented their investigation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Their display included rainfall records, photographs, a watershed diagram, and a summary of community actions."
+        },
+        {
+          "type": "paragraph",
+          "text": "“We began by asking why the river stopped flowing,” Kelechi told the audience."
+        },
+        {
+          "type": "paragraph",
+          "text": "“And we discovered that water connects everyone,” Zainab added."
+        },
+        {
+          "type": "paragraph",
+          "text": "The village council agreed to continue riverbank protection, waste management, and water-use monitoring."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mr. Musa volunteered to help students learn about efficient irrigation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mrs. Nwosu announced that the school would repeat its observations during the next dry season."
+        },
+        {
+          "type": "paragraph",
+          "text": "After the presentation, Kelechi returned to the river. He listened to the water moving over stones."
+        },
+        {
+          "type": "paragraph",
+          "text": "He knew the river could become low again. But now the village understood that protecting it was a shared responsibility."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-008-S07",
+          "filename": "SV-GARDEN-008-S07.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Children presenting a watershed project while community members examine their display.",
+          "alt": "Children presenting a watershed project while community members examine their display.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-008-S07-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did the children learn about water resources?",
+          "options": [
+            "They connect people and ecosystems",
+            "They belong to only one person",
+            "They never need management"
+          ],
+          "correctOption": 0,
+          "feedback": "Rivers support many users and living systems."
+        },
+        {
+          "id": "SV-GARDEN-008-S07-Q02",
+          "type": "multiple_choice",
+          "prompt": "What was the main outcome of the investigation?",
+          "options": [
+            "A continuing community water-care effort",
+            "A promise never to study rivers again",
+            "The removal of every farm"
+          ],
+          "correctOption": 0,
+          "feedback": "The community adopted longer-term stewardship actions."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-06",
+        "next": null
+      }
+    }
+  ],
+  "endOfBook": {
+    "activities": [
+      {
+        "type": "investigate",
+        "prompt": "Draw a watershed showing hills, rainfall, streams, farms, houses, and a river. Identify three human activities that affect water."
+      }
+    ],
+    "reflection": "How do water users share responsibility for a watershed?"
+  },
+  "accessibility": {
+    "illustrationAltText": true
+  },
+  "rights": {
+    "originalWork": true
+  }
+}
