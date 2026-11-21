@@ -1,0 +1,389 @@
+{
+  "schemaVersion": "1.0.0",
+  "storyId": "SV-GARDEN-015",
+  "slug": "the-garden-beyond-the-boundary",
+  "title": "The Garden Beyond the Boundary",
+  "collection": "GardenVerse",
+  "primaryCategory": "garden",
+  "subcategory": "land-and-stormwater-governance",
+  "readingTier": 3,
+  "readingTierName": "Master Storytellers",
+  "sourceLanguage": "en",
+  "availableLanguages": [
+    "en"
+  ],
+  "editorialStatus": "draft_review_required",
+  "publication": {
+    "approved": false,
+    "publiclyListed": false
+  },
+  "wordCount": 536,
+  "chapterLabel": "Scene",
+  "chapters": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "title": "The Fence Between Two Worlds",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A wire fence separated Harmony Secondary School's vegetable garden from a paved residential estate. Sixteen-year-old Tari discovered survey markers and a notice proposing a boundary adjustment for drainage and access improvements. Several garden beds seemed threatened. The headteacher said no final decision had been made. Tari assumed the fence marked the legal property line, then learned that fences and recorded boundaries do not always match. Her familiar garden had become the center of a land-use dispute."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-015-S01",
+          "filename": "SV-GARDEN-015-S01.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Fence Between Two Worlds: A wire fence separated Harmony Secondary School's vegetable garden from a paved residential estate. Sixteen-year-old Tari discovered survey markers and a notice proposing a boundary adjustment for drainage and ",
+          "alt": "Illustration of The Fence Between Two Worlds from The Garden Beyond the Boundary",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-015-S01-Q01",
+          "type": "multiple_choice",
+          "prompt": "What begins the conflict?",
+          "options": [
+            "A boundary adjustment affecting garden beds",
+            "School uniforms",
+            "A new teacher"
+          ],
+          "correctOption": 0,
+          "feedback": "The proposal threatens productive space."
+        },
+        {
+          "id": "SV-GARDEN-015-S01-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why question the fence's legal status?",
+          "options": [
+            "Physical and recorded boundaries may differ",
+            "Fences are useless",
+            "Records are always wrong"
+          ],
+          "correctOption": 0,
+          "feedback": "Survey and legal evidence are necessary."
+        }
+      ],
+      "navigation": {
+        "previous": null,
+        "next": "scene-02"
+      }
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "title": "The Meeting Across the Fence",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "At a joint meeting, estate manager Mr. Lawson described repeated flooding near homes and the need for drainage access. Tari protested that the route crossed school planting beds. Maya, an estate resident, explained that her house had flooded the previous year. Tari recognized that the estate's concerns were real, not simply hostility to the garden. The groups agreed to share records and commission a joint technical review. Tari and Maya shook hands, each fearing the loss of something important."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-015-S02",
+          "filename": "SV-GARDEN-015-S02.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Meeting Across the Fence: At a joint meeting, estate manager Mr. Lawson described repeated flooding near homes and the need for drainage access. Tari protested that the route crossed school planting beds. Maya, an estate resident, expla",
+          "alt": "Illustration of The Meeting Across the Fence from The Garden Beyond the Boundary",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-015-S02-Q01",
+          "type": "multiple_choice",
+          "prompt": "What complicates Tari's view?",
+          "options": [
+            "Residents have legitimate flood concerns",
+            "The estate is empty",
+            "The garden is unused"
+          ],
+          "correctOption": 0,
+          "feedback": "Other stakeholders face real risks."
+        },
+        {
+          "id": "SV-GARDEN-015-S02-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why review jointly?",
+          "options": [
+            "Boundary and drainage questions require shared evidence",
+            "It guarantees agreement",
+            "It avoids discussion"
+          ],
+          "correctOption": 0,
+          "feedback": "A common factual basis can help."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-01",
+        "next": "scene-03"
+      }
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "title": "The Water That Crossed the Line",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "During a supervised site visit, an engineer explained how runoff from roofs and paved areas entered drains toward lower ground. Some sections were undersized or obstructed, while compacted garden soil also affected infiltration. Tari blamed paving alone, but the engineer described rainfall intensity, contributing area, soil conditions and maintenance as interacting factors. Vegetated areas might help manage runoff if properly designed. Tari and Maya began sketching options together, moving from accusation toward investigation."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-015-S03",
+          "filename": "SV-GARDEN-015-S03.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Water That Crossed the Line: During a supervised site visit, an engineer explained how runoff from roofs and paved areas entered drains toward lower ground. Some sections were undersized or obstructed, while compacted garden soil also affe",
+          "alt": "Illustration of The Water That Crossed the Line from The Garden Beyond the Boundary",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-015-S03-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why not blame paving alone?",
+          "options": [
+            "Runoff depends on multiple factors",
+            "Paving never affects runoff",
+            "Rain intensity is irrelevant"
+          ],
+          "correctOption": 0,
+          "feedback": "Stormwater is a systems problem."
+        },
+        {
+          "id": "SV-GARDEN-015-S03-Q02",
+          "type": "multiple_choice",
+          "prompt": "What opportunity emerges?",
+          "options": [
+            "Integrating garden preservation and drainage",
+            "Eliminating rain",
+            "Building without review"
+          ],
+          "correctOption": 0,
+          "feedback": "Design can consider both objectives."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-02",
+        "next": "scene-04"
+      }
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "title": "The Plan Nobody Expected",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Engineers outlined three preliminary options: a conventional channel removing beds, relocating the garden, or combining drainage repairs with vegetated features and adjusted access. The third option needed hydraulic analysis, soil testing and maintenance agreements. Tari and Maya organized a student design workshop considering safe access, productive beds, runoff routing and crop-water quality. Raised beds away from concentrated runoff and educational monitoring signs emerged as ideas. The garden could become an outdoor classroom for engineering and environmental ethics."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-015-S04",
+          "filename": "SV-GARDEN-015-S04.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Plan Nobody Expected: Engineers outlined three preliminary options: a conventional channel removing beds, relocating the garden, or combining drainage repairs with vegetated features and adjusted access. The third option needed hydr",
+          "alt": "Illustration of The Plan Nobody Expected from The Garden Beyond the Boundary",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-015-S04-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why is the integrated option not ready to build?",
+          "options": [
+            "It requires technical verification and agreements",
+            "Plants guarantee drainage",
+            "Student ideas never need review"
+          ],
+          "correctOption": 0,
+          "feedback": "Concepts need engineering assessment."
+        },
+        {
+          "id": "SV-GARDEN-015-S04-Q02",
+          "type": "multiple_choice",
+          "prompt": "What learning opportunity arises?",
+          "options": [
+            "Teaching systems and design trade-offs",
+            "Replacing all subjects",
+            "Avoiding engineering"
+          ],
+          "correctOption": 0,
+          "feedback": "The site supports interdisciplinary learning."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-03",
+        "next": "scene-05"
+      }
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "title": "The Boundary of Trust",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A survey found parts of the fence did not match the recorded boundary. Accusations intensified: estate residents demanded relocation, while parents feared loss of school land. Maya urged Tari to separate the legal boundary issue from drainage design. Authorities and representatives could resolve land rights while technical cooperation continued without prejudging ownership. Their proposal did not remove distrust, but it allowed progress. Tari learned that a disagreement becomes harder when every question is treated as a test of loyalty."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-015-S05",
+          "filename": "SV-GARDEN-015-S05.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Boundary of Trust: A survey found parts of the fence did not match the recorded boundary. Accusations intensified: estate residents demanded relocation, while parents feared loss of school land. Maya urged Tari to separate the le",
+          "alt": "Illustration of The Boundary of Trust from The Garden Beyond the Boundary",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-015-S05-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why separate the issues?",
+          "options": [
+            "They need different evidence and processes",
+            "Boundaries never affect works",
+            "Drainage is unrelated to land"
+          ],
+          "correctOption": 0,
+          "feedback": "Legal and technical questions overlap but differ."
+        },
+        {
+          "id": "SV-GARDEN-015-S05-Q02",
+          "type": "multiple_choice",
+          "prompt": "What threatens cooperation?",
+          "options": [
+            "Distrust",
+            "Lack of paper",
+            "No interest"
+          ],
+          "correctOption": 0,
+          "feedback": "Suspicion can overwhelm technical progress."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-04",
+        "next": "scene-06"
+      }
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "title": "Designing Shared Ground",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "After legal and survey review, the school and estate negotiated access provisions. Engineers refined a plan preserving most beds while moving some away from drainage works. The design included maintenance access, runoff conveyance and a supervised demonstration area. Students would monitor rainfall, but stormwater was not assumed safe for food-crop irrigation. Tari documented relocated beds; Maya helped organize maintenance. Assigned responsibilities made the plan more credible than a promise that flooding would never recur."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-015-S06",
+          "filename": "SV-GARDEN-015-S06.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. Designing Shared Ground: After legal and survey review, the school and estate negotiated access provisions. Engineers refined a plan preserving most beds while moving some away from drainage works. The design included maintenance acces",
+          "alt": "Illustration of Designing Shared Ground from The Garden Beyond the Boundary",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-015-S06-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why keep crop irrigation separate?",
+          "options": [
+            "Stormwater quality requires assessment",
+            "Stormwater is always clean",
+            "Crops need no water"
+          ],
+          "correctOption": 0,
+          "feedback": "Food production requires water-quality safeguards."
+        },
+        {
+          "id": "SV-GARDEN-015-S06-Q02",
+          "type": "multiple_choice",
+          "prompt": "What makes the agreement credible?",
+          "options": [
+            "Clear implementation and maintenance roles",
+            "A guarantee against all flooding",
+            "No future costs"
+          ],
+          "correctOption": 0,
+          "feedback": "Responsibility must be assigned."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-05",
+        "next": "scene-07"
+      }
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "title": "Beyond the Fence",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A year later, the redesigned garden opened. The legal fence remained, but supervised joint visits passed through a new gate. Tari explained relocated vegetable beds; Maya described drainage improvements and monitoring. Some residents still worried about maintenance, yet the communities now had a procedure for addressing problems. Tari saw that a boundary could define responsibility without preventing cooperation. When she asked what they should work on next, Maya smiled and suggested exploring the rest of the neighborhood together."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-015-S07",
+          "filename": "SV-GARDEN-015-S07.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. Beyond the Fence: A year later, the redesigned garden opened. The legal fence remained, but supervised joint visits passed through a new gate. Tari explained relocated vegetable beds; Maya described drainage improvements and mon",
+          "alt": "Illustration of Beyond the Fence from The Garden Beyond the Boundary",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-015-S07-Q01",
+          "type": "multiple_choice",
+          "prompt": "What does the fence symbolize?",
+          "options": [
+            "A boundary compatible with collaboration",
+            "The end of property rights",
+            "Permanent hostility"
+          ],
+          "correctOption": 0,
+          "feedback": "Boundaries need not prevent cooperation."
+        },
+        {
+          "id": "SV-GARDEN-015-S07-Q02",
+          "type": "multiple_choice",
+          "prompt": "What is the central message?",
+          "options": [
+            "Evidence and negotiation can resolve shared problems",
+            "One group must defeat the other",
+            "Engineering replaces participation"
+          ],
+          "correctOption": 0,
+          "feedback": "Collaborative problem-solving is central."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-06",
+        "next": null
+      }
+    }
+  ],
+  "endOfBook": {
+    "activities": [
+      {
+        "type": "investigate",
+        "prompt": "Design a shared school-community garden accommodating productive beds, drainage, access and maintenance."
+      }
+    ],
+    "reflection": "How does this story connect evidence, ethical responsibility, and environmental decision-making?"
+  },
+  "accessibility": {
+    "illustrationAltText": true
+  },
+  "rights": {
+    "originalWork": true
+  }
+}
