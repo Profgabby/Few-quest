@@ -1,0 +1,557 @@
+{
+  "schemaVersion": "1.0.0",
+  "storyId": "SV-GARDEN-007",
+  "slug": "ada-and-the-midnight-garden-mystery",
+  "title": "Ada and the Midnight Garden Mystery",
+  "collection": "GardenVerse",
+  "primaryCategory": "garden",
+  "subcategory": "nocturnal-ecology",
+  "readingTier": 2,
+  "readingTierName": "Story Adventurers",
+  "sourceLanguage": "en",
+  "availableLanguages": [
+    "en"
+  ],
+  "editorialStatus": "draft_review_required",
+  "publication": {
+    "approved": false,
+    "publiclyListed": false
+  },
+  "wordCount": 837,
+  "chapterLabel": "Scene",
+  "chapters": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "title": "The Flowers That Disappeared",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ada loved the garden behind her grandmother's house. Every morning, she counted the flowers growing beside the fence. There were red hibiscus, purple morning glories, yellow marigolds, and a row of unusual white flowers that Grandma called moonflowers."
+        },
+        {
+          "type": "paragraph",
+          "text": "One Wednesday morning, Ada noticed something puzzling. Several white flowers had closed, although she remembered seeing them open the previous evening."
+        },
+        {
+          "type": "paragraph",
+          "text": "“Grandma, somebody is stealing the flowers!”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Grandma examined the plants. “The flowers are still here, Ada. Look carefully.” Ada leaned closer. The white petals had folded inward."
+        },
+        {
+          "type": "paragraph",
+          "text": "“Then why are they hiding?”"
+        },
+        {
+          "type": "paragraph",
+          "text": "“Some flowers open at different times of day,” Grandma explained."
+        },
+        {
+          "type": "paragraph",
+          "text": "But Ada had another question. Why did these particular flowers open when the sun was disappearing? That evening, she decided to investigate."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-007-S01",
+          "filename": "SV-GARDEN-007-S01.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Ada examining closed white moonflowers beside a garden fence.",
+          "alt": "Ada examining closed white moonflowers beside a garden fence.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-007-S01-Q01",
+          "type": "multiple_choice",
+          "prompt": "What happened to the white flowers?",
+          "options": [
+            "They closed",
+            "They turned blue",
+            "They fell into the river"
+          ],
+          "correctOption": 0,
+          "feedback": "Their petals folded inward."
+        },
+        {
+          "id": "SV-GARDEN-007-S01-Q02",
+          "type": "multiple_choice",
+          "prompt": "What question started Ada's investigation?",
+          "options": [
+            "Why the flowers opened at night",
+            "Why Grandma liked gardening",
+            "Why the fence was tall"
+          ],
+          "correctOption": 0,
+          "feedback": "Ada wanted to understand the flowers' unusual timing."
+        }
+      ],
+      "navigation": {
+        "previous": null,
+        "next": "scene-02"
+      }
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "title": "The Garden Detective",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ada borrowed Grandma's flashlight, a notebook, and a small clock. She asked permission to observe the garden after sunset. Grandma agreed, provided they stayed together on the veranda and did not disturb the animals."
+        },
+        {
+          "type": "paragraph",
+          "text": "At six o'clock, Ada recorded the weather. The sky was clear. The air felt warm. A gentle breeze moved through the leaves."
+        },
+        {
+          "type": "paragraph",
+          "text": "At half past six, the first white flower began to open. Ada watched in amazement as the petals unfolded."
+        },
+        {
+          "type": "paragraph",
+          "text": "“It's like watching a secret door open,” she whispered."
+        },
+        {
+          "type": "paragraph",
+          "text": "Soon, several large white blossoms faced the evening sky. A sweet fragrance drifted toward the veranda. Ada wrote: Observation 1: Flowers open around dusk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Then something pale fluttered past the nearest blossom. Ada raised her flashlight. The visitor vanished into the darkness."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-007-S02",
+          "filename": "SV-GARDEN-007-S02.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Ada and Grandma observing unfolding white flowers from a veranda at dusk.",
+          "alt": "Ada and Grandma observing unfolding white flowers from a veranda at dusk.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-007-S02-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why did Ada record the time and weather?",
+          "options": [
+            "To make reliable observations",
+            "To decorate her notebook",
+            "To predict her birthday"
+          ],
+          "correctOption": 0,
+          "feedback": "Time and weather records help compare observations."
+        },
+        {
+          "id": "SV-GARDEN-007-S02-Q02",
+          "type": "multiple_choice",
+          "prompt": "When did the flowers begin opening?",
+          "options": [
+            "Around dusk",
+            "At midday",
+            "At sunrise"
+          ],
+          "correctOption": 0,
+          "feedback": "Ada observed the first flower opening in the evening."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-01",
+        "next": "scene-03"
+      }
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "title": "The Visitor with Silent Wings",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The following evening, Ada returned with Grandma. This time, they used a dim light and waited quietly."
+        },
+        {
+          "type": "paragraph",
+          "text": "A large moth approached the flowers. Its wings moved rapidly as it hovered near a blossom. A long feeding tube extended toward the flower's center."
+        },
+        {
+          "type": "paragraph",
+          "text": "“It's drinking nectar!” Ada whispered."
+        },
+        {
+          "type": "paragraph",
+          "text": "Grandma nodded. “Many moths visit flowers at night. Some carry pollen between blossoms.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "The moth moved to another flower. Ada noticed yellowish dust on part of its body."
+        },
+        {
+          "type": "paragraph",
+          "text": "“Could that be pollen?”"
+        },
+        {
+          "type": "paragraph",
+          "text": "“It might be. We should observe carefully before making a conclusion.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ada sketched the moth and the flower. Her mystery had become more interesting. The flowers were not simply opening at night. They were receiving visitors."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-007-S03",
+          "filename": "SV-GARDEN-007-S03.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Scientifically plausible hawkmoth feeding from a white night-blooming flower.",
+          "alt": "Scientifically plausible hawkmoth feeding from a white night-blooming flower.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-007-S03-Q01",
+          "type": "multiple_choice",
+          "prompt": "What animal visited the flowers?",
+          "options": [
+            "A moth",
+            "A rabbit",
+            "A frog"
+          ],
+          "correctOption": 0,
+          "feedback": "Ada observed a moth hovering near the blossoms."
+        },
+        {
+          "id": "SV-GARDEN-007-S03-Q02",
+          "type": "multiple_choice",
+          "prompt": "What might the moth carry between flowers?",
+          "options": [
+            "Pollen",
+            "Stones",
+            "Soil"
+          ],
+          "correctOption": 0,
+          "feedback": "Some moths transfer pollen while visiting flowers."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-02",
+        "next": "scene-04"
+      }
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "title": "Footprints by the Watering Can",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "On Friday morning, Ada found another clue. The soil near the watering can was disturbed. Small footprints crossed the damp earth."
+        },
+        {
+          "type": "paragraph",
+          "text": "“A second visitor!” she announced."
+        },
+        {
+          "type": "paragraph",
+          "text": "Grandma examined the marks. “Perhaps. But footprints alone may not tell us exactly which animal made them.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ada measured the prints with a ruler and drew them in her notebook. That evening, she and Grandma observed the garden again."
+        },
+        {
+          "type": "paragraph",
+          "text": "A small toad emerged from beneath a clay pot and moved toward the vegetable bed. It paused beside a beetle. Then, with a quick movement, it caught the insect."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ada smiled. “The garden has night workers!”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Grandma laughed. “Animals can help shape garden ecosystems in many ways.” Ada recorded her second discovery."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-007-S04",
+          "filename": "SV-GARDEN-007-S04.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: A small toad beside a clay pot in a moonlit garden, with Ada observing from a safe distance.",
+          "alt": "A small toad beside a clay pot in a moonlit garden, with Ada observing from a safe distance.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-007-S04-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why did Ada measure the footprints?",
+          "options": [
+            "To document evidence",
+            "To frighten the animal",
+            "To change their shape"
+          ],
+          "correctOption": 0,
+          "feedback": "Measurements help describe observations accurately."
+        },
+        {
+          "id": "SV-GARDEN-007-S04-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did the toad eat?",
+          "options": [
+            "An insect",
+            "A flowerpot",
+            "A leaf of paper"
+          ],
+          "correctOption": 0,
+          "feedback": "Ada observed the toad catching a beetle."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-03",
+        "next": "scene-05"
+      }
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "title": "The Mystery of the Missing Buds",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Just when Ada thought she understood the garden, a new problem appeared. Several tender leaves and flower buds had been damaged."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ada blamed the toad. “It must be eating the plants!”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Grandma shook her head. “Let's look for evidence.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "They examined the leaves and found irregular holes and shiny trails nearby. Under a damp board, Grandma spotted several snails."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ada stared at them. “So the toad wasn't responsible.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "“No. That is why scientists test explanations rather than choosing the first one.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Together, they recorded the damage and discussed ways to protect young plants without harming other garden animals. Ada suggested checking seedlings regularly and using appropriate physical barriers. Grandma agreed. The mystery was becoming a lesson in careful thinking."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-007-S05",
+          "filename": "SV-GARDEN-007-S05.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Ada and Grandma examining damaged leaves and snails beneath a damp board.",
+          "alt": "Ada and Grandma examining damaged leaves and snails beneath a damp board.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-007-S05-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why was Ada's first accusation unreliable?",
+          "options": [
+            "She had no evidence linking the toad to the damage",
+            "Toads cannot move",
+            "Plants never suffer damage"
+          ],
+          "correctOption": 0,
+          "feedback": "An explanation needs supporting evidence."
+        },
+        {
+          "id": "SV-GARDEN-007-S05-Q02",
+          "type": "multiple_choice",
+          "prompt": "What evidence suggested snails were involved?",
+          "options": [
+            "Snails and shiny trails near damaged plants",
+            "A loud noise",
+            "A broken clock"
+          ],
+          "correctOption": 0,
+          "feedback": "The observations supported a different explanation."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-04",
+        "next": "scene-06"
+      }
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "title": "The Garden After Dark",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "On Saturday, Grandma invited Ada's cousins to join a supervised evening observation. They sat quietly on the veranda."
+        },
+        {
+          "type": "paragraph",
+          "text": "The moonflowers opened. Moths visited the blossoms. Crickets called from the grass. A gecko waited near the veranda light."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ada explained what she had learned. “Not everything in the garden happens during the day.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Her cousin Bayo asked whether all white flowers opened at night."
+        },
+        {
+          "type": "paragraph",
+          "text": "“No,” Ada replied. “Different species behave differently. We have to identify the plant and observe it.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Grandma smiled proudly. Ada had learned to be careful with her conclusions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The children made a simple garden observation chart. They recorded the time, weather, organisms seen, and questions they wanted to investigate later."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-007-S06",
+          "filename": "SV-GARDEN-007-S06.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Children with Grandma quietly observing a moonlit garden from a veranda.",
+          "alt": "Children with Grandma quietly observing a moonlit garden from a veranda.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-007-S06-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why should Ada avoid saying all white flowers open at night?",
+          "options": [
+            "Flowering behavior differs among species",
+            "White flowers are imaginary",
+            "Night never comes"
+          ],
+          "correctOption": 0,
+          "feedback": "Different plant species have different flowering patterns."
+        },
+        {
+          "id": "SV-GARDEN-007-S06-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did the children include in their chart?",
+          "options": [
+            "Time, weather, observations and questions",
+            "Only their names",
+            "Random guesses"
+          ],
+          "correctOption": 0,
+          "feedback": "Their chart organized evidence for further investigation."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-05",
+        "next": "scene-07"
+      }
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "title": "The Midnight Garden Club",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The following week, Ada presented her findings at school. She called her project The Midnight Garden Mystery."
+        },
+        {
+          "type": "paragraph",
+          "text": "Her classmates listened as she described the flowers, moths, toad, snails, and the importance of evidence."
+        },
+        {
+          "type": "paragraph",
+          "text": "“Did you solve the mystery?” her teacher asked."
+        },
+        {
+          "type": "paragraph",
+          "text": "“Some of it,” Ada replied. “But I discovered more questions.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "The class decided to create a supervised Garden Observation Club. They would study flowers, insects, birds, soil, and weather at appropriate times."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ada placed her notebook on the classroom table. On its cover, she had written: Look closely. Ask questions. Protect living things."
+        },
+        {
+          "type": "paragraph",
+          "text": "That evening, the white flowers opened once more. Ada no longer imagined that the garden became empty after sunset. She knew it was entering another chapter of its busy life."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-007-S07",
+          "filename": "SV-GARDEN-007-S07.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Ada proudly presenting her illustrated garden observation notebook to classmates.",
+          "alt": "Ada proudly presenting her illustrated garden observation notebook to classmates.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-007-S07-Q01",
+          "type": "multiple_choice",
+          "prompt": "What was Ada's most important scientific habit?",
+          "options": [
+            "Observing and checking evidence",
+            "Guessing quickly",
+            "Ignoring unexpected results"
+          ],
+          "correctOption": 0,
+          "feedback": "Careful observation and evidence helped her investigate."
+        },
+        {
+          "id": "SV-GARDEN-007-S07-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did Ada discover about the garden at night?",
+          "options": [
+            "Many organisms remain active",
+            "Every plant stops growing",
+            "All animals disappear"
+          ],
+          "correctOption": 0,
+          "feedback": "Her observations revealed a lively nocturnal ecosystem."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-06",
+        "next": null
+      }
+    }
+  ],
+  "endOfBook": {
+    "activities": [
+      {
+        "type": "investigate",
+        "prompt": "Create a day-and-night garden observation table. With adult supervision, record time, weather, organisms, and questions."
+      }
+    ],
+    "reflection": "Why is it important to distinguish observations from guesses?"
+  },
+  "accessibility": {
+    "illustrationAltText": true
+  },
+  "rights": {
+    "originalWork": true
+  }
+}
