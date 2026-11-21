@@ -20,7 +20,7 @@ for(const tier of tiers){
   assert.equal(data.readingTier,tier.tier,slug+" tier mismatch");
   assert.equal(data.readingTierName,tier.name,slug+" tier name mismatch");
   assert.equal(data.chapters.length,7,slug+" must have seven scenes");
-  assert.equal(data.editorialStatus,"draft_review_required");
+  assert(["draft_review_required","expanded_draft_review_required"].includes(data.editorialStatus),slug+" editorial status");
   assert.equal(data.publication.approved,false);
   assert.equal(data.publication.publiclyListed,false);
   assert(!slugs.has(slug),"Duplicate slug: "+slug);slugs.add(slug);
