@@ -1,0 +1,565 @@
+{
+  "schemaVersion": "1.0.0",
+  "storyId": "SV-GARDEN-009",
+  "slug": "the-hidden-treasure-of-mango-hill",
+  "title": "The Hidden Treasure of Mango Hill",
+  "collection": "GardenVerse",
+  "primaryCategory": "garden",
+  "subcategory": "heritage-orchard",
+  "readingTier": 2,
+  "readingTierName": "Story Adventurers",
+  "sourceLanguage": "en",
+  "availableLanguages": [
+    "en"
+  ],
+  "editorialStatus": "draft_review_required",
+  "publication": {
+    "approved": false,
+    "publiclyListed": false
+  },
+  "wordCount": 852,
+  "chapterLabel": "Scene",
+  "chapters": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "title": "The Riddle in the Attic",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "During the school holiday, siblings Amara and Chidi visited their grandfather in Mango Hill. Grandfather's house stood beneath a huge mango tree overlooking the valley."
+        },
+        {
+          "type": "paragraph",
+          "text": "One rainy afternoon, the children helped him organize old boxes in the attic. Inside a dusty wooden chest, Amara discovered a folded piece of paper."
+        },
+        {
+          "type": "paragraph",
+          "text": "It contained a drawing of a mango tree, three stones, and a winding path. Beneath the drawing was a riddle:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Where roots hold the hillside tight, and leaves turn sunlight into life, seek the treasure hidden from sight."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chidi gasped. “A treasure map!”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Grandfather examined the paper. “I remember my father drawing something like this,” he said. “But I never learned what it meant.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "The children looked toward the enormous tree outside. Their holiday had suddenly become an adventure."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-009-S01",
+          "filename": "SV-GARDEN-009-S01.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Two siblings examining an old illustrated map in a warm, dusty attic.",
+          "alt": "Two siblings examining an old illustrated map in a warm, dusty attic.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-009-S01-Q01",
+          "type": "multiple_choice",
+          "prompt": "Where did the children find the riddle?",
+          "options": [
+            "In an old chest",
+            "Inside a mango",
+            "Beneath a bicycle"
+          ],
+          "correctOption": 0,
+          "feedback": "Amara discovered it while organizing the attic."
+        },
+        {
+          "id": "SV-GARDEN-009-S01-Q02",
+          "type": "multiple_choice",
+          "prompt": "What natural feature appeared on the map?",
+          "options": [
+            "A mango tree",
+            "A volcano",
+            "An ocean"
+          ],
+          "correctOption": 0,
+          "feedback": "The drawing showed a mango tree and nearby landmarks."
+        }
+      ],
+      "navigation": {
+        "previous": null,
+        "next": "scene-02"
+      }
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "title": "Three Stones and a Warning",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The next morning, Grandfather accompanied the children along the hill's established footpath. They found three large stones beside the old mango tree."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chidi began searching the ground. “Maybe the treasure is buried here!”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Grandfather stopped him. “We must not dig around the roots. Damaging them could weaken this old tree.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Amara studied the riddle again. Where roots hold the hillside tight."
+        },
+        {
+          "type": "paragraph",
+          "text": "“Perhaps the roots are part of the clue,” she said."
+        },
+        {
+          "type": "paragraph",
+          "text": "Grandfather explained that tree roots can help hold soil together and reduce erosion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Farther down the slope, the children saw a deep channel carved by rainwater."
+        },
+        {
+          "type": "paragraph",
+          "text": "“That part has lost much of its vegetation,” Grandfather observed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Amara added the eroded area to her notebook. The map was leading them toward a different kind of discovery."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-009-S02",
+          "filename": "SV-GARDEN-009-S02.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Children and Grandfather examining three stones beneath a mature mango tree.",
+          "alt": "Children and Grandfather examining three stones beneath a mature mango tree.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-009-S02-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why did Grandfather stop Chidi from digging?",
+          "options": [
+            "Digging could damage tree roots",
+            "The soil was made of gold",
+            "Mango trees cannot grow roots"
+          ],
+          "correctOption": 0,
+          "feedback": "Root damage can harm tree health and stability."
+        },
+        {
+          "id": "SV-GARDEN-009-S02-Q02",
+          "type": "multiple_choice",
+          "prompt": "What can tree roots help reduce?",
+          "options": [
+            "Soil erosion",
+            "Daylight",
+            "Gravity"
+          ],
+          "correctOption": 0,
+          "feedback": "Roots help bind and stabilize soil."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-01",
+        "next": "scene-03"
+      }
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "title": "The Path of Fallen Leaves",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Amara noticed that the old map showed a line of leaves beside the winding path. They followed the marked route."
+        },
+        {
+          "type": "paragraph",
+          "text": "At the bottom of the hill, they reached a grove of younger mango trees. Some had wooden labels tied loosely to their trunks."
+        },
+        {
+          "type": "paragraph",
+          "text": "Grandfather recognized the names. “These trees were planted by families from the village,” he said. “My father organized the project many years ago.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chidi counted twenty-seven trees. Several were healthy, but others had broken branches or signs of neglect."
+        },
+        {
+          "type": "paragraph",
+          "text": "Amara found a small stone marker almost hidden by grass. Its inscription read: Plant today. Share tomorrow."
+        },
+        {
+          "type": "paragraph",
+          "text": "“Is this the treasure?” Chidi asked."
+        },
+        {
+          "type": "paragraph",
+          "text": "Grandfather shook his head thoughtfully. “Perhaps it is another clue.”"
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-009-S03",
+          "filename": "SV-GARDEN-009-S03.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: A small grove of labeled mango trees and a moss-covered stone marker.",
+          "alt": "A small grove of labeled mango trees and a moss-covered stone marker.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-009-S03-Q01",
+          "type": "multiple_choice",
+          "prompt": "Who planted the younger mango trees?",
+          "options": [
+            "Village families",
+            "Visiting astronauts",
+            "A single passing bird"
+          ],
+          "correctOption": 0,
+          "feedback": "Grandfather remembered the community planting project."
+        },
+        {
+          "id": "SV-GARDEN-009-S03-Q02",
+          "type": "multiple_choice",
+          "prompt": "What did the stone marker encourage?",
+          "options": [
+            "Planting for future generations",
+            "Cutting every tree",
+            "Hiding all fruit"
+          ],
+          "correctOption": 0,
+          "feedback": "Its message connected planting with future benefits."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-02",
+        "next": "scene-04"
+      }
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "title": "The Notebook of Harvests",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Back at the house, Grandfather searched through his father's papers. He found a notebook filled with dates, names, and harvest records."
+        },
+        {
+          "type": "paragraph",
+          "text": "One page described a community orchard project. Families had planted mango trees to provide fruit, shade, and a place for children to learn."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another page recorded how harvests were shared among households and how some fruit was sold to support school supplies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Amara turned to the final entry. It mentioned a wooden box kept in the old garden storehouse."
+        },
+        {
+          "type": "paragraph",
+          "text": "“The box!” Chidi exclaimed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Grandfather remembered the storehouse, now used for keeping farm equipment. They obtained permission from its caretaker and arranged to visit together."
+        },
+        {
+          "type": "paragraph",
+          "text": "The mystery was drawing closer to an answer."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-009-S04",
+          "filename": "SV-GARDEN-009-S04.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Grandfather and children examining handwritten harvest records at a wooden table.",
+          "alt": "Grandfather and children examining handwritten harvest records at a wooden table.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-009-S04-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did the notebook record?",
+          "options": [
+            "Community orchard activities and harvests",
+            "Only weather jokes",
+            "Instructions for building a spaceship"
+          ],
+          "correctOption": 0,
+          "feedback": "It documented the orchard's history and benefits."
+        },
+        {
+          "id": "SV-GARDEN-009-S04-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why was the orchard valuable to families?",
+          "options": [
+            "It provided fruit, learning opportunities, and community benefits",
+            "It prevented all rainfall",
+            "It required no care"
+          ],
+          "correctOption": 0,
+          "feedback": "The orchard served several community purposes."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-03",
+        "next": "scene-05"
+      }
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "title": "The Wooden Box",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The caretaker opened the storehouse. Inside, beneath an old shelf, they found a small wooden box."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chidi held his breath as Grandfather opened it. There were no jewels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead, the box contained seed envelopes, photographs, and a letter."
+        },
+        {
+          "type": "paragraph",
+          "text": "Grandfather read aloud: To the children who come after us: the greatest treasure of Mango Hill is not what we take from the land, but what we help it provide."
+        },
+        {
+          "type": "paragraph",
+          "text": "The letter described the orchard's founding and the importance of caring for soil, trees, water, and one another."
+        },
+        {
+          "type": "paragraph",
+          "text": "Amara looked at the photographs. Children from decades earlier stood beneath young mango trees. One of them was Grandfather."
+        },
+        {
+          "type": "paragraph",
+          "text": "He smiled in surprise. “I had forgotten this photograph.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chidi finally understood. The treasure was the living orchard and the story of the people who created it."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-009-S05",
+          "filename": "SV-GARDEN-009-S05.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Children opening a wooden box containing old photographs, seed envelopes, and a letter.",
+          "alt": "Children opening a wooden box containing old photographs, seed envelopes, and a letter.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-009-S05-Q01",
+          "type": "multiple_choice",
+          "prompt": "What was inside the wooden box?",
+          "options": [
+            "Seeds, photographs, and a letter",
+            "Gold coins",
+            "A television"
+          ],
+          "correctOption": 0,
+          "feedback": "The box preserved the orchard's history."
+        },
+        {
+          "id": "SV-GARDEN-009-S05-Q02",
+          "type": "multiple_choice",
+          "prompt": "What was the true treasure?",
+          "options": [
+            "The orchard and its community legacy",
+            "The wooden box alone",
+            "A secret tunnel"
+          ],
+          "correctOption": 0,
+          "feedback": "The orchard represented lasting environmental and social value."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-04",
+        "next": "scene-06"
+      }
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "title": "Saving Mango Hill",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The discovery inspired the children. They asked Grandfather whether the orchard could be cared for again."
+        },
+        {
+          "type": "paragraph",
+          "text": "He agreed, but reminded them that mature trees and eroded slopes required informed management."
+        },
+        {
+          "type": "paragraph",
+          "text": "A local agricultural extension officer visited the site. Together, residents identified trees needing assessment, areas where soil cover could be improved, and safe places for new planting."
+        },
+        {
+          "type": "paragraph",
+          "text": "The children helped organize a community record of the trees. They numbered each tree and documented its condition without claiming that every tree was healthy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Amara designed a sign explaining the orchard's history. Chidi helped younger children learn why roots, mulch, and ground cover matter."
+        },
+        {
+          "type": "paragraph",
+          "text": "The community agreed to establish a maintenance schedule. The treasure of Mango Hill would not remain forgotten."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-009-S06",
+          "filename": "SV-GARDEN-009-S06.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Community members assessing mango trees and recording observations with an agricultural extension officer.",
+          "alt": "Community members assessing mango trees and recording observations with an agricultural extension officer.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-009-S06-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why did the community consult an agricultural extension officer?",
+          "options": [
+            "To guide responsible orchard management",
+            "To find imaginary treasure",
+            "To stop children from learning"
+          ],
+          "correctOption": 0,
+          "feedback": "Expert guidance supports safe, appropriate management."
+        },
+        {
+          "id": "SV-GARDEN-009-S06-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why did the children record each tree's condition?",
+          "options": [
+            "To support monitoring and care",
+            "To give every tree a birthday party",
+            "To change the fruit color"
+          ],
+          "correctOption": 0,
+          "feedback": "Records help track orchard needs over time."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-05",
+        "next": "scene-07"
+      }
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "title": "The Treasure That Kept Growing",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "At the end of the holiday, the village held a Mango Hill Heritage Day. Grandfather displayed the old photographs and read his father's letter."
+        },
+        {
+          "type": "paragraph",
+          "text": "Amara presented the updated orchard map. Chidi explained how vegetation helps protect soil on slopes."
+        },
+        {
+          "type": "paragraph",
+          "text": "The children planted a new mango seedling in an appropriate location selected with adult guidance. Beside it, they placed a small sign: For those who come after us."
+        },
+        {
+          "type": "paragraph",
+          "text": "As the sun descended over the valley, Grandfather stood beside the oldest mango tree."
+        },
+        {
+          "type": "paragraph",
+          "text": "“My father would be proud,” he said."
+        },
+        {
+          "type": "paragraph",
+          "text": "Amara looked at the orchard, the village, and the people gathered beneath the branches. She realized that some treasures become more valuable when they are shared."
+        },
+        {
+          "type": "paragraph",
+          "text": "And some treasures grow."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-009-S07",
+          "filename": "SV-GARDEN-009-S07.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Community heritage celebration beneath mango trees, with children planting a young tree.",
+          "alt": "Community heritage celebration beneath mango trees, with children planting a young tree.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-009-S07-Q01",
+          "type": "multiple_choice",
+          "prompt": "What did the new seedling represent?",
+          "options": [
+            "Care for future generations",
+            "The end of the orchard",
+            "A hidden treasure chest"
+          ],
+          "correctOption": 0,
+          "feedback": "Planting the seedling symbolized continuity and stewardship."
+        },
+        {
+          "id": "SV-GARDEN-009-S07-Q02",
+          "type": "multiple_choice",
+          "prompt": "What is the story's central message?",
+          "options": [
+            "Shared natural resources and knowledge are valuable treasures",
+            "Only gold has value",
+            "Old trees should always be removed"
+          ],
+          "correctOption": 0,
+          "feedback": "The orchard's greatest value came from its lasting benefits."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-06",
+        "next": null
+      }
+    }
+  ],
+  "endOfBook": {
+    "activities": [
+      {
+        "type": "investigate",
+        "prompt": "Design a heritage-orchard map with mature and young trees, pathways, erosion-prone areas, and suitable new planting areas."
+      }
+    ],
+    "reflection": "What makes a community orchard a treasure for future generations?"
+  },
+  "accessibility": {
+    "illustrationAltText": true
+  },
+  "rights": {
+    "originalWork": true
+  }
+}
