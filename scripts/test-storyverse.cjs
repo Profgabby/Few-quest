@@ -25,7 +25,7 @@ for(const tier of tiers){
   assert.equal(data.publication.publiclyListed,false);
   assert(!slugs.has(slug),"Duplicate slug: "+slug);slugs.add(slug);
   assert(!ids.has(data.storyId),"Duplicate story ID: "+data.storyId);ids.add(data.storyId);
-  assert(catalog.includes(JSON.stringify(slug+".json"))||catalog.includes(JSON.stringify(slug+"/story.json")),"Catalog import missing for "+slug);
+  assert(catalog.includes(slug+".json")||catalog.includes(slug+"/story.json"),"Catalog import missing for "+slug);
   for(let i=0;i<7;i++){
    const chapter=data.chapters[i],n=String(i+1).padStart(2,"0");
    assert.equal(chapter.id,"scene-"+n,slug+" scene ID");
