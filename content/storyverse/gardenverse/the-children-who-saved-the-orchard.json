@@ -1,0 +1,565 @@
+{
+  "schemaVersion": "1.0.0",
+  "storyId": "SV-GARDEN-010",
+  "slug": "the-children-who-saved-the-orchard",
+  "title": "The Children Who Saved the Orchard",
+  "collection": "GardenVerse",
+  "primaryCategory": "garden",
+  "subcategory": "orchard-stewardship",
+  "readingTier": 2,
+  "readingTierName": "Story Adventurers",
+  "sourceLanguage": "en",
+  "availableLanguages": [
+    "en"
+  ],
+  "editorialStatus": "draft_review_required",
+  "publication": {
+    "approved": false,
+    "publiclyListed": false
+  },
+  "wordCount": 851,
+  "chapterLabel": "Scene",
+  "chapters": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "title": "The Orchard in Trouble",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The Bright Valley School orchard was famous for its mangoes, oranges, and guavas. Every year, pupils helped care for the trees under their teachers' supervision."
+        },
+        {
+          "type": "paragraph",
+          "text": "But when the new school term began, something was wrong. Several trees had yellowing leaves. Some branches were dry. The soil beneath parts of the orchard looked hard and bare."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ngozi, the leader of the school garden club, noticed that fewer fruits were developing on several trees."
+        },
+        {
+          "type": "paragraph",
+          "text": "Her friend Samuel pointed toward a damaged irrigation pipe. “Maybe the trees aren't getting enough water.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Another pupil, Aisha, noticed small insects on a few leaves. “Or perhaps insects are causing the problem.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Their teacher, Mr. Daniel, listened carefully. “Both are possibilities. But we need evidence before deciding what to do.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "The children agreed to investigate."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-010-S01",
+          "filename": "SV-GARDEN-010-S01.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Children examining stressed fruit trees and a damaged irrigation pipe in a school orchard.",
+          "alt": "Children examining stressed fruit trees and a damaged irrigation pipe in a school orchard.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-010-S01-Q01",
+          "type": "multiple_choice",
+          "prompt": "What problems did the children observe?",
+          "options": [
+            "Yellowing leaves, dry branches, and reduced fruiting",
+            "Snow on the trees",
+            "Blue oranges"
+          ],
+          "correctOption": 0,
+          "feedback": "These were among the orchard's visible symptoms."
+        },
+        {
+          "id": "SV-GARDEN-010-S01-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why didn't Mr. Daniel accept the first explanation?",
+          "options": [
+            "Several causes were possible",
+            "Trees never need water",
+            "Insects cannot visit trees"
+          ],
+          "correctOption": 0,
+          "feedback": "Plant symptoms can have multiple causes."
+        }
+      ],
+      "navigation": {
+        "previous": null,
+        "next": "scene-02"
+      }
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "title": "The Orchard Investigation",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The garden club divided into observation teams. Ngozi's team inspected irrigation equipment with the school caretaker. Samuel's team recorded soil conditions in different parts of the orchard. Aisha's team photographed leaves and insects without disturbing them."
+        },
+        {
+          "type": "paragraph",
+          "text": "They created a table showing tree number, visible symptoms, location, and observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some trees near the damaged pipe appeared more stressed than others. However, the children also noticed differences in soil cover and tree age."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mr. Daniel explained that plant health could be affected by water availability, nutrients, pests, diseases, weather, and other conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "“An investigation should help us narrow the possibilities,” he said."
+        },
+        {
+          "type": "paragraph",
+          "text": "The pupils prepared their findings for a visiting agricultural extension officer."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-010-S02",
+          "filename": "SV-GARDEN-010-S02.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Student teams measuring, observing, and recording orchard conditions with their teacher.",
+          "alt": "Student teams measuring, observing, and recording orchard conditions with their teacher.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-010-S02-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why did the children divide into teams?",
+          "options": [
+            "To investigate different possible causes",
+            "To compete over who owned the orchard",
+            "To avoid recording evidence"
+          ],
+          "correctOption": 0,
+          "feedback": "Different observations helped build a fuller picture."
+        },
+        {
+          "id": "SV-GARDEN-010-S02-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why was tree location important?",
+          "options": [
+            "Conditions could vary across the orchard",
+            "All trees were identical",
+            "Locations never affect plant growth"
+          ],
+          "correctOption": 0,
+          "feedback": "Water and soil conditions can differ between locations."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-01",
+        "next": "scene-03"
+      }
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "title": "The Broken Water Line",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The agricultural extension officer, Mrs. Yusuf, visited the orchard. She reviewed the children's records and inspected the irrigation system with the caretaker."
+        },
+        {
+          "type": "paragraph",
+          "text": "The damaged pipe was leaking, and some irrigation outlets were not delivering water as intended."
+        },
+        {
+          "type": "paragraph",
+          "text": "“This may explain part of the water stress,” she said."
+        },
+        {
+          "type": "paragraph",
+          "text": "But she also noticed compacted soil in a heavily used walking area."
+        },
+        {
+          "type": "paragraph",
+          "text": "“When soil is compacted, water infiltration and root growth can be affected.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mrs. Yusuf advised the school to repair the pipe and evaluate irrigation delivery before changing watering schedules. The caretaker arranged the repair."
+        },
+        {
+          "type": "paragraph",
+          "text": "The children marked designated walking paths to reduce unnecessary traffic near the trees. Their first major improvement was underway."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-010-S03",
+          "filename": "SV-GARDEN-010-S03.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Extension officer and caretaker examining a leaking irrigation pipe while students take notes.",
+          "alt": "Extension officer and caretaker examining a leaking irrigation pipe while students take notes.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-010-S03-Q01",
+          "type": "multiple_choice",
+          "prompt": "What problem was confirmed in the irrigation system?",
+          "options": [
+            "A leaking pipe and poor delivery at some outlets",
+            "Too many rainbows",
+            "A missing school bell"
+          ],
+          "correctOption": 0,
+          "feedback": "The inspection identified irrigation faults."
+        },
+        {
+          "id": "SV-GARDEN-010-S03-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why can compacted soil be a problem?",
+          "options": [
+            "It can restrict infiltration and root development",
+            "It always improves plant growth",
+            "It creates extra sunlight"
+          ],
+          "correctOption": 0,
+          "feedback": "Compaction can reduce pore space and affect soil function."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-02",
+        "next": "scene-04"
+      }
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "title": "The Insect Question",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Aisha remained concerned about the insects. She had found several different kinds on the orchard trees."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mrs. Yusuf examined the photographs. “Some insects feed on plants. Others may be harmless or beneficial. We need to identify them before choosing a response.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "The pupils learned to look for evidence of damage rather than assuming that every insect was a pest."
+        },
+        {
+          "type": "paragraph",
+          "text": "On one tree, they found leaves with chewing damage. On another, they observed ladybird beetles near small sap-feeding insects."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mrs. Yusuf explained that ladybird beetles can prey on certain garden pests."
+        },
+        {
+          "type": "paragraph",
+          "text": "The club decided to continue monitoring and seek guidance if damaging populations increased. They would not spray chemicals simply because insects were present."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ngozi wrote in the club notebook: Good decisions begin with correct identification."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-010-S04",
+          "filename": "SV-GARDEN-010-S04.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Students observing leaves and ladybird beetles while an extension officer explains insect identification.",
+          "alt": "Students observing leaves and ladybird beetles while an extension officer explains insect identification.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-010-S04-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why should the children identify insects before taking action?",
+          "options": [
+            "Not all insects are harmful",
+            "All insects are identical",
+            "Insects never affect plants"
+          ],
+          "correctOption": 0,
+          "feedback": "Insects can have different ecological roles."
+        },
+        {
+          "id": "SV-GARDEN-010-S04-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why did the club avoid unnecessary pesticide use?",
+          "options": [
+            "Treatment should be based on evidence and appropriate guidance",
+            "They wanted every insect to disappear",
+            "Pesticides are gardening decorations"
+          ],
+          "correctOption": 0,
+          "feedback": "Responsible pest management requires identification and assessment."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-03",
+        "next": "scene-05"
+      }
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "title": "A Plan for Recovery",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "After the investigation, the garden club presented a recovery plan to the headteacher."
+        },
+        {
+          "type": "paragraph",
+          "text": "It included repairing irrigation equipment, monitoring soil moisture, protecting tree-root areas from unnecessary foot traffic, and applying appropriate organic mulch where recommended."
+        },
+        {
+          "type": "paragraph",
+          "text": "They also proposed regular inspections for pests, diseases, and damaged branches."
+        },
+        {
+          "type": "paragraph",
+          "text": "The headteacher approved the plan and assigned adult staff to oversee activities requiring specialist care."
+        },
+        {
+          "type": "paragraph",
+          "text": "The children created a weekly observation schedule. Every tree received an identification number. Each team recorded what had been done and what changed afterward."
+        },
+        {
+          "type": "paragraph",
+          "text": "Samuel suggested keeping the records for future classes. “If we know what happened this year, next year's students won't have to start from nothing.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ngozi agreed. The orchard needed more than one afternoon of attention. It needed consistent care."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-010-S05",
+          "filename": "SV-GARDEN-010-S05.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: School garden club presenting an orchard recovery plan to the headteacher.",
+          "alt": "School garden club presenting an orchard recovery plan to the headteacher.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-010-S05-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why did the club establish a monitoring schedule?",
+          "options": [
+            "To observe changes over time",
+            "To stop trees from growing",
+            "To replace all school lessons"
+          ],
+          "correctOption": 0,
+          "feedback": "Monitoring helps evaluate plant health and management actions."
+        },
+        {
+          "id": "SV-GARDEN-010-S05-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why were written records valuable?",
+          "options": [
+            "Future students could learn from them",
+            "They made trees grow instantly",
+            "They eliminated the need for observations"
+          ],
+          "correctOption": 0,
+          "feedback": "Records support continuity and informed decisions."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-04",
+        "next": "scene-06"
+      }
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "title": "Signs of Change",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Several weeks later, the children returned to their observation tables. The repaired irrigation system was operating more consistently."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some trees showed new leaf growth. Other trees remained stressed and required further assessment."
+        },
+        {
+          "type": "paragraph",
+          "text": "The children were excited, but Mrs. Yusuf reminded them to interpret the results carefully."
+        },
+        {
+          "type": "paragraph",
+          "text": "“New leaves are encouraging,” she said. “But we cannot conclude that every tree has recovered.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "They compared photographs and observations from different dates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aisha noticed that some damaged leaves remained on the trees even where new growth had appeared."
+        },
+        {
+          "type": "paragraph",
+          "text": "“That makes sense,” she said. “Old damage doesn't disappear just because conditions improve.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ngozi smiled. The orchard was teaching them patience. Progress could be real without being immediate or complete."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-010-S06",
+          "filename": "SV-GARDEN-010-S06.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Students comparing before-and-after orchard observations, with some trees showing healthy new leaves.",
+          "alt": "Students comparing before-and-after orchard observations, with some trees showing healthy new leaves.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-010-S06-Q01",
+          "type": "multiple_choice",
+          "prompt": "What encouraging change did the children observe?",
+          "options": [
+            "New leaf growth on some trees",
+            "Every tree producing fruit overnight",
+            "Trees moving to new locations"
+          ],
+          "correctOption": 0,
+          "feedback": "Some trees showed signs of improvement."
+        },
+        {
+          "id": "SV-GARDEN-010-S06-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why couldn't the children declare the entire orchard recovered?",
+          "options": [
+            "Some trees remained stressed",
+            "Leaves never change",
+            "The records were too colorful"
+          ],
+          "correctOption": 0,
+          "feedback": "The evidence showed mixed conditions."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-05",
+        "next": "scene-07"
+      }
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "title": "The Orchard Guardians",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "At the school's annual environment day, the garden club presented its work."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ngozi described the original problems. Samuel explained the irrigation repairs and soil observations. Aisha discussed insect identification and careful pest monitoring."
+        },
+        {
+          "type": "paragraph",
+          "text": "Their display included photographs, observation tables, and a plan for continued care."
+        },
+        {
+          "type": "paragraph",
+          "text": "The headteacher announced a new student program: The Orchard Guardians."
+        },
+        {
+          "type": "paragraph",
+          "text": "Each year, pupils would learn how to observe trees, record changes, conserve water, and work with knowledgeable adults."
+        },
+        {
+          "type": "paragraph",
+          "text": "The orchard had not been transformed overnight. Some trees still needed attention. But the school now had a system for protecting them."
+        },
+        {
+          "type": "paragraph",
+          "text": "As the ceremony ended, Ngozi stood beneath a mango tree. She looked at her friends and smiled."
+        },
+        {
+          "type": "paragraph",
+          "text": "“We didn't save the orchard by being heroes for one day.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Samuel nodded. “We saved it by learning how to care for it together.”"
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-010-S07",
+          "filename": "SV-GARDEN-010-S07.webp",
+          "prompt": "Premium original children's storybook illustration, Nigerian setting, natural light, accurate ecological details, consistent characters, no printed text. Scene: Students presenting orchard findings during a school environment-day celebration.",
+          "alt": "Students presenting orchard findings during a school environment-day celebration.",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-010-S07-Q01",
+          "type": "multiple_choice",
+          "prompt": "What made the Orchard Guardians program valuable?",
+          "options": [
+            "It established continuing care and learning",
+            "It promised that no tree would ever become sick",
+            "It ended all monitoring"
+          ],
+          "correctOption": 0,
+          "feedback": "Long-term stewardship was central to the program."
+        },
+        {
+          "id": "SV-GARDEN-010-S07-Q02",
+          "type": "multiple_choice",
+          "prompt": "What is the main lesson of the story?",
+          "options": [
+            "Evidence, teamwork, and consistent care can improve environmental management",
+            "Every problem has one simple cause",
+            "Gardening requires no planning"
+          ],
+          "correctOption": 0,
+          "feedback": "The children used investigation and cooperation to support orchard recovery."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-06",
+        "next": null
+      }
+    }
+  ],
+  "endOfBook": {
+    "activities": [
+      {
+        "type": "investigate",
+        "prompt": "Create an Orchard Health Checklist with tree ID, date, leaf condition, soil condition, irrigation, damage, and follow-up action."
+      }
+    ],
+    "reflection": "Why does restoring an orchard require evidence and ongoing care?"
+  },
+  "accessibility": {
+    "illustrationAltText": true
+  },
+  "rights": {
+    "originalWork": true
+  }
+}
