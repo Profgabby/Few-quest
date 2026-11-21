@@ -1,3 +1,8 @@
+import master1 from "../../content/storyverse/gardenverse/beneath-the-roots-of-yesterday.json";
+import master2 from "../../content/storyverse/gardenverse/the-last-harvest-of-willow-creek.json";
+import master3 from "../../content/storyverse/gardenverse/secrets-of-the-forgotten-greenhouse.json";
+import master4 from "../../content/storyverse/gardenverse/when-the-rains-refused-to-come.json";
+import master5 from "../../content/storyverse/gardenverse/the-garden-beyond-the-boundary.json";
 import adventure2 from "../../content/storyverse/gardenverse/ada-and-the-midnight-garden-mystery.json";
 import adventure3 from "../../content/storyverse/gardenverse/the-day-the-river-stopped-flowing.json";
 import adventure4 from "../../content/storyverse/gardenverse/the-hidden-treasure-of-mango-hill.json";
@@ -44,6 +49,17 @@ for(const manuscript of [adventure1,adventure2,adventure3,adventure4,adventure5]
   return {heading:chapter.title,body:chapter.content.map(p=>p.text).join("\n\n"),question:questions[0].question,choices:questions[0].choices,questions,illustrationAlt:chapter.illustrations[0]?.alt};
  });
  const story:Story={levelNumber:2,slug:manuscript.slug,title:manuscript.title,level:"Story Adventurers",world:"GardenVerse",description:"Seven-scene English editorial preview: "+manuscript.title,scenes};
+ const existing=stories.findIndex(s=>s.slug===story.slug);
+ if(existing>=0)stories[existing]=story;else stories.push(story);
+}
+
+// Master Storytellers: English editorial previews, not approved publications.
+for(const manuscript of [master1,master2,master3,master4,master5]){
+ const scenes:StoryScene[]=manuscript.chapters.map(chapter=>{
+  const questions:StoryQuestion[]=chapter.questions.map(q=>({question:q.prompt,choices:q.options.map((label,i)=>({label,correct:i===q.correctOption,feedback:i===q.correctOption?q.feedback:"Review the scene and consider the evidence before trying another question."}))}));
+  return {heading:chapter.title,body:chapter.content.map(p=>p.text).join("\n\n"),question:questions[0].question,choices:questions[0].choices,questions,illustrationAlt:chapter.illustrations[0]?.alt};
+ });
+ const story:Story={levelNumber:3,slug:manuscript.slug,title:manuscript.title,level:"Master Storytellers",world:"GardenVerse",description:"Seven-scene English editorial preview: "+manuscript.title,scenes};
  const existing=stories.findIndex(s=>s.slug===story.slug);
  if(existing>=0)stories[existing]=story;else stories.push(story);
 }
