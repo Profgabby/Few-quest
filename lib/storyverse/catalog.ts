@@ -1,3 +1,7 @@
+import adventure2 from "../../content/storyverse/gardenverse/ada-and-the-midnight-garden-mystery.json";
+import adventure3 from "../../content/storyverse/gardenverse/the-day-the-river-stopped-flowing.json";
+import adventure4 from "../../content/storyverse/gardenverse/the-hidden-treasure-of-mango-hill.json";
+import adventure5 from "../../content/storyverse/gardenverse/the-children-who-saved-the-orchard.json";
 import adventure1 from "../../content/storyverse/gardenverse/the-secret-behind-the-garden-gate.json";
 import manuscript1 from "../../the-little-seed-that-would-not-wake/story.json";
 import manuscript2 from "../../mimi-and-the-missing-watering-can/story.json";
@@ -34,7 +38,7 @@ for (const manuscript of gardenManuscripts) {
 }
 
 // Story Adventurers: editorial draft, not approved for public publication.
-for(const manuscript of [adventure1]){
+for(const manuscript of [adventure1,adventure2,adventure3,adventure4,adventure5]){
  const scenes:StoryScene[]=manuscript.chapters.map(chapter=>{
   const questions:StoryQuestion[]=chapter.questions.map(q=>({question:q.prompt,choices:q.options.map((label,i)=>({label,correct:i===q.correctOption,feedback:i===q.correctOption?q.feedback:"Review the scene and try the next question."}))}));
   return {heading:chapter.title,body:chapter.content.map(p=>p.text).join("\n\n"),question:questions[0].question,choices:questions[0].choices,questions,illustrationAlt:chapter.illustrations[0]?.alt};
