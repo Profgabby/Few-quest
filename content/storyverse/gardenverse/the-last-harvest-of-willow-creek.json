@@ -1,0 +1,389 @@
+{
+  "schemaVersion": "1.0.0",
+  "storyId": "SV-GARDEN-012",
+  "slug": "the-last-harvest-of-willow-creek",
+  "title": "The Last Harvest of Willow Creek",
+  "collection": "GardenVerse",
+  "primaryCategory": "garden",
+  "subcategory": "farm-resilience",
+  "readingTier": 3,
+  "readingTierName": "Master Storytellers",
+  "sourceLanguage": "en",
+  "availableLanguages": [
+    "en"
+  ],
+  "editorialStatus": "draft_review_required",
+  "publication": {
+    "approved": false,
+    "publiclyListed": false
+  },
+  "wordCount": 564,
+  "chapterLabel": "Scene",
+  "chapters": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "title": "The Orchard at the Edge of Winter",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Sixteen-year-old Elias returned to Willow Creek and found the family apple orchard struggling. Summer heat had affected fruit quality; aging trees and high expenses threatened its future. His father Daniel showed him bruised apples and a letter from the bank demanding a credible financial plan. Selling part of the farm seemed possible. Elias protested that his grandfather had planted the oldest trees. His mother replied, 'History does not pay tomorrow's bills.' The family faced the possibility that loving the orchard might not be enough to keep it."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-012-S01",
+          "filename": "SV-GARDEN-012-S01.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Orchard at the Edge of Winter: Sixteen-year-old Elias returned to Willow Creek and found the family apple orchard struggling. Summer heat had affected fruit quality; aging trees and high expenses threatened its future. His father Daniel show",
+          "alt": "Illustration of The Orchard at the Edge of Winter from The Last Harvest of Willow Creek",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-012-S01-Q01",
+          "type": "multiple_choice",
+          "prompt": "What is the central dilemma?",
+          "options": [
+            "Heritage versus financial viability",
+            "Whether Elias likes apples",
+            "Whether winter exists"
+          ],
+          "correctOption": 0,
+          "feedback": "The family must reconcile attachment with economic realities."
+        },
+        {
+          "id": "SV-GARDEN-012-S01-Q02",
+          "type": "multiple_choice",
+          "prompt": "What does the mother's remark emphasize?",
+          "options": [
+            "Financial obligations remain real",
+            "History has no value",
+            "Sale is the only solution"
+          ],
+          "correctOption": 0,
+          "feedback": "Sentimental and financial values are different."
+        }
+      ],
+      "navigation": {
+        "previous": null,
+        "next": "scene-02"
+      }
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "title": "Numbers in the Ledger",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Elias's sister Mara, an agricultural economics student, opened five years of farm records. Irrigation and labor costs had risen, older trees produced uneven yields, and dependence on a single buyer created market risk. Elias suggested expanding the orchard, but Mara noted that new trees required time, capital and reliable water. They listed alternatives: irrigation repairs, block-by-block assessment, diversified markets and possible crop changes. The ledger did not dictate a solution; it showed which questions needed investigation."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-012-S02",
+          "filename": "SV-GARDEN-012-S02.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. Numbers in the Ledger: Elias's sister Mara, an agricultural economics student, opened five years of farm records. Irrigation and labor costs had risen, older trees produced uneven yields, and dependence on a single buyer created mark",
+          "alt": "Illustration of Numbers in the Ledger from The Last Harvest of Willow Creek",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-012-S02-Q01",
+          "type": "multiple_choice",
+          "prompt": "What risk comes from one buyer?",
+          "options": [
+            "Limited market diversification",
+            "Guaranteed profits",
+            "No price uncertainty"
+          ],
+          "correctOption": 0,
+          "feedback": "Single-buyer dependence increases vulnerability."
+        },
+        {
+          "id": "SV-GARDEN-012-S02-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why not expand immediately?",
+          "options": [
+            "Expansion needs resources and time",
+            "Trees cannot grow",
+            "More trees always reduce revenue"
+          ],
+          "correctOption": 0,
+          "feedback": "Capital, water and maturity constraints matter."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-01",
+        "next": "scene-03"
+      }
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "title": "The Water Beneath the Orchard",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "An irrigation specialist found leaking connections and uneven delivery. Rather than recommend wholesale replacement, she began measuring where water went and what the trees required. Mara asked about deficit irrigation. The specialist explained that carefully managed reductions might sometimes be useful, but indiscriminate cuts could reduce yield and quality. The family repaired known leaks and set up monitored observation points. Elias learned that conservation was not simply using less; it was understanding what the crop needed and reducing waste."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-012-S03",
+          "filename": "SV-GARDEN-012-S03.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Water Beneath the Orchard: An irrigation specialist found leaking connections and uneven delivery. Rather than recommend wholesale replacement, she began measuring where water went and what the trees required. Mara asked about deficit ir",
+          "alt": "Illustration of The Water Beneath the Orchard from The Last Harvest of Willow Creek",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-012-S03-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why measure first?",
+          "options": [
+            "To base changes on performance and requirements",
+            "To guarantee yield",
+            "Because repairs are unnecessary"
+          ],
+          "correctOption": 0,
+          "feedback": "Measurement helps target management improvements."
+        },
+        {
+          "id": "SV-GARDEN-012-S03-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why can indiscriminate cuts harm production?",
+          "options": [
+            "They can stress trees and reduce fruit quality",
+            "Water is unnecessary",
+            "Every saving is harmful"
+          ],
+          "correctOption": 0,
+          "feedback": "Crop responses depend on timing and conditions."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-02",
+        "next": "scene-04"
+      }
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "title": "The Offer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A development company offered to buy the southern parcel. Daniel believed the payment could relieve debt; Mara demanded more information; Elias called the sale a betrayal of his grandfather. Daniel struck the table: 'I am trying to keep the rest of it.' Later in the packing shed, Elias admitted he had misunderstood his father. Daniel said he wanted his children to have choices he had never had. The proposed sale became more than a financial calculation: it revealed fear, duty and conflicting hopes for the family's future."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-012-S04",
+          "filename": "SV-GARDEN-012-S04.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Offer: A development company offered to buy the southern parcel. Daniel believed the payment could relieve debt; Mara demanded more information; Elias called the sale a betrayal of his grandfather. Daniel struck the t",
+          "alt": "Illustration of The Offer from The Last Harvest of Willow Creek",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-012-S04-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why consider selling?",
+          "options": [
+            "To reduce debt and preserve options",
+            "Because Daniel hates farming",
+            "Because land has no value"
+          ],
+          "correctOption": 0,
+          "feedback": "The sale could reduce financial pressure."
+        },
+        {
+          "id": "SV-GARDEN-012-S04-Q02",
+          "type": "multiple_choice",
+          "prompt": "What changes in Elias?",
+          "options": [
+            "He recognizes his father's burden",
+            "He believes all sales are good",
+            "He assumes dishonesty"
+          ],
+          "correctOption": 0,
+          "feedback": "Empathy complicates his earlier judgment."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-03",
+        "next": "scene-05"
+      }
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "title": "The Trial Block",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mara proposed testing irrigation improvements in one representative orchard block before major investment. The family monitored soil moisture, applied water, weather, tree health and harvest outcomes. They also explored cooperative marketing and direct sales. Results were mixed: delivery improved after repairs, but some older trees still produced poor fruit. An arborist recommended further assessment. Elias was disappointed. Mara reminded him, 'An experiment is not a promise. It is a way to learn.'"
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-012-S05",
+          "filename": "SV-GARDEN-012-S05.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Trial Block: Mara proposed testing irrigation improvements in one representative orchard block before major investment. The family monitored soil moisture, applied water, weather, tree health and harvest outcomes. They also",
+          "alt": "Illustration of The Trial Block from The Last Harvest of Willow Creek",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-012-S05-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why use a trial block?",
+          "options": [
+            "To evaluate before investing widely",
+            "To guarantee success",
+            "To remove variability"
+          ],
+          "correctOption": 0,
+          "feedback": "Pilot testing can reduce uncertainty."
+        },
+        {
+          "id": "SV-GARDEN-012-S05-Q02",
+          "type": "multiple_choice",
+          "prompt": "What do mixed results show?",
+          "options": [
+            "Several factors affect orchard performance",
+            "Repairs were useless",
+            "Experiments should end"
+          ],
+          "correctOption": 0,
+          "feedback": "No single intervention resolves every constraint."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-04",
+        "next": "scene-06"
+      }
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "title": "The Decision Before Harvest",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The family assembled a plan combining phased irrigation repairs, selective tree replacement, market diversification and realistic debt management. Three choices remained: sell immediately, refinance under stricter terms or negotiate a smaller sale while implementing the plan. After reviewing access, drainage and legal implications, they chose to negotiate a limited sale of a less productive parcel. Elias still grieved the land, but he understood the reasoning. The compromise preserved the possibility of continued farming without pretending there were no costs."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-012-S06",
+          "filename": "SV-GARDEN-012-S06.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Decision Before Harvest: The family assembled a plan combining phased irrigation repairs, selective tree replacement, market diversification and realistic debt management. Three choices remained: sell immediately, refinance under stric",
+          "alt": "Illustration of The Decision Before Harvest from The Last Harvest of Willow Creek",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-012-S06-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why is this a compromise?",
+          "options": [
+            "It balances survival with continued farming",
+            "It pleases everyone completely",
+            "It removes uncertainty"
+          ],
+          "correctOption": 0,
+          "feedback": "The family accepts a difficult trade-off."
+        },
+        {
+          "id": "SV-GARDEN-012-S06-Q02",
+          "type": "multiple_choice",
+          "prompt": "Why is Elias's participation meaningful?",
+          "options": [
+            "He evaluates evidence and options",
+            "He controls everything",
+            "He refuses other views"
+          ],
+          "correctOption": 0,
+          "feedback": "Informed participation is part of the decision."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-05",
+        "next": "scene-07"
+      }
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "title": "The Harvest That Was Not the Last",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The following autumn, Willow Creek hosted a community harvest weekend. Visitors bought fruit directly and learned about the farm's irrigation improvements. Debts remained, and some trees still needed replacement; the farm was not magically prosperous. But its new plan gave it a credible future. Elias stood beneath the oldest apple tree, remembering his grandfather's lesson that every harvest grows from decisions made years before. He placed an apple in his basket. This was not the last harvest, but the beginning of a different one."
+        }
+      ],
+      "illustrations": [
+        {
+          "assetId": "SV-GARDEN-012-S07",
+          "filename": "SV-GARDEN-012-S07.webp",
+          "prompt": "Premium original realistic literary illustration for young adults, authentic setting, consistent characters, no text. The Harvest That Was Not the Last: The following autumn, Willow Creek hosted a community harvest weekend. Visitors bought fruit directly and learned about the farm's irrigation improvements. Debts remained, and some trees still needed replacemen",
+          "alt": "Illustration of The Harvest That Was Not the Last from The Last Harvest of Willow Creek",
+          "status": "not_generated"
+        }
+      ],
+      "questions": [
+        {
+          "id": "SV-GARDEN-012-S07-Q01",
+          "type": "multiple_choice",
+          "prompt": "Why is the title ironic?",
+          "options": [
+            "The threatened ending becomes a turning point",
+            "No fruit grows",
+            "Elias leaves forever"
+          ],
+          "correctOption": 0,
+          "feedback": "Adaptation makes future harvests possible."
+        },
+        {
+          "id": "SV-GARDEN-012-S07-Q02",
+          "type": "multiple_choice",
+          "prompt": "What is the main theme?",
+          "options": [
+            "Resilience requires adaptation and compromise",
+            "Farms never change",
+            "Technology guarantees profit"
+          ],
+          "correctOption": 0,
+          "feedback": "The family's future depends on ongoing choices."
+        }
+      ],
+      "navigation": {
+        "previous": "scene-06",
+        "next": null
+      }
+    }
+  ],
+  "endOfBook": {
+    "activities": [
+      {
+        "type": "investigate",
+        "prompt": "Prepare a farm adaptation plan comparing water use, investment, market risks and family priorities."
+      }
+    ],
+    "reflection": "How does this story connect evidence, ethical responsibility, and environmental decision-making?"
+  },
+  "accessibility": {
+    "illustrationAltText": true
+  },
+  "rights": {
+    "originalWork": true
+  }
+}
