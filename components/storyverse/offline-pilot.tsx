@@ -9,20 +9,20 @@ export function OfflinePilot({locale}:{locale:string}){
  const [status,setStatus]=useState("Offline pack not downloaded");
  const [working,setWorking]=useState(false);
  useEffect(()=>{let active=true;loadPilotProgress().then(p=>{if(active){setProgress(p);setLoaded(true);}}).catch(()=>{if(active){setStatus("IndexedDB unavailable in this browser");setLoaded(true);}});
- if("serviceWorker" in navigator)navigator.serviceWorker.register("/storyverse-offline-pilot-sw.js",{scope:`/${locale}/storyverse/offline-pilot`}).catch(()=>setStatus("Service worker registration failed"));
+ if("serviceWorker" in navigator)navigator.serviceWorker.register("/sv-offline-pilot-sw.js",{scope:"/"}).catch(()=>setStatus("Service worker registration failed"));
  return()=>{active=false;};},[locale]);
  async function update(next:PilotProgress){try{await savePilotProgress(next);setProgress(next);}catch{setStatus("Saving failed; progress may not survive restart");}}
  async function download(){
   if(!("serviceWorker" in navigator)){setStatus("Offline downloads not supported in this browser");return;}
   setWorking(true);setStatus("Preparing offline pack…");
   try{
-   const registration=await navigator.serviceWorker.ready;
-   const worker=navigator.serviceWorker.controller??registration.active;
+   const registration=await navigator.serviceWorker.register("/sv-offline-pilot-sw.js",{scope:"/"});
+   const worker=registration.active??navigator.serviceWorker.controller;
    if(!worker)throw Error("Service worker not ready");
    const urls=[location.origin+location.pathname,...performance.getEntriesByType("resource").map(e=>e.name)].filter(url=>{try{const u=new URL(url);return u.origin===location.origin&&(u.pathname.startsWith("/_next/static/")||u.pathname.startsWith("/storyverse/images/")||u.pathname===location.pathname);}catch{return false;}});
    const result=await new Promise<{ok:boolean;count?:number;error?:string}>((resolve,reject)=>{const channel=new MessageChannel();const timeout=setTimeout(()=>reject(Error("Download timed out")),30000);channel.port1.onmessage=e=>{clearTimeout(timeout);resolve(e.data);};worker.postMessage({type:"SV_PILOT_DOWNLOAD",urls},[channel.port2]);});
    if(!result.ok)throw Error(result.error??"Download failed");
-   setStatus(`Offline pack saved (${result.count} resources). Disconnect and reload to test.`);
+   setStatus(`Cache verified (${result.count} resources). Now disconnect and reload; offline operation is not yet proven.`);
   }catch(e){setStatus("Offline pack not ready: "+String(e));}finally{setWorking(false);}
  }
  if(!loaded)return <p>Loading locally saved reading progress…</p>;
