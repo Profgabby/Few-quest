@@ -20,7 +20,7 @@ const services=[
  ["StoryVerse Reading League","Reading challenges and competitions"],
  ["StoryVerse Marketplace","Future curated publishing and book sales"]
 ] as const;
-export default async function Page({params}:{params:Promise<{locale:string>}) {
+export default async function Page({params}:{params:Promise<{locale:string}>}) {
  const {locale}=await params;if(!isLocale(locale))notFound();
  return <StudioShell locale={locale} title="Explore the StoryVerse Experience" eyebrow="STORYVERSE · ECOSYSTEM PROTOTYPE">
  <Notice>Development preview: service cards describe the product roadmap. They are not active subscriptions or operational features.</Notice>
