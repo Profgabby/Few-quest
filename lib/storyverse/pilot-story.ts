@@ -1,0 +1,15 @@
+export type PilotQuestion = {prompt:string; options:readonly [string,string]; correct:0|1};
+export type PilotScene = {title:string;body:string;questions:readonly [PilotQuestion,PilotQuestion]};
+export const PILOT_STORY = {
+ id:"sv-offline-test-001", edition:"1", title:"The Garden Notebook",
+ disclaimer:"Original technical test fixture. Not part of the editorial library and not offered for sale.",
+ scenes:[
+ {title:"A New Notebook",body:"Mara found an empty notebook beside the school garden. Her teacher suggested using it to record what the class observed.",questions:[{prompt:"What did Mara find?",options:["A notebook","A bicycle"],correct:0},{prompt:"What was the notebook for?",options:["Recording observations","Buying plants"],correct:0}]},
+ {title:"The Dry Bed",body:"The class noticed one garden bed had dry surface soil. They checked the soil beneath before deciding whether to water.",questions:[{prompt:"What looked dry?",options:["The garden bed","The classroom roof"],correct:0},{prompt:"What did they check next?",options:["Soil below the surface","The school bell"],correct:0}]},
+ {title:"A Careful Measure",body:"Mara filled a marked jug and wrote down how much water the class used. Her friend recorded the date.",questions:[{prompt:"What measured the water?",options:["A marked jug","A ruler"],correct:0},{prompt:"What did Mara's friend record?",options:["The date","A phone number"],correct:0}]},
+ {title:"A Shady Corner",body:"At midday the class found that a tree shaded part of the garden. They compared the shaded soil with soil in sunlight.",questions:[{prompt:"What made the shade?",options:["A tree","A tent"],correct:0},{prompt:"What did the class compare?",options:["Soil in shade and sun","Two bicycles"],correct:0}]},
+ {title:"The First Sprout",body:"Several days later, a tiny green sprout appeared. Mara sketched it and noted the day.",questions:[{prompt:"What appeared?",options:["A green sprout","A red kite"],correct:0},{prompt:"How did Mara record it?",options:["With a sketch","With a receipt"],correct:0}]},
+ {title:"Sharing the Evidence",body:"The children looked through their notes. They explained what they had seen, without claiming that one observation proved everything.",questions:[{prompt:"What did the children review?",options:["Their notes","A shopping list"],correct:0},{prompt:"What did they avoid?",options:["Overstating conclusions","Sharing observations"],correct:0}]},
+ {title:"The Next Question",body:"Mara closed the notebook. The class planned to observe the garden again next week, using the same careful method.",questions:[{prompt:"What did the class plan?",options:["Another observation","A car race"],correct:0},{prompt:"What would they keep using?",options:["A careful method","A guessing game"],correct:0}]}
+ ] as readonly PilotScene[]
+} as const;
